@@ -1,0 +1,374 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body {
+  font: 130%/1.7em Ubuntu, "Helvetica Neue", "Hiragino Sans GB", "Segoe UI", "Microsoft Yahei", "微软雅黑", Tahoma, Arial, STHeiti, sans-serif;
+  color: #666;
+  text-align: justify;
+  -webkit-hyphens: auto;
+  width:100%;
+  height:100%;
+  overflow: hidden;
+  background-size: 100% auto;
+  text-rendering: optimizeLegibility;
+  background-image: url('/background.jpg');
+}
+
+a {
+  color: #09c;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #369;
+}
+
+#wrapper {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left:50%;
+  width: 800px;
+  margin-left: -400px;
+  overflow: auto;
+  box-shadow: 0 0 20px rgba(0,0,0,0.95);
+  -webkit-overflow-scrolling: touch;
+}
+
+#header {
+  z-index: 100;
+  width: 100%;
+  height: 170px;
+  overflow: hidden;
+  background-image: url('/logo-mask.png');
+  background-size: 800px 170px;
+  background-position: center center;
+}
+
+#header h1 {
+  text-indent: -9999px;
+}
+
+.article, 
+.author,
+.discuss,
+.bubble {
+  border-top: 1px solid #ddd;
+  background-color: #fff;
+  overflow: hidden;
+  text-align: center;
+  padding: 50px;
+}
+
+.article .article-footer {
+  clear:both;
+  color: #999;
+  text-shadow: 0px 1px 0px #fff;
+  display: block;
+  overflow: hidden;
+}
+
+.article h1,
+.index .article h3 {
+  padding: 0 0 20px;
+  font-size: 24px;
+}
+
+.article h2,
+.author h2,
+.discuss h2,
+.bubble h2 {
+  padding: 10px 0;
+  font-size: 20px;
+}
+
+.article h3,
+.author h3,
+.discuss h3,
+.bubble h3 {
+  padding: 10px 0;
+  font-size: 17px;
+}
+
+.article h4,
+.author h4,
+.discuss h4,
+.bubble h4{
+  padding: 10px 0px;
+  font-size: 14px;
+}
+
+.article p,
+.article ul,
+.article ol {
+  margin: 10px 0;
+}
+
+.article img {
+  margin: 10px 0;
+  max-width: 100%;
+}
+
+.article-footer .author {
+  width:240px;
+  margin: 15px auto 0;
+  padding: 20px;
+  border-top: 1px dotted #ddd;
+}
+
+.article .name {
+  float: left;
+  line-height: 30px;
+}
+
+.article .author .date {
+  float:left;
+  line-height: 30px;
+}
+
+.article .author img {
+  height: 30px;
+  width: 30px;
+  margin: 0 10px 0 0;
+  float: left;
+  border-radius: 3px;
+}
+
+.article .more {
+  display: inline-block;
+  text-align: center;
+  padding: 20px 15px 0px;
+  margin: 0 auto;
+}
+
+.article .snippet .code-link {
+  position: absolute;
+  padding: 0px 2px;
+  background: #fafafa;
+  border: 1px solid #fff;
+  font-size: 10px;
+  opacity: 0.5;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
+  top: 3px;
+  right: 3px;
+  -webkit-transition: opacity 0.1s ease-in-out;
+  -moz-transition: opacity 0.1s ease-in-out;
+  transition: opacity 0.1s ease-in-out;
+}
+.article .snippet .code-link:hover {
+  opacity: 0.8;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+}
+.article .snippet .output {
+  position: relative;
+  padding: 20px 20px 10px;
+  border: 1px dashed #ddd;
+  border-left: none;
+  border-right: none;
+  background-color: #fafafa;
+}
+.article .snippet .output dd {
+  font-family: 'Monaco', 'Menlo', monospace;
+  font-size: 13px;
+  clear: left;
+  color: #333;
+  text-shadow: 0px 1px 0px #fff;
+}
+.article .snippet .output dt {
+  font-size: 12px;
+  border-radius: 5px;
+  background-color: #e5e5e5;
+  padding: 5px 8px;
+  line-height: 12px;
+  color: #999;
+  text-shadow: 0px 1px 0px #fff;
+  float: left;
+  position: relative;
+  top: -10px;
+}
+.article .snippet .output:after {
+  content: '';
+  border: 1px dashed #ccc;
+  border-top: none;
+  border-bottom: none;
+  position: absolute;
+  top: -21px;
+  left: 20px;
+  right: 20px;
+  height: 20px;
+}
+
+.author img.headshot {
+  float: left;
+  width: 100px;
+  height: 100px;
+}
+  
+pre code {
+  font-family: 'Monaco', 'Menlo', monospace;
+  font-size: 13px;
+  background-color: #1c1d1e;
+  display: block;
+  padding: 20px;
+  overflow: auto;
+  margin: 20px 0px;
+  clear: both;
+}
+
+.pln {
+  color: #f8f7f2;
+}
+
+#footer {
+  padding: 3.4em;
+  overflow: hidden;
+  color: #ccc;
+  background-color: rgba(0,0,0,0.75);
+}
+
+#footer div {
+  width: 50%;
+  float: left;
+  text-align: center;
+}
+
+#footer div section {
+  margin: -1px 1.7em 1.7em 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.35);
+  padding-bottom: 1.7em;
+}
+
+#footer div section:first-child {
+  margin-top: 0;
+}
+
+#footer div section:last-child,
+#footer div:last-child section:last-child {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  border: 0;
+}
+
+#footer div:last-child {
+  float: right;
+}
+
+#footer div:last-child section {
+  margin: 0 0 1.7em 1.7em;
+}
+
+#footer h1 {
+  color: #fff;
+  margin-bottom: .85em;
+}
+
+#about a,
+#elsewhere a {
+  text-decoration: underline;
+}
+
+#elsewhere li a {
+  margin-left: 5px;
+}
+
+@media (max-width: 800px) {
+  body {
+    font-size: 125%;
+    background-repeat: no-repeat;
+  }
+  #header {
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    background-image: url('/logo-mask.png');
+    background-size: auto 150px;
+  }
+  #wrapper{
+    width: 100%;
+    margin: 0;
+    left: 0;
+  }
+  .article, 
+  .author,
+  .discuss,
+  .bubble {
+    padding: 50px 40px;
+  }
+  #footer{
+    background-color: rgba(30,30,30,1)
+  }
+}
+
+@media (max-width: 700px) {
+  body {
+    font-size: 100%;
+  }
+  .article, 
+  .author,
+  .discuss,
+  .bubble {
+    padding: 50px 30px;
+  }
+}
+
+@media (max-width: 550px) {
+  .article, 
+  .author,
+  .discuss,
+  .bubble {
+    padding: 50px 20px;
+  }
+  #header {
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    background-image: url('/logo-mask.png');
+    background-size: auto 120px;
+  }
+  .article-footer .author {
+    width: 160px;
+  }
+
+  .article-footer .author img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .article-footer .author .name,
+  .article-footer .author .date {
+    line-height: 20px;
+  }
+
+  #footer {
+    padding: 1.7em;
+  }
+  
+  #footer {
+    padding: 0;
+  }
+  
+  #footer div {
+    width: 100%;
+    float: none;
+  }
+  
+  #footer div section {
+    margin: 0;
+    padding: 1.7em !important;
+  }
+  
+  #footer div:last-child {
+    float: none;
+  }
+  
+  #footer div:last-child section {
+    margin: 0;
+  }
+  
+  #footer div:first-child section:last-child {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.35);
+  }
+}

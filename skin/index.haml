@@ -1,0 +1,27 @@
+#main.index
+  :each article in articles.slice(0,15)
+    .article
+      %h3
+        %a{href: "/" + article.name}&= article.title
+      = intro(article.markdown)
+      %a.more{href: "/" + article.name} 阅读全文 »
+      .article-footer
+        .author
+          %img{src:gravitar(article.author.email, 30)}
+          .name#{article.author.name}于
+          .date{title: article.date}&= formatDate(article.date, "%Y.%m.%d")
+
+#sidebar{style:"display:none;"}
+  .aside
+    = markdownEncode(description)
+  .bubble
+    %h4
+      Articles
+    %ul
+      :each article in articles.slice(0,20)
+        %li
+          %a{href: "/" + article.name}&=article.title
+          &=" by " + article.author.name
+          :if article.node
+            %span.versiontag&= article.node
+ 

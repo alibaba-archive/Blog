@@ -1,0 +1,38 @@
+!!! 5
+%html(lang="en")
+  %head
+    %meta(charset="utf-8")
+    %meta(name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1")
+    %title #{(title ? title + " - " : "")}teambition - behind the scenes
+    %meta(name="description" content="Learn the zen of coding in NodeJS.")
+    %meta(name="viewport" content="width=device-width")
+    %link(href="/style.css" rel="stylesheet")
+    %link(rel="alternate" type="application/rss+xml" title="RSS 2.0" href="/feed.xml")
+    %link(href="/favicon.ico" rel="icon" type="image/x-icon")
+    %link(href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css')
+  %body
+    #wrapper
+      %a{href:"/"}
+        %header#header
+          %h1 teambition - behind the scenes
+      = content
+      
+      %footer#footer
+        %div
+          %section#about
+            %h1 关于 teambition
+            %p 高效 简单 优雅的协作平台
+          %section#credits
+            %p &copy; teambition 2012-2013
+        %div
+          %section#elsewhere
+            %h1 关注 teambition
+            %ul
+              %li 新浪微博
+                %a{href:"http://e.weibo.com/teambition",target:'_blank'} @teambition
+              %li 腾讯微博
+                %a{href:"http://e.weibo.com/teambition",target:'_blank'} @teambition
+              %li twitter
+                %a{href:"http://e.weibo.com/teambition",target:'_blank'} @teambition
+              %li facebook
+                %a{href:"http://e.weibo.com/teambition",target:'_blank'} teambition
