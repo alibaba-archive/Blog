@@ -2,16 +2,16 @@
   %channel
     %title teambition - behind the scenes
     %atom:link(href="http://blog.teambition.com/feed.xml" rel="self" type="application/rss+xml")
-    %link http://howtonode.org
+    %link http://blog.teambition.com
     %description The stories that are behind the scenes of teambition.
     %pubDate&= formatRFC822Date(new Date())
     %language en
     :each article in articles
       %item
         %title&= article.title
-        %link&= "http://howtonode.org/" + article.name
-        %comments&= "http://howtonode.org/" + article.name + "#disqus_thread"
+        %link&= "http://blog.teambition.com/" + article.name
+        %comments&= "http://blog.teambition.com/" + article.name + "#disqus_thread"
         %pubDate&= formatRFC822Date(article.date)
-        %guid(isPermaLink="true")&= "http://howtonode.org/" + article.name
+        %guid(isPermaLink="true")&= "http://blog.teambition.org/" + article.name
         %description&= markdownEncode(article.markdown)
         %author&= article.author && (article.author.email + " (" + article.author.name + ")")
