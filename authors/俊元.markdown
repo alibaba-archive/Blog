@@ -1,7 +1,7 @@
 Weibo: 俊元
 Weibousername: conan007ai
 Github:   conan007ai
-Email:    junyuan@teambition.com.com
+Email:    junyuan@teambition.com
 Homepage: http://teambition.com/
 Twitter: conan007ai
 Location: Shanghai, CN
