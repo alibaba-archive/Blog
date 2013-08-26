@@ -18,5 +18,8 @@
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/teambition/Blog/issues"
+  },
+  "dependencies": {
+    "hexo-generator-feed": "0.0.10"
   }
 }
