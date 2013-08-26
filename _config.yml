@@ -3,16 +3,16 @@
 ## Source: https://github.com/tommy351/hexo/
 
 # Site
-title: Hexo
+title: teambition blog
 subtitle:
 description:
-author: John Doe
-email:
+author: teambition
+email: support@teambition.com
 language:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://blog.teambition.com
 root: /
 permalink: :year/:month/:day/:title/
 tag_dir: tags
@@ -49,7 +49,7 @@ tag: 2
 ## Hexo uses Connect as a server
 ## You can customize the logger format as defined in
 ## http://www.senchalabs.org/connect/logger.html
-port: 4000
+port: 5003
 logger: false
 logger_format:
 
