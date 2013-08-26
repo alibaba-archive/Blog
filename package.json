@@ -1,19 +1,10 @@
 {
-  "author": "Junyuan Qi <junyuan@teambition.com> (http://teambition.com/)",
-  "name": "blog.teambition.com",
-  "description": "The Stories that are Behind the Scenes of teambition",
-  "version": "0.0.1",
-  "homepage": "http://blog.teambition.com/",
+  "name": "hexo",
+  "version": "1.2.4",
+  "private": true,
   "engines": {
-    "node": ">=0.4.0"
+    "node": ">= 0.6.0",
+    "npm": ">= 1.1.0"
   },
-  "dependencies": {
-    "stack": ">=0.0.3",
-    "wheat": ">=0.2.0",
-    "cluster": ">=0.6.4"
-  },
-  "engines": {
-    "node": "0.8.x",
-    "npm": "1.1.x"
-  }
+  "dependencies": {}
 }
