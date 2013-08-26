@@ -3,16 +3,16 @@
 ## Source: https://github.com/tommy351/hexo/
 
 # Site
-title: Blog-Teambition
+title: Hexo
 subtitle:
-description: The Stories that are Behind the Scenes of teambition
-author: teambition
-email: junyuan@teambition.com
+description:
+author: John Doe
+email:
 language:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://blog.teambition.com
+url: http://yoursite.com
 root: /
 permalink: :year/:month/:day/:title/
 tag_dir: tags
