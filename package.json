@@ -1,6 +1,6 @@
 {
-  "name": "hexo",
-  "version": "1.2.4",
+  "name": "teambition blog",
+  "version": "2.0.0",
   "private": true,
   "engines": {
     "node": ">= 0.6.0",
