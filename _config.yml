@@ -8,7 +8,7 @@ subtitle:
 description:
 author: teambition
 email: support@teambition.com
-language:
+language: zh_CN
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -71,10 +71,12 @@ disqus_shortname:
 # Extensions
 ## Plugins: https://github.com/tommy351/hexo/wiki/Plugins
 ## Themes: https://github.com/tommy351/hexo/wiki/Themes
-theme: light
+theme: teambition #light #greyshade #teambition
 exclude_generator:
 plugins:
 - hexo-generator-feed
+- hexo-renderer-jade
+- hexo-renderer-less
 
 # Deployment
 ## Docs: http://zespia.tw/hexo/docs/deploy.html

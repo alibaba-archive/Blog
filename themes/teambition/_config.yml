@@ -1,0 +1,20 @@
+menu:
+  Home: /
+  Archives: /archives
+
+widgets:
+- search
+- category
+- tag
+
+excerpt_link: Read More
+
+addthis:
+  enable: true
+  pubid:
+  pinterest: true
+
+fancybox: true
+
+google_analytics:
+rss:

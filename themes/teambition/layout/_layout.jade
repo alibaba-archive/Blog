@@ -1,0 +1,23 @@
+!!! 5
+html
+  head
+    meta(charset="utf-8")
+    link(rel="stylesheet", href=config.root+"bower_components/teambition-UI/docs/assets/css/teambition-ui.css")
+    link(rel="stylesheet", href=config.root+"css/style.css")
+    title=config.title
+  body
+    .navbar
+      .navbar-inner
+        .container
+          a.brand(href="/") teambition blog
+          .nav-collapse.collapse
+            ul.nav.pull-right
+              for path,name in theme.menu
+                li: a(href=path)=name
+    .container
+      .row
+        block content
+
+    script(src=config.root+"bower_components/jquery/jquery.min.js")
+    script(src=config.root+"bower_components/teambition-UI/docs/assets/js/bootstrap.min.js")
+    block script
