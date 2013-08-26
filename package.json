@@ -1,10 +1,22 @@
 {
-  "name": "teambition blog",
-  "version": "1.2.4",
-  "private": true,
-  "engines": {
-    "node": ">= 0.6.0",
-    "npm": ">= 1.1.0"
+  "name": "teambition-blog",
+  "version": "2.0.0",
+  "description": "teambition's official blog",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {}
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/teambition/Blog.git"
+  },
+  "keywords": [
+    "teambition",
+    "blog"
+  ],
+  "author": "teambition",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/teambition/Blog/issues"
+  }
 }
