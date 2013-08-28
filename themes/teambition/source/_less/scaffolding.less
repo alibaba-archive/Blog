@@ -1,0 +1,104 @@
+//
+// Scaffolding
+// --------------------------------------------------
+
+// Body reset
+// -------------------------
+
+
+* {
+  .box-sizing(border-box);
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+  font-family: @baseFontFamily;
+  font-size: @baseFontSize;
+  line-height: @baseLineHeight;
+  color: @textColor;
+  background-color: @bodyBackground;
+  text-rendering: optimizelegibility;
+}
+
+// Links
+// -------------------------
+
+a {
+  color: @linkColor;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover {
+  color: @linkColorHover;
+  text-decoration: underline;
+}
+
+// Images
+// -------------------------
+
+// Rounded corners
+.img-rounded {
+  .border-radius(@baseBorderRadius);
+}
+
+// Perfect circle
+.img-circle {
+  .border-radius(500px); // crank the border-radius so it works with most reasonably sized images
+}
+
+// image with size of 24 * 24
+.img-24 {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-size: 24px 24px;
+}
+
+// image with size of 36 * 36
+.img-36 {
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  background-size: 36px 36px;
+}
+
+// image with size of 48 * 48
+.img-48 {
+  display: inline-block;
+  width: 48px;
+  height: 48px;
+  background-size: 48px 48px;
+}
+
+// image with size of 60 * 60
+.img-60 {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  background-size: 60px 60px;
+}
+
+// Scroll Bars
+// --------------------------------------
+.vertical-scroll {
+  .vertical-scroll();
+}
+
+.horizontal-scroll {
+  .horizontal-scroll();
+}
+
+.thin-scroll {
+  .thin-scroll();
+}
+
+.transparent-scroll {
+  .transparent-scroll();
+}
+

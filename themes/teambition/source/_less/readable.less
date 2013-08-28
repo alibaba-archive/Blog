@@ -1,0 +1,96 @@
+.readable p, .readable pre, .readable ul, .readable ol, .readable dl, .readable form, .readable hr, .readable table,
+.readable-p, .readable-pre, .readable-ul, .readable-ol, .readable-dl, .readable-form, .readable-hr, .readable-table {
+  margin-bottom: 15px;
+  font-weight: 300;
+}
+
+.readable h1,
+.readable h2,
+.readable h3,
+.readable h4,
+.readable h5,
+.readable h6 {
+  font-weight: 500;
+  color: @darkTextColor;
+}
+
+.readable h1, .readable h2, .readable h3, .readable h4, .readable h5, .readable h6,
+.readable-h1, .readable-h2, .readable-h3, .readable-h4, .readable-h5, .readable-h6 {
+  line-height: 1.5;
+}
+
+.readable h1, .readable-h1 {
+  font-size: 1.6em;
+}
+
+.readable h2, .readable-h2 {
+  font-size: 1.4em;
+}
+
+.readable h3, .readable-h3 {
+  font-size: 1.2em;
+}
+
+.readable h4, .readable-h4 {
+  font-size: 1.1em;
+}
+
+.readable h5, .readable h6, .readable-h5, .readable-h6 {
+  font-size: 1em;
+}
+
+.readable ul,
+.readable-ul {
+  margin-left: 1.9em;
+}
+
+.readable ul li,
+.readable-ul li {
+  list-style: disc;
+}
+
+.readable ol,
+.readable-ol {
+  margin-left: 1.9em;
+}
+
+.readable ol li,
+.readable-ol li {
+  list-style: decimal;
+}
+
+.readable li ul, .readable li ol, .readable-ul ul, .readable-ul ol, .readable-ol ul, .readable-ol ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 2em;
+}
+
+.readable li ul, .readable-ul ul, .readable-ol ul {
+  list-style: circle;
+}
+
+.readable table th, .readable table td, .readable-table th, .readable-table td .readable table caption {
+  padding: 0.5em 1em;
+  color: @grayTextColor;
+}
+
+.readable table thead th, .readable-table thead th {
+  background: @lightBackground;
+}
+
+.readable table .caption {
+  border-bottom: none;
+}
+
+/* TODO: 供着重号使用 */
+.readable-em, .readable em, legend, caption {
+  font-weight: 700;
+}
+
+.readable > *:first-child {
+  margin-top: 0;
+}
+
+.readable > *:last-child {
+  margin-bottom: 0;
+}

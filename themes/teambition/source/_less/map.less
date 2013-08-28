@@ -1,0 +1,28 @@
+// map
+// -----------------------------
+.map {
+  text-align: center;
+
+  .map-indicators {
+    overflow: hidden;
+    display: inline-block;
+    margin: 0;
+
+    li {
+      display: block;
+      float: left;
+      width: 10px;
+      height: 10px;
+      margin-left: 5px;
+      text-indent: -999px;
+      background-color: @grayLighter;
+      border-radius: 5px;
+      cursor: pointer;
+      .box-shadow(~"inset 0 1px 1px rgba(0,0,0,0.1),inset 0 0 1px rgba(0,0,0,0.05),0 1px 0 rgba(255,255,255,0.95)");
+    }
+    .active {
+      background-color: @grayLight;
+      cursor: default;
+    }
+  }
+}

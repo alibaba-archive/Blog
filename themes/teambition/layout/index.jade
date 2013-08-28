@@ -1,6 +1,11 @@
 extends _layout
 
 block content
-  each item in page.posts
-    p= item.layout
-  .span6.offset3
+  .container
+    .row
+      .span8.offset2
+        -page.posts.each(function(item){
+          include _article
+          mixin article(item ,true)
+        -})
+        include _pagination
