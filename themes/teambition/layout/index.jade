@@ -1,11 +1,10 @@
 extends _layout
+include _article
 
 block content
-  .container
-    .row
-      .span8.offset2
-        -page.posts.each(function(item){
-          include _article
-          mixin article(item ,true)
-        -})
-        include _pagination
+  .row
+    .span8.offset2
+      -page.posts.each(function(item){
+        mixin article(item ,true)
+      -})
+      include _pagination

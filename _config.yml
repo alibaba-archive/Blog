@@ -74,6 +74,7 @@ disqus_shortname:
 theme: teambition #light #greyshade #teambition
 exclude_generator:
 plugins:
+- hexo-renderer-tbmarked
 - hexo-generator-feed
 - hexo-renderer-jade
 - hexo-renderer-less

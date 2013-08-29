@@ -1,57 +1,24 @@
 !!!
 html
   head
-    meta(charset="utf-8")
-    title #{config.title}
-    meta(name="viewport", content="width=device-width, initial-scale=1.0")
-    link(href=config.root+"assets/css/teambition-ui.css", rel="stylesheet")
-    link(href=config.root+"assets/css/teambition-ui-responsive.css", rel="stylesheet")
-    link(href=config.root+"assets/css/docs.css", rel="stylesheet")
-    link(href=config.root+"assets/js/google-code-prettify/prettify.css",rel="stylesheet")
-    link(rel="apple-touch-icon-precomposed", sizes="144x144", href=config.root+"assets/ico/apple-touch-icon-144-precomposed.png")
-    link(rel="apple-touch-icon-precomposed", sizes="114x114", href=config.root+"assets/ico/apple-touch-icon-114-precomposed.png")
-    link(rel="apple-touch-icon-precomposed", sizes="72x72", href=config.root+"assets/ico/apple-touch-icon-72-precomposed.png")
-    link(rel="apple-touch-icon-precomposed", href=config.root+"assets/ico/apple-touch-icon-57-precomposed.png")
-    link(rel="shortcut icon", href=config.root+"assets/ico/favicon.png")
-    //- [if lt IE 9]
-    //- <script src=config.root+"assets/js/html5shiv.js"></script>
-    //- ![endif]
+    include _head
+  body
+    aside#sidebar
+      nav
+        for path,name in theme.menu
+          a(href=path)=name
 
-  body.vertical-scroll(data-spy="scroll", data-target=".bs-docs-sidebar")
-    div.navbar.navbar-fixed-top
-      div.navbar-inner
-        div.container
-          button.btn.btn-navbar(type="button", data-toggle="collapse", data-target=".nav-collapse")
-            span.icon-bar
-            span.icon-bar
-            span.icon-bar
-          a.brand(href="/") teambition Blog
-          div.nav-collapse.collapse
-            ul.nav.pull-right
-              for path,name in theme.menu
-                li.index: a(href=path)=name
+    header.navbar
+      .navbar-inner
+        ul.nav.left-side
+          li: a: i.nav-icon.nav-icon-menu
+        a.brand.central(href="/")
 
-    block content
+    .content
+      block content
 
     footer.footer
       div.container
         p By teambition
 
-    script(src=config.root+"assets/js/jquery.js")
-    script(src=config.root+"assets/js/bootstrap-transition.js")
-    script(src=config.root+"assets/js/bootstrap-alert.js")
-    script(src=config.root+"assets/js/bootstrap-modal.js")
-    script(src=config.root+"assets/js/bootstrap-dropdown.js")
-    script(src=config.root+"assets/js/bootstrap-accordion.js")
-    script(src=config.root+"assets/js/bootstrap-scrollspy.js")
-    script(src=config.root+"assets/js/bootstrap-tab.js")
-    script(src=config.root+"assets/js/bootstrap-tooltip.js")
-    script(src=config.root+"assets/js/bootstrap-popover.js")
-    script(src=config.root+"assets/js/bootstrap-button.js")
-    script(src=config.root+"assets/js/bootstrap-collapse.js")
-    script(src=config.root+"assets/js/bootstrap-carousel.js")
-    script(src=config.root+"assets/js/bootstrap-typeahead.js")
-    script(src=config.root+"assets/js/bootstrap-affix.js")
-    script(src=config.root+"assets/js/holder/holder.js")
-    script(src=config.root+"assets/js/google-code-prettify/prettify.js")
-    script(src=config.root+"assets/js/application.js")
+    include _scripts
