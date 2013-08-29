@@ -71,7 +71,7 @@ disqus_shortname:
 # Extensions
 ## Plugins: https://github.com/tommy351/hexo/wiki/Plugins
 ## Themes: https://github.com/tommy351/hexo/wiki/Themes
-theme: teambition #light #greyshade #teambition
+theme: teambition
 exclude_generator:
 plugins:
 - hexo-renderer-tbmarked
