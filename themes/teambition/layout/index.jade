@@ -2,9 +2,10 @@ extends _layout
 include _article
 
 block content
-  .row
-    .span8.offset2
+  section#wrapper
+    section#post
       -page.posts.each(function(item){
-        mixin article(item ,true)
+        mixin article(item,true)
       -})
+    section.pagination
       include _pagination

@@ -1,10 +1,12 @@
 mixin article(item, index)
-  section(id=item.title)
-    .page-header
-      h3: a(href=config.root+item.path)=item.title
+  article
+    header
+      h4: a(href=config.root+item.path)=item.title
       //TODO trans to permalink
-      time(datetime=item.date)=item.date.format(config.date_format)
-    if item.excerpt && index
-      !{item.excerpt}
-    else 
-      !{item.content}
+    section
+      if item.excerpt && index
+        !{item.excerpt}
+      else 
+        !{item.content}
+    footer
+      h4: small: time(datetime=item.date)=item.date.format(config.date_format)
