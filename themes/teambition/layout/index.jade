@@ -3,7 +3,7 @@ include _article
 
 block content
   section#wrapper
-    section#post
+    section#post.clearfix
       -page.posts.each(function(item){
         mixin article(item,true)
       -})
