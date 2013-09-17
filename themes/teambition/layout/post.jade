@@ -6,3 +6,6 @@ block content
       .span8.offset2
         include _article
         mixin article(page, false)
+        if config.disqus_shortname
+          include _social
+          mixin social()
