@@ -1,8 +1,7 @@
 mixin article(item, index)
   article
     header
-      h4: a(href=config.root+item.path)=item.title
-      //TODO trans to permalink
+      h3: a(href=config.root+item.path)=item.title
     section
       if item.excerpt && index
         !{item.excerpt}

@@ -1,11 +1,8 @@
 menu:
   Home: /
-  Archives: /archives
 
 widgets:
 - search
-- category
-- tag
 
 excerpt_link: Read More
 

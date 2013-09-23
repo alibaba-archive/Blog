@@ -1,93 +1,120 @@
 @import "../_less/mixins.less";
 @import "../_less/variables.less";
+.icon-home{
+  display:inline-block;
+  width:50px;
+  height:50px;
+  background-image:url("../img/home-icon.png");
+  background-position:0 0px;
+  background-repeat:no-repeat;
+}
+
+.postnav{
+  margin-top:70px;
+  height:80px;
+  color:white;
+  background:#333;
+  .prev,.next{
+    width:40%;
+    padding:20px;
+  }
+  .home{
+    text-align:center;
+    line-height:80px;
+    width:20%
+  }
+  div{
+    float:left;
+  }
+  span{
+    display:block;
+    color:#808080;
+  }
+  a:hover,a{
+    color:white;
+  }
+}
 article>section img{width:100%}
 
-#switcher {
-position: fixed;
-top: 0;
-bottom: 0;
-left: -210px;
-z-index: 1;
-width: 210px;
-padding-top: 5px;
-overflow-y: auto;
-background-color: #383838;
-  .transition(all .25s cubic-bezier(0.7,0,0.175,1) 0);
-  -moz-transition: all .2s ease-out;
-}
+
 body{
   .transition(all .25s cubic-bezier(0.7,0,0.175,1) 0);
   -moz-transition: all .2s ease-out;
+  margin-top:70px;
 }
-body.show-switcher {
-  padding-left: 210px;
-  #switcher{
-    left:0;
+.jiathisdiv{margin:40px 0px;}
+body>footer {
+  padding: 30px 0;
+  border-top: 1px solid #e5e5e5;
+  background-color: #f5f5f5;
+  section {
+    background-image: url('../img/ui-images.png');
+    background-position: 15px -35px;
+    background-repeat: no-repeat;
+    height:30px;
+    line-height:30px;
+    padding-left:170px;
+    margin-left:30px;
   }
 }
-body>footer {
-text-align: center;
-padding: 30px 0;
-margin-top: 70px;
-border-top: 1px solid #e5e5e5;
-background-color: #f5f5f5;
-}
 #wrapper {  
-max-width:860px; 
-margin: 0 auto;
-padding: 100px 60px 0px 60px;
+  max-width:860px; 
+  margin: 0 auto;
+  padding: 100px 60px 0px 60px;
 }
 
-#post>article {  
-width:390px; 
-float:left; 
-position:relative; 
-margin-bottom:60px;
-padding-bottom:20px;
-border-bottom:1px solid #eee;
+#post>article{  
+  width:390px; 
+  float:left; 
+  position:relative; 
+  margin-bottom:60px;
+  padding-bottom:20px;
+  border-bottom:1px solid #eee;
 }
 
-
-
-
- 
-
-
+.btn.next{float:right;}
+.pagination{margin-bottom:70px;}
+@media (max-width:979px){
+  body{margin-top:0}
+}
 @media screen and (min-width: 1024px) {
-#wrapper, .pagination {
-padding-right:0;
-padding-left:0;
-max-width:1020px;
-}
+  #wrapper,.pagination {
+    padding-right:0;
+    padding-left:0;
+    max-width:1020px;
+  }
 
-#post>article  { 
-	margin-left:80px; 
-}
-.pagination{
-	margin-left:80px;
-}
-#post>article.right{
-margin-right:80px;
-float:right;
-}
+  #post>article  { 
+    margin-left:80px; 
+  }
+  .pagination{
+    margin-left:80px;
+    margin-right:80px;
+  }
+  #post>article.right{
+    margin-right:80px;
+    float:right;
+  }
 
 
 }
 
 @media screen and (max-width: 1023px) { 
-#page { padding: 0 60px; }
-
-#wrapper { 
-max-width:580px; 
-width:100%; 
-padding: 60px 0 0 0;
+  #page { padding: 0 60px; }
+  #wrapper{ 
+    max-width:580px; 
+    width:100%; 
+    padding:60px 0 0 0;
 }
 
 #post>article { 
-width:100%; 
-padding-bottom:60px;
+  width:100%; 
+  padding-bottom:60px;
 }   
 
 }
 
+.navbar-inner{
+  min-height:30px;
+}
 

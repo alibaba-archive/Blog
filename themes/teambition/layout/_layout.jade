@@ -1,18 +1,16 @@
 !!!
 html
   head
-    include _head
+    include component/head
   body
-    include _sidebar
-
-    header.navbar
+    header.navbar.navbar-fixed-top
       .navbar-inner
-        ul.nav.left-side
-          li: a#switcher-toggler: i.nav-icon.nav-icon-menu
-        a.brand.central(href="/")
+        a.brand.central(href="/") blog
+
     .content
       block content
 
     footer
-      section: h4 By teambition
-    include _scripts
+      section: &copy;2013 make work enjoyable 
+
+    include component/scripts

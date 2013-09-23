@@ -1,5 +1,5 @@
 extends _layout
-include _article
+include component/article
 
 block content
   section#wrapper
@@ -8,4 +8,4 @@ block content
         mixin article(item,true)
       -})
     section.pagination
-      include _pagination
+      include component/pagination

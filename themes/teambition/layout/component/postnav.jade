@@ -1,0 +1,15 @@
+mixin postnav(next,prev)
+  .postnav.clearfix
+    .prev
+      span=__('prev')
+      if prev
+        a(href="/#{prev.path}")=prev.title
+      else
+        span="没有了"
+    .home: a(href="/"): i.icon-home
+    .next
+      span=__('next')
+      if next
+        a(href="/#{next.path}")=next.title
+      else
+        span="没有了"
