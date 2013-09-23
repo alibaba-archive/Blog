@@ -1,11 +1,15 @@
 mixin article(item, index)
   article
     header
+      if index
+        -header=item.header||'default.jpg'
+        a(href=config.root+item.path): img(src="/header/#{header}",class="short")
       h3: a(href=config.root+item.path)=item.title
     section
       if item.excerpt && index
         !{item.excerpt}
       else 
         !{item.content}
+        pre=item.excerpt
     footer
       h4: small: time(datetime=item.date)=item.date.format(config.date_format)

@@ -4,6 +4,8 @@ include component/social
 include component/postnav
 
 block content
+  -header=page.header||"default.jpg"
+  img(src="/header/#{header}",class="broad")
   .container
     .row
       .span8.offset2
