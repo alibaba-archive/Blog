@@ -1,0 +1,50 @@
+article{
+  .title{
+    margin-top: 30px;
+    color: @darkTextColor;
+    font-size: 26px;
+    font-weight: bold;
+  }
+  time{
+    font-size: 12px;
+  }
+}
+
+#post > article{  
+  width: 480px; 
+  float: left; 
+  position: relative; 
+  margin-bottom: 60px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #eee;
+  a:hover{
+    text-decoration: none;
+  }
+  .image-wrapper{
+    .size(300px, 480px);
+    .background-size(cover); 
+  }
+  p{
+    font-size: 14px;
+    color: @darkTextColor;
+  }
+  img{
+    display: none;
+  }
+}
+
+
+
+@media screen and (min-width: 1024px){
+  #post > article.right{
+    margin-right: 0px;
+    float: right;
+  }
+}
+
+@media screen and (max-width: 1023px){
+  #post > article { 
+    width: 100%; 
+    padding-bottom: 60px;
+  }   
+}

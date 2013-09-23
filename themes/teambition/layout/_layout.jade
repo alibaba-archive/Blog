@@ -6,13 +6,15 @@ html
     header.navbar.navbar-fixed-top
       .navbar-inner
         a.brand(href="/") 
-          b teambition 
+          b.teambition-font teambition 
           span  blog
 
     .content
       block content
 
-    footer
-      section: &copy;2013 make work enjoyable 
+    footer.index-footer
+      section
+        b.teambition-font teambition 
+        span  &copy;2013 make work enjoyable 
 
     include component/scripts

@@ -3,13 +3,14 @@ mixin article(item, index)
     header
       if index
         -header=item.header||'default.jpg'
-        a(href=config.root+item.path): img(src="/header/#{header}",class="short")
-      h3: a(href=config.root+item.path)=item.title
-    section
+        a(href=config.root+item.path): div.image-wrapper(style="background-image: url(/header/#{header});")
+        a(href=config.root+item.path): h3.title=item.title
+      else
+        h3.title.sigle-title=item.title
+    section.readable
       if item.excerpt && index
         !{item.excerpt}
       else 
         !{item.content}
-        pre=item.excerpt
     footer
       h4: small: time(datetime=item.date)=item.date.format(config.date_format)

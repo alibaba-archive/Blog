@@ -1,3 +1,13 @@
+body{
+  .transition(all .25s cubic-bezier(0.7,0,0.175,1) 0);
+  -moz-transition: all .2s ease-out;
+}
+
+.teambition-font{
+  font-family: Ubuntu-B;
+  font-weight: normal;
+}
+
 .navbar{
   text-align: center;
   .brand{
@@ -5,23 +15,44 @@
     display: table;
     margin: 0 auto;
     padding: 0;
+    font-size: 16px;
+    font-weight: normal;
+    color: @lightTextColor;
+
     &:hover{
       background-color: transparent;
-      color: @grayTextColor;
-      a{
-        color: @lightTextColor;
-      }
+      color: @lightTextColor;
     }
+
     b{
-      font-family: Ubuntu-B;
-      font-weight: normal;
       color: @darkTextColor;
       font-size: 32px;
     }
+  }
+}
 
-    span{
-      font-size: 18px;
-      font-weight: normal;
+.content #wrapper{
+  margin-top: 70px;
+}
+
+.pagination{
+  a.btn{
+    width: 80px;
+  }
+}
+
+.index-footer {
+  padding: 30px 0;
+  border-top: 1px solid #f2f2f2;
+  background-color: #fff;
+  section {
+    .size(30px, 1020px);
+    margin: 0 auto;
+    line-height:30px;
+    color: @lightTextColor;
+    b{
+      color: @darkTextColor;
+      font-size: 32px;
     }
   }
 }
