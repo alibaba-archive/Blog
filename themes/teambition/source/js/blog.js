@@ -14,7 +14,7 @@ for(var i=0;i<arts.length;i++){
 title=$('.brand');
 function navHeight(top,h){
   var rate=1.*top/h;
-  var height=(70-h*rate)+'px';
+  var height=(100-h*rate)+'px';
   var bg=(-15-h*2/5*rate)+'px';
   bg='15px '+bg;
   title.css({

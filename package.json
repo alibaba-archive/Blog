@@ -1,6 +1,6 @@
 {
   "name": "teambition-blog",
-  "version": "2.0.6",
+  "version": "2.0.1",
   "description": "teambition's official blog",
   "main": "index.js",
   "repository": {

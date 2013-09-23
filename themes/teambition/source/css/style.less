@@ -1,5 +1,8 @@
-@import "../_less/mixins.less";
-@import "../_less/variables.less";
+@import "../_less/mixins";
+@import "../_less/variables";
+@import "font";
+@import "index";
+
 .icon-home{
   display:inline-block;
   width:50px;
@@ -35,7 +38,6 @@
   }
 }
 article>section img{width:100%}
-
 
 body{
   .transition(all .25s cubic-bezier(0.7,0,0.175,1) 0);
@@ -95,8 +97,6 @@ body>footer {
     margin-right:80px;
     float:right;
   }
-
-
 }
 
 @media screen and (max-width: 1023px) { 
@@ -105,13 +105,12 @@ body>footer {
     max-width:580px; 
     width:100%; 
     padding:60px 0 0 0;
-}
+  }
 
-#post>article { 
-  width:100%; 
-  padding-bottom:60px;
-}   
-
+  #post>article { 
+    width:100%; 
+    padding-bottom:60px;
+  }   
 }
 
 .navbar-inner{
