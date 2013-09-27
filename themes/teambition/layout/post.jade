@@ -6,10 +6,8 @@ include component/postnav
 block content
   -header=page.header||"default.jpg"
   div.hero(style="background-image:url(/header/#{header});")
-  .container
-    .row
-      .span8.offset2
-        mixin article(page, false)
-        if config.disqus_shortname
-          mixin social()
+  .page-container
+    mixin article(page, false)
+    if config.disqus_shortname
+      mixin social()
   mixin postnav(page.next,page.prev)

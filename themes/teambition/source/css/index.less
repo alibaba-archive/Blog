@@ -8,8 +8,24 @@ body{
   font-weight: normal;
 }
 
+#wrapper {  
+  max-width:860px; 
+  margin: 0 auto;
+  padding: 100px 60px 0px 60px;
+}
+
 .navbar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
   text-align: center;
+  .navbar-inner{
+    min-height: 40px;
+    .box-shadow(none);
+    border-bottom: 1px solid @grayLight;
+  }
   .brand{
     float: none;
     display: table;
@@ -25,8 +41,12 @@ body{
     }
 
     b{
+      float: left;
+      margin-top: -2px;
+      margin-right: 6px;
       color: @darkTextColor;
       font-size: 32px;
+      letter-spacing: 1px;
     }
   }
 }
@@ -36,8 +56,15 @@ body{
 }
 
 .pagination{
+  margin-bottom: 70px;
   a.btn{
     width: 80px;
+  }
+  .prev{
+    float: left;
+  }
+  .next{
+    float: right;
   }
 }
 
@@ -51,8 +78,31 @@ body{
     line-height:30px;
     color: @lightTextColor;
     b{
+      float: left;
+      margin-top: -2px;
+      margin-right: 6px;
       color: @darkTextColor;
       font-size: 32px;
+      letter-spacing: 1px;
     }
+  }
+}
+
+@media (max-width:979px){
+  body{margin-top:0}
+}
+@media screen and (min-width: 1024px) {
+  #wrapper,.pagination {
+    padding-right:0;
+    padding-left:0;
+    max-width:1020px;
+  }
+}
+@media screen and (max-width: 1023px) { 
+  #page { padding: 0 60px; }
+  #wrapper{ 
+    max-width:580px; 
+    width:100%; 
+    padding:60px 0 0 0;
   }
 }

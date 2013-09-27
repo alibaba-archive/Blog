@@ -2,7 +2,13 @@
   .size(500px, 100%);
   .background-size(cover);
 }
-
+.page-container{
+  width: 640px;
+  margin: 0 auto;
+  > article{
+    margin-bottom: 70px;
+  }
+}
 .postnav{  
   margin-top: 70px;
   height: 150px;
@@ -21,9 +27,16 @@
     line-height: 30px;
     padding-top: 20px;
     padding-bottom: 20px;
+    cursor: pointer;
+    &:hover{
+      a{
+        color: @white;
+      }
+    }
     a{
-      color: @white;
-      font-size: 24px;
+      color: rgba(255,255,255,.9);
+      font-size: 20px;
+      text-decoration: none;
       &:hover{
         color: @white;
       }
@@ -43,6 +56,18 @@
     line-height: 150px;
     border-left: 1px solid #444;
     border-right: 1px solid #444;
+    .opacity(90);
+    &:hover{
+      .opacity(100);
+    }
+    .icon-home{
+      display:inline-block;
+      width:50px;
+      height:50px;
+      background-image:url("../img/home-icon.png");
+      background-position:0 0px;
+      background-repeat:no-repeat;
+    }
   }
   span{
     display:block;
