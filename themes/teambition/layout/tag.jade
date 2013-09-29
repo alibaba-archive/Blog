@@ -1,0 +1,12 @@
+extends _layout
+include component/article
+
+block content
+  section#wrapper
+    h1='#'+page.tag
+    section#post.clearfix
+      -page.posts.each(function(item){
+        mixin article(item,true)
+      -})
+    section.pagination
+      include component/pagination

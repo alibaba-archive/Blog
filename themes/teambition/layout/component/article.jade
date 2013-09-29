@@ -7,6 +7,9 @@ mixin article(item, index)
         a(href=config.root+item.path): h3.title=item.title
       else
         h3.title.sigle-title=item.title
+        -item.tags.each(function(tag){
+          a(href=config.root+tag.path)='#'+tag.name
+        -})
     section.readable
       if item.excerpt && index
         !{item.excerpt}
