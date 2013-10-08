@@ -38,20 +38,22 @@
   margin-top: 70px;
   height: 150px;
   color: @white;
-  background: #333;
+  background-color: #333;
   .postnav-inner{
     width: 1020px;
     margin: 0 auto;
     > div{
       height: 150px;
       float:left;
+      &:hover{
+        background-color: lighten(#333, 3%);
+      }
     }
   }
   .prev,.next{
     width: 400px;
     line-height: 30px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 20px 40px;
     cursor: pointer;
     &:hover{
       a{
@@ -66,14 +68,6 @@
         color: @white;
       }
     }
-  }
-  .prev{
-    padding-left: 0;
-    padding-right: 80px;
-  }
-  .next{
-    padding-left: 80px;
-    padding-right: 0;
   }
   .home{
     .size(150px, 220px);
