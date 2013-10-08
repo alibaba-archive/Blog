@@ -11,7 +11,7 @@ mixin social()
   <script type="text/javascript" src="http://v3.jiathis.com/code_mini/jia.js" charset="utf-8"></script>
   .ds-thread
   script.
-    var duoshuoQuery = {short_name:"testtblog"};
+    var duoshuoQuery = {short_name:"#{config.disqus_shortname}"};
       (function() {
         var ds = document.createElement('script');
         ds.type = 'text/javascript';ds.async = true;
