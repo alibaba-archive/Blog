@@ -4,13 +4,13 @@ mixin article(item, index)
       if index
         -header=item.header||'default.jpg'
         a(href=config.root+item.path): div.image-wrapper(style="background-image: url(/header/#{header});")
-        a(href=config.root+item.path): h3.title=item.title
+        a(href=config.root+item.path): h1.title=item.title
       else
-        h3.title.sigle-title=item.title
+        h1.title.sigle-title=item.title
         -item.tags.each(function(tag){
-          a(href=config.root+tag.path)='#'+tag.name
+          a(href=config.root+tag.path, class="tag")='#'+tag.name
         -})
-    section.readable
+    section.main-content
       if item.excerpt && index
         !{item.excerpt}
       else 
