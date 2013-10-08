@@ -2,15 +2,11 @@ mixin postnav(next,prev)
   .postnav.clearfix
     .postnav-inner
       .prev
-        span=__('prev')
         if prev
+          span=__('prev_post')
           a(href="/#{prev.path}")=prev.title
-        else
-          span="没有了"
       .home: a(href="/"): i.icon-home
       .next
-        span=__('next')
         if next
+          span=__('next_post')
           a(href="/#{next.path}")=next.title
-        else
-          span="没有了"
