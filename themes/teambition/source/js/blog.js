@@ -1,3 +1,4 @@
+$(function(){
 //date flow
 arts=$('#post>article');
 var left=0,right=0;
@@ -13,8 +14,7 @@ for(var i=0;i<arts.length;i++){
 }
 title=$('.brand');
 logo=$('.navbar .teambition-font')
-function navHeight(top,h){
-  var rate=1.*top/h;
+/*function navHeight(rate,h){
   var height=(100-h*rate)+'px';
   var bg=(-15-h*2/5*rate)+'px';
   var logoFontSize=(32-10*rate)+'px';
@@ -29,13 +29,17 @@ function navHeight(top,h){
   logo.css({
     'font-size': logoFontSize
   })
-}
+}*/
 function navControl(){
-  var h=58;
+  var h=50;
   var top=$(window).scrollTop();
-  if(top>h)return navHeight(h,h);
-  if(top<0)return navHeight(0,h);
-  navHeight(top,h);
+  if(top>h)title.addClass('small');
+  else title.removeClass('small');
+  //if(top>h)return navHeight(1,h);
+  //if(top<0)return navHeight(0,h);
+  //var rate = Math.sin(1.*top/h*Math.PI/2);
+  //navHeight(rate,h);
 }
-navHeight(0,58);
+//navHeight(0,58);
 $(window).scroll(navControl);
+});

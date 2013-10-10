@@ -3,10 +3,12 @@ mixin postnav(next,prev)
     .postnav-inner
       .prev
         if prev
-          span=__('prev_post')
-          a(href="/#{prev.path}")=prev.title
+          a(href="/#{prev.path}")
+            span=__('prev_post')
+            div=prev.title
       .home: a(href="/"): i.icon-home
       .next
         if next
-          span=__('next_post')
-          a(href="/#{next.path}")=next.title
+          a(href="/#{next.path}")
+            span=__('next_post')
+            div=next.title

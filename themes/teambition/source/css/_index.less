@@ -35,11 +35,22 @@ body{
   .brand{
     float: none;
     display: table;
+    height: 100px;
     margin: 0 auto;
     padding: 0;
     font-size: 16px;
     font-weight: normal;
     color: @lightTextColor;
+    line-height: 100px;
+    .transition(all 0.218s ease-in-out);
+    &.small{
+      height: 42px;
+      font-size: 12px;
+      line-height: 42px;
+      b{
+        font-size: 22px;
+      }  
+    }
 
     &:hover{
       background-color: transparent;
@@ -53,6 +64,7 @@ body{
       color: @darkTextColor;
       font-size: 32px;
       letter-spacing: 1px;
+      .transition(font-size 0.218s ease-in-out);
     }
   }
 }

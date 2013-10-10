@@ -1,6 +1,7 @@
 !!!
 html
   head
+    include component/scripts
     include component/head
   body
     header.navbar
@@ -14,7 +15,5 @@ html
 
     footer.index-footer
       section
-        b.teambition-font teambition 
-        span  &copy;2013 make work enjoyable 
-
-    include component/scripts
+        a(href="http://www.teambition.com"): b.teambition-font teambition 
+        span  &copy; 2013 make work enjoyable 

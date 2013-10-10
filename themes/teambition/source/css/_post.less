@@ -45,27 +45,21 @@
     > div{
       height: 150px;
       float:left;
-      &:hover{
-        background-color: lighten(#333, 3%);
-      }
     }
   }
   .prev,.next{
     width: 400px;
     line-height: 30px;
-    padding: 20px 40px;
-    cursor: pointer;
-    &:hover{
-      a{
-        color: @white;
-      }
-    }
     a{
+      display: block;
+      .size(100%, 100%);
+      padding: 20px 40px;
       color: rgba(255,255,255,.9);
       font-size: 20px;
       text-decoration: none;
       &:hover{
         color: @white;
+        background-color: lighten(#333, 3%);
       }
     }
   }
@@ -78,6 +72,13 @@
     .opacity(90);
     &:hover{
       .opacity(100);
+    }
+    a{
+      display: block;
+      .size(100%, 100%);
+      &:hover{
+        background-color: lighten(#333, 3%);
+      }
     }
     .icon-home{
       display:inline-block;

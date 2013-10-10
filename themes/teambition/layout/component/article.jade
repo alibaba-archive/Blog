@@ -1,9 +1,21 @@
-mixin article(item, index)
+mixin article(item, index,count)
   article
     header
       if index
         -header=item.header||'default.jpg'
-        a(href=config.root+item.path): div.image-wrapper(style="background-image: url(/header/#{header});")
+        script.
+          $(function(){
+            var cover=$('##{count}');
+            cover.css('opacity',0);
+            var img=new Image();
+            img.src="/header/#{header}";
+            img.onload=function(){
+              cover[0].style.backgroundImage='url(/header/#{header})';
+              cover.animate({opacity:1},500);
+            }
+          });
+        a(href=config.root+item.path)
+          div.image-wrapper(id="#{count}")
         a(href=config.root+item.path): h1.title=item.title
       else
         h1.title.sigle-title=item.title
