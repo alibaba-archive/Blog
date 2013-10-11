@@ -12,7 +12,7 @@ mixin article(item, index,count)
             img.src="/header/#{header}";
             img.onload=function(){
               cover[0].style.backgroundImage='url(/header/#{header})';
-              $imageBg.animate({opacity: 0}, 700);
+              //$imageBg.animate({opacity: 0}, 700);
               cover.animate({opacity:1},700);
             }
           });
