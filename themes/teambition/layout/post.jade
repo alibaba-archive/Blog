@@ -4,32 +4,45 @@ include component/social
 include component/postnav
 
 block content
-  -header=page.header||"default.jpg"
-  script.
-    $(function () {
-      
-      $(window).off('scroll');
-      $('.brand').css({
-      "height": "42px",
-      "font-size": "12px",
-      "line-height": "42px",
-      "background-position":"15px -38.2px"
-      });
-      $('.brand b').css({"font-size":"22px"});
 
-      var $hero=$('.hero');
-      $hero.css('opacity',0);
-      var img=new Image();
-      img.src="/header/#{header}";
-      img.onload=function(){
-        var cover=document.getElementsByClassName('hero')[0];
-        cover.style.backgroundImage='url(/header/#{header})';
-        $hero.animate({opacity:1},500);
-      }
-    })
-  div.hero
-  .page-container
-    mixin article(page, false)
-    if config.disqus_shortname
-      mixin social()
-  mixin postnav(page.next,page.prev)
+  a(href="/")
+    .square-brand.teambition-font t
+  .content
+    -header=page.header||"default.jpg"
+    script.
+      $squareBrand = $('.square-brand');
+      $squareBrand.addClass('animated bounceInLeft');
+      $(function () {
+        var $hero=$('.hero');
+        var $indicator = $('.loading-indicator');
+        var $heroBg = $('.hero-bg');
+        $hero.css('opacity',0);
+        var img=new Image();
+        img.src="/header/#{header}";
+        img.onload=function(){
+          var cover=document.getElementsByClassName('hero')[0];
+          cover.style.backgroundImage='url(/header/#{header})';
+          $indicator.animate({opacity: 0}, 500, function(){
+            $heroBg.animate({opacity:0},700);
+            $hero.animate({opacity:1},700);
+          });
+        }
+
+        window.onscroll = function(){
+          var offsetY = document.documentElement.scrollTop || document.body.scrollTop;
+          var opacityValue = 1.*(500-offsetY)/500;
+          $hero.css('opacity', opacityValue);  
+        }
+
+      })
+    div.hero-bg
+      div.loading-indicator
+        span.loader-dot
+        span.loader-dot
+        span.loader-dot
+    div.hero
+    .page-container
+      mixin article(page, false)
+      if config.disqus_shortname
+        mixin social()
+    mixin postnav(page.next,page.prev)

@@ -2,11 +2,18 @@ extends _layout
 include component/article
 
 block content
-  section#wrapper
-    section#post.clearfix
-      -i=1
-      -page.posts.each(function(item){
-        mixin article(item,true,i++)
-      -})
-    section.pagination
-      include component/pagination
+  header.navbar
+    .navbar-inner
+      a.brand(href="/") 
+        b.teambition-font teambition 
+        span  blog
+
+  .content
+    section#wrapper
+      section#post.clearfix
+        -i=1
+        -page.posts.each(function(item){
+          mixin article(item,true,i++)
+        -})
+      section.pagination
+        include component/pagination

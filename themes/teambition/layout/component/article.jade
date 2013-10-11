@@ -6,18 +6,22 @@ mixin article(item, index,count)
         script.
           $(function(){
             var cover=$('##{count}');
+            var $imageBg = $('.image-bg');
             cover.css('opacity',0);
             var img=new Image();
             img.src="/header/#{header}";
             img.onload=function(){
               cover[0].style.backgroundImage='url(/header/#{header})';
-              cover.animate({opacity:1},500);
+              $imageBg.animate({opacity: 0}, 700);
+              cover.animate({opacity:1},700);
             }
           });
         a(href=config.root+item.path)
+          div.image-bg
           div.image-wrapper(id="#{count}")
         a(href=config.root+item.path): h1.title=item.title
       else
+        h4: small: time(datetime=item.date)=item.date.format(config.date_format)
         h1.title.sigle-title=item.title
         -item.tags.each(function(tag){
           a(href=config.root+tag.path, class="tag")='#'+tag.name
@@ -27,5 +31,6 @@ mixin article(item, index,count)
         !{item.excerpt}
       else 
         !{item.content}
-    footer
-      h4: small: time(datetime=item.date)=item.date.format(config.date_format)
+    if index
+      footer
+        h4: small: time(datetime=item.date)=item.date.format(config.date_format)

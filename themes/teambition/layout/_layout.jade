@@ -4,16 +4,29 @@ html
     include component/scripts
     include component/head
   body
-    header.navbar
-      .navbar-inner
-        a.brand(href="/") 
-          b.teambition-font teambition 
-          span  blog
-
-    .content
-      block content
+    block content
 
     footer.index-footer
       section
         a(href="http://www.teambition.com"): b.teambition-font teambition 
-        span  &copy; 2013 make work enjoyable 
+        span  &copy; 2013 make work enjoyable
+        div.sns-info
+          div.sina-info
+            div.pop
+              label 官方微博
+              p @teambition
+              a(href="http://weibo.com/teambition", target="_blank", class="btn btn-primary")
+                i.icon-plus-white
+                | 加关注
+          div.qq-info
+            div.pop
+              label QQ群
+              p 329601963
+              a(href="http://wp.qq.com/wpa/qunwpa?idkey=f12bcaf9c408d7adadf0f204217256e98250e99f41ed7a32fd0b6913aaf7f1d8", target="_blank", class="btn btn-primary")
+                i.icon-plus-white
+                | 加入
+          div.weixin-info
+            div.pop
+              label 微信客服
+              p 扫瞄二维码关注我们
+              div.qr-wrapper

@@ -2,6 +2,31 @@
   .size(500px, 100%);
   .background-size(cover);
 }
+
+.hero-bg{
+  opacity: 1;
+  position: absolute;
+  z-index: -1;
+  .size(500px, 100%);
+  background-color: #383838;
+  .loading-indicator{
+    margin-top: 240px;
+  }
+}
+.square-brand{
+  .opacity(0);
+  position: fixed;
+  z-index: 1;
+  top: 15px;
+  left: 15px;
+  .square(44px);
+  font-size: 36px;
+  color: #383838;
+  text-align: center;
+  line-height: 40px;
+  background-color: @white;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
 .page-container{
   width: 640px;
   margin: 0 auto;
@@ -9,10 +34,15 @@
     margin-bottom: 70px;
   }
 
+  header{
+    margin-top: 40px;
+  }
+
   header > h1{
-    font-size: 2em;
-    line-height: 1.3em;
-    margin-bottom: 15px;
+    font-size: 42px;
+    font-weight: bold;
+    line-height: 50px;
+    margin-bottom: 35px;
   }
 }
 .main-content{
