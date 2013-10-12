@@ -2,7 +2,7 @@ mixin article(item, index,count)
   article
     header
       if index
-        -header=item.header||'default.jpg'
+        -header='small-'+item.header||'default.jpg'
         script.
           $(function(){
             var cover=$('##{count}');
