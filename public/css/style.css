@@ -272,7 +272,6 @@ body {
 }
 .navbar .brand b {
   float: left;
-  margin-top: -2px;
   margin-right: 6px;
   color: #383838;
   font-size: 32px;
@@ -532,6 +531,7 @@ article .tag {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-position: center;
 }
 .hero-bg {
   opacity: 1;
@@ -556,7 +556,7 @@ article .tag {
   font-size: 36px;
   color: #383838;
   text-align: center;
-  line-height: 40px;
+  line-height: 44px;
   background-color: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
