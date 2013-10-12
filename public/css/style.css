@@ -272,6 +272,7 @@ body {
 }
 .navbar .brand b {
   float: left;
+  margin-top: -2px;
   margin-right: 6px;
   color: #383838;
   font-size: 32px;
@@ -556,7 +557,7 @@ article .tag {
   font-size: 36px;
   color: #383838;
   text-align: center;
-  line-height: 44px;
+  line-height: 40px;
   background-color: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
