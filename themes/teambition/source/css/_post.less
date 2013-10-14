@@ -2,6 +2,7 @@
   .size(500px, 100%);
   .background-size(cover);
   background-position: center;
+  -webkit-backface-visibility: hidden;
 }
 
 .hero-bg{
@@ -15,7 +16,6 @@
   }
 }
 .square-brand{
-  .opacity(0);
   position: fixed;
   z-index: 1;
   top: 15px;
@@ -27,6 +27,9 @@
   line-height: 40px;
   background-color: @white;
   border: 1px solid rgba(0, 0, 0, 0.1);
+  .opacity(0);
+  .translate3d(0, 0, 0);
+  .transition(all 0.218s ease-in-out);
 }
 .page-container{
   width: 640px;
@@ -67,10 +70,10 @@
 }
 .postnav{  
   margin-top: 70px;
-  height: 150px;
   color: @white;
   background-color: #333;
   .postnav-inner{
+    height: 150px;
     width: 1020px;
     margin: 0 auto;
     > div{
