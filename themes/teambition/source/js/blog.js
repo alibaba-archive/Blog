@@ -39,12 +39,13 @@ function navControl(){
   if(top>h)title.addClass('small');
   else title.removeClass('small');
   console.log(top-pre);
-  if(top-pre>20&&show==1){
+  var sense=1;
+  if(top-pre>sense&&show==1){
     show=0;
     $item.removeClass('appear');
     $item.addClass('disappear');
   }
-  if(pre-top>20&&show==0){
+  if(pre-top>sense&&show==0){
     show=1;
     $item.addClass('appear');
     $item.removeClass('disappear');
