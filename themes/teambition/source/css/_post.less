@@ -2,6 +2,7 @@
   .size(500px, 100%);
   .background-size(cover);
   background-position: center;
+  -webkit-backface-visibility: hidden;
 }
 
 .hero-bg{
@@ -67,10 +68,10 @@
 }
 .postnav{  
   margin-top: 70px;
-  height: 150px;
   color: @white;
   background-color: #333;
   .postnav-inner{
+    height: 150px;
     width: 1020px;
     margin: 0 auto;
     > div{

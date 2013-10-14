@@ -1,0 +1,250 @@
+@media screen and (max-width: 420px) {
+  // index page
+  .navbar .brand{
+    height: 42px;
+    font-size: 12px;
+    line-height: 42px;
+    b{
+      font-size: 22px;
+    }
+  }
+  .index-main{
+    padding: 10px;
+  }
+  #wrapper{
+    margin-top: 50px;
+    #post > article { 
+      width: 100%; 
+      padding-bottom: 10px;
+      margin-bottom: 30px;
+    } 
+
+    #post > article .image-wrapper{
+      height: 200px;
+    }
+    #post > article .image-bg{
+      height: 200px;
+    }
+    #post > article header h1{
+      margin-top: 10px;
+    }
+    #post > article > .main-content > p{
+      margin: 10px 0;
+    }
+  }
+  .index-footer section{
+    margin: 0 10px;
+    font-size: 12px;
+    b{
+      font-size: 22px;
+    }
+    .sns-info{
+      display: none;
+    }
+  }
+
+  // article page
+  .article-main{
+    .hero{
+      height: 150px;
+    }
+
+    .hero-bg{
+      height: 150px;
+      .loading-indicator{
+        margin-top: 50px;
+      }
+    }
+
+    .page-container{
+      padding: 10px;
+      width: 100%;
+      header{
+        margin-top: 0;
+        > h1{
+          font-size: 36px;
+          margin-bottom: 0;
+          line-height: 42px;
+        }
+      }
+    }
+
+    .postnav{
+      .postnav-inner{
+        height: auto;
+        width: 100%;
+        > div{
+          height: auto;
+          float: none;
+          width: 100%;
+          > a {
+            padding: 10px 40px 20px;
+            > span{
+              font-size: 14px;
+            }            
+          }
+  
+        }
+        .prev{
+          display: none;
+        }
+        .home{
+          display: none;
+        }
+      }
+    }
+  }
+}
+@media screen and (min-width: 420px ) and (max-width: 620px){
+  .navbar .brand{
+    height: 42px;
+    font-size: 12px;
+    line-height: 42px;
+    b{
+      font-size: 22px;
+    }
+  }
+  .index-main{
+    padding: 20px;
+  }
+  #wrapper{
+    margin-top: 50px;
+    #post > article { 
+      width: 100%; 
+      padding-bottom: 60px;
+    }  
+  }
+  .index-footer section{
+    .sns-info{
+      display: none;
+    }
+  }
+  // article page
+  .article-main{
+    .hero{
+      height: 200px;
+    }
+
+    .hero-bg{
+      height: 200px;
+      .loading-indicator{
+        margin-top: 80px;
+      }
+    }
+
+    .page-container{
+      padding: 20px;
+      width: 100%;
+      header{
+        margin-top: 0;
+        > h1{
+          font-size: 36px;
+          margin-bottom: 0;
+          line-height: 42px;
+        }
+      }
+    }
+
+    .postnav{
+      .postnav-inner{
+        height: auto;
+        width: 100%;
+        > div{
+          height: auto;
+          float: none;
+          width: 100%;
+          > a {
+            padding: 20px 40px 40px;
+            > span{
+              font-size: 14px;
+            }            
+          }
+  
+        }
+        .prev{
+          display: none;
+        }
+        .home{
+          display: none;
+        }
+      }
+    }
+  } 
+}
+
+@media screen and (min-width: 620px) and (max-width: 1024px) { 
+  .navbar .brand{
+    height: 100px;
+    font-size: 16px;
+    line-height: 100px;
+    b{
+      font-size: 32px;
+    }
+  }
+  .index-main{
+    padding: 0;
+  }
+  #wrapper{ 
+    max-width:580px; 
+    margin: 0 auto;
+    margin-top: 150px;
+    #post > article { 
+      width: 100%; 
+      padding-bottom: 60px;
+    }   
+  }
+
+  // article page
+  .article-main{
+    .page-container{
+      padding: 20px;
+      width: 100%;
+      max-width: 640px;
+      // header{
+      //   margin-top: 0;
+      //   > h1{
+      //     font-size: 36px;
+      //     margin-bottom: 0;
+      //     line-height: 42px;
+      //   }
+      // }
+    }
+    .postnav{
+      .postnav-inner{
+        width: 100%;
+        > div{
+          width: 50%;
+        }
+        .home{
+          display: none;
+        }
+      }
+    }
+  } 
+}
+@media screen and (min-width: 1024px) {
+  .navbar .brand{
+    height: 100px;
+    font-size: 16px;
+    line-height: 100px;
+    b{
+      font-size: 32px;
+    }
+  }
+  .index-main{
+    padding: 0;
+  }
+  #wrapper{
+    margin: 0 auto;
+    margin-top: 150px;
+    max-width:1020px;
+    #post > article{
+      width: 480px; 
+      float: left; 
+      &.right{
+        float: right;
+        margin-right: 0px;
+      }
+    }
+  }
+}
