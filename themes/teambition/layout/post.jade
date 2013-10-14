@@ -10,8 +10,6 @@ block content
   .article-main
     -header=page.header||"default.jpg"
     script.
-      console.log('#{config.url}');
-      console.log(document.referrer);
       $squareBrand = $('.square-brand');
       //TODO to remove
       if(document.referrer=="http://192.168.0.73:5003/"||document.referrer=="#{config.url}/"){

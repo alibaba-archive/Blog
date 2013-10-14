@@ -30,11 +30,26 @@ logo=$('.navbar .teambition-font')
     'font-size': logoFontSize
   })
 }*/
+var pre=$(window).scrollTop();
+var show=1;
 function navControl(){
   var h=50;
   var top=$(window).scrollTop();
+  var $item=$('.square-brand');
   if(top>h)title.addClass('small');
   else title.removeClass('small');
+  console.log(top-pre);
+  if(top-pre>20&&show==1){
+    show=0;
+    $item.removeClass('appear');
+    $item.addClass('disappear');
+  }
+  if(pre-top>20&&show==0){
+    show=1;
+    $item.addClass('appear');
+    $item.removeClass('disappear');
+  }
+  pre=top;
   //if(top>h)return navHeight(1,h);
   //if(top<0)return navHeight(0,h);
   //var rate = Math.sin(1.*top/h*Math.PI/2);
