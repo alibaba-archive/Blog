@@ -3,7 +3,7 @@
   <title><![CDATA[teambition blog]]></title>
   <link href="http://blog.teambition.com/atom.xml" rel="self"/>
   <link href="http://blog.teambition.com"/>
-  <updated>2013-10-14T11:39:04.135Z</updated>
+  <updated>2013-10-15T06:12:17.572Z</updated>
   <id>http://blog.teambition.com/</id>
   <author>
     <name><![CDATA[teambition]]></name>
@@ -15,41 +15,41 @@
     <link href="http://blog.teambition.com/2013/10/14/201310140637/"/>
     <id>http://blog.teambition.com/2013/10/14/201310140637/</id>
     <published>2013-10-14T06:37:27.000Z</published>
-    <updated>2013-10-14T11:38:59.000Z</updated>
+    <updated>2013-10-15T06:08:44.000Z</updated>
     <content type="html"><![CDATA[<p>如果你只是在「动态墙」中输入文字，可能未必有很强的可读性。如果能为你的分享突出标题，加上一些区块的引用，或是外部链接等，就会让原本单调的文字变得更富有层次。</p>
 <a id="more"></a>
-<p><strong>一．    行内代码</strong>
-你可以在「动态墙」中可以插入一段代码，只需将代码前后加入单引号就可以实现。</p>
-<p><img src="/image/1381750148237代码1.jpg" alt=""></p>
-<p>效果如下：</p>
-<p><img src="/image/代码2.jpg" alt=""></p>
-<p>你也可以直接将代码复制到「动态墙」内，就会产生这样的效果：</p>
-<p><img src="/image/1381750229540代码3.jpg" alt=""></p>
-<p><strong>二．    标题</strong>
-如果键入的文字都是同样的大小，那么标题就无法重点突出。现在，你可以在需要输入的文字前面插入 1 到 6 个 “#”来突出文字标题，对应的是标题1到6阶的字体大小。</p>
-<p><img src="/image/标题1.jpg" alt=""></p>
-<p>出来的效果1为最大，6为最小。</p>
-<p><img src="/image/标题2.jpg" alt=""></p>
-<p><strong>三．    无序列标记</strong>
-当发布的内容需要加上序列标记时，「动态墙」其实也可以实现，只需要在内容前面加上“星号空格”。</p>
-<p><img src="/image/无序列1.jpg" alt=""></p>
-<p>效果如下：</p>
-<p><img src="/image/无序列2.jpg" alt=""></p>
-<p><strong>四．    分隔线</strong>
-你可以在一行中用三个以上的星号来建立一个分隔线，行内不能有其他东西。</p>
-<p><img src="/image/分割线1.jpg" alt=""></p>
-<p>效果如下：</p>
-<p><img src="/image/分割线2.jpg" alt=""></p>
-<p><strong>五．    字体的斜体加粗</strong>
-在分享的内容中如果需要强调某句话，可以用斜体加粗来实现。在需要强调的字体前后加入星号：</p>
-<p><img src="/image/强调1.jpg" alt=""></p>
-<p>效果如下：</p>
-<p><img src="/image/强调2.jpg" alt=""></p>
-<p><strong>六. 行内链</strong>
-如果想要在分享中加入链接，也是可以实现的。只需要将链接前后加上“()”就可以了。比如：（<a href="http://www.teambition.com），括号必须是英文的。另外，如果想要加入文字链，在圆括号前面加上一个方括号，方括号里填写相应的文字，就可以实现。" target="_blank">http://www.teambition.com），括号必须是英文的。另外，如果想要加入文字链，在圆括号前面加上一个方括号，方括号里填写相应的文字，就可以实现。</a></p>
-<p><img src="/image/link1.jpg" alt=""></p>
-<p>效果如下：</p>
-<p><img src="/image/link2.jpg" alt=""></p>
+<h2>一．行内代码</h2>
+<p>你可以在「动态墙」中可以插入一段代码，只需将代码前后加入单引号就可以实现。
+<img src="/image/1381750148237代码1.jpg" alt=""></p>
+<p>效果如下：
+<img src="/image/代码2.jpg" alt=""></p>
+<p>你也可以直接将代码复制到「动态墙」内，就会产生这样的效果：
+<img src="/image/1381750229540代码3.jpg" alt=""></p>
+<h2>二．标题</h2>
+<p>如果键入的文字都是同样的大小，那么标题就无法重点突出。现在，你可以在需要输入的文字前面插入 1 到 6 个 “#”来突出文字标题，对应的是标题1到6阶的字体大小。
+<img src="/image/1381803512195标题1.jpg" alt=""></p>
+<p>出来的效果1为最大，6为最小。
+<img src="/image/1381803523475标题2.jpg" alt=""></p>
+<h2>三．无序列标记</h2>
+<p>当发布的内容需要加上序列标记时，「动态墙」其实也可以实现，只需要在内容前面加上“星号空格”。
+<img src="/image/无序列1.jpg" alt=""></p>
+<p>效果如下：
+<img src="/image/1381803702664无序列2.jpg" alt=""></p>
+<h2>四．分隔线</h2>
+<p>你可以在一行中用三个以上的星号来建立一个分隔线，行内不能有其他东西。
+<img src="/image/分割线1.jpg" alt=""></p>
+<p>效果如下：
+<img src="/image/分割线2.jpg" alt=""></p>
+<h2>五．字体的斜体加粗</h2>
+<p>在分享的内容中如果需要强调某句话，可以用斜体加粗来实现。在需要强调的字体前后加入星号：
+<img src="/image/强调1.jpg" alt=""></p>
+<p>效果如下：
+<img src="/image/1381803560326强调2.jpg" alt=""></p>
+<h2>六. 行内链</h2>
+<p>如果想要在分享中加入链接，也是可以实现的。只需要将链接前后加上“()”就可以了。比如：（<a href="http://www.teambition.com），括号必须是英文的。另外，如果想要加入文字链，在圆括号前面加上一个方括号，方括号里填写相应的文字，就可以实现。" target="_blank">http://www.teambition.com），括号必须是英文的。另外，如果想要加入文字链，在圆括号前面加上一个方括号，方括号里填写相应的文字，就可以实现。</a>
+<img src="/image/1381803579391link1.jpg" alt=""></p>
+<p>效果如下：
+<img src="/image/1381803593641link2.jpg" alt=""></p>
 <p>有了以上这些用法，相信你在「动态墙」分享的重点内容将能更直观的被呈现出来。当然，如果你有更好的用法也可以告诉我们，我们会选取优秀的案例在官网上进行展示。</p>
 <p>投稿方式：support@teambition.com</p>
 ]]></content>
@@ -619,12 +619,12 @@ Telecom，新兴科技、媒体和通信融合起来的综合产业），它应�
     <link href="http://blog.teambition.com/2012/08/07/201208071243/"/>
     <id>http://blog.teambition.com/2012/08/07/201208071243/</id>
     <published>2012-08-07T12:43:53.000Z</published>
-    <updated>2013-10-14T07:43:20.000Z</updated>
+    <updated>2013-10-15T06:08:44.000Z</updated>
     <content type="html"><![CDATA[<p>说到<a href="http://www.yododo.com" target="_blank">Yododo.com（游多多）</a>会有很多酷爱自助游的朋友会知道这个网站，
 这是个垂直社交的平台，每个用户可以在上面分享自己的游记、找驴友结伴旅行、找
 寻自己想要去的地方的各种资讯。在上面的用户已经达到了200万之多。</p>
 <a id="more"></a>
-<p><img title="游多多的驴友遍布世界各地，以后自助去瑞士游也会变得很简单" src="http://cndesk.com/Pics/GenericPics/5_View/32_gdfg/837_rs/CNDESK_9dgx2e0706054712.jpg" /></p>
+<p><img src="/image/ydd.jpg" alt=""></p>
 <hr>
 <p>当我去到Yododo总部，能够看到公司休息区的书架上有着好几排的旅游书籍，这些书籍的内容有很大
 一部分来自于游多多的用户，里面图文并茂地展示了全球各地的旅游城市，可以见到游多多社区创造
@@ -870,13 +870,13 @@ those coworking are usually not employed by the same organization.&quot;</p>
     <link href="http://blog.teambition.com/2012/08/01/201208012056/"/>
     <id>http://blog.teambition.com/2012/08/01/201208012056/</id>
     <published>2012-08-01T20:56:48.000Z</published>
-    <updated>2013-10-14T07:43:20.000Z</updated>
+    <updated>2013-10-15T06:08:44.000Z</updated>
     <content type="html"><![CDATA[<p>导读：乔布斯对设计的要求只有两个字“简化”，苹果所有的产品都是简单风格的，这也是
 苹果产品在全球受到热捧的原因。我们要本着简单原则，做不简单的产品。</p>
 <a id="more"></a>
 <p><img class="aligncenter" title="简单至美" src="http://andrewchenblog.com/wp-content/uploads/2011/07/minimal-desktop-wallpaper-simple-is-beautiful.png"/></p>
 <p> 我碰到过许多人，用过Mac OS X<span>之后，都不愿意再使用</span><span style="font-family: 'Times New Roman';">Windows</span><span>，原因很简单,苹果的产品十分简单易用。这里的简单，主要体现在两个方面，一方面是简洁的外观设计，一方面是简化的用户操作。苹果的产品近乎完美地体现了这两点。</span></p>
-<p> 苹果产品的外观设计，完美体现了简洁的外观设计。苹果的设计理念是“平和简约，至臻至善”，一键式设计，黑白两色，<span style="font-family: 'Times New Roman';">iPhone</span><span>的外观收到追捧，成为全球最热门的手机，许多厂商都在模仿</span><span style="font-family: 'Times New Roman';">iPhone</span><span>的外型设计，</span><span style="font-family: 'Times New Roman';">iPod</span>&lt;span &quot;&gt;的简洁设计也使得<span style="font-family: 'Times New Roman';">iPod</span><span>成为全球最受欢迎的</span><span style="font-family: 'Times New Roman';">MP3</span><span>。外观的简洁设计，能得到大多数用户的心。</span></p>
+<p> 苹果产品的外观设计，完美体现了简洁的外观设计。苹果的设计理念是“平和简约，至臻至善”，一键式设计，黑白两色，<span style="font-family: 'Times New Roman';">iPhone</span><span>的外观收到追捧，成为全球最热门的手机，许多厂商都在模仿</span><span style="font-family: 'Times New Roman';">iPhone</span><span>的外型设计，</span><span style="font-family: 'Times New Roman';">iPod</span>的简洁设计也使得<span style="font-family: 'Times New Roman';">iPod</span><span>成为全球最受欢迎的</span><span style="font-family: 'Times New Roman';">MP3</span><span>。外观的简洁设计，能得到大多数用户的心。</span></p>
 <p> 苹果系统简化的用户操作，为操作简化的典范。比如在Andriod系统中卸载程序，需要打开“设置”，然后选择“应用程序”选项，找到你要卸载的程序，才能开始卸载，而在iOS中，你只需要长按应用程序的图标，就可以卸载程序了。乔布斯对于苹果产品的要求就是简化，他要求工程师的设计中，某项功能的使用，按键次数不能超过3次。如此严格的简化设计要求让苹果凭借iPhone打败市面上的诸多产品。</p>
 <p> 其实，简单体现了产品的人性化一面。所谓人性化，要求我们从用户的角度出发，为用户考虑，提供更好的产品与服务。简单原则涵盖了产品的外在与内在。</p>
 <p> 所谓外在，就是用户看到的产品的样子，也就是外观，外观的简洁设计，可以让用户产生干净简约的感觉，更具有吸引力，而不是缤纷色彩或奇异外形带来的视觉冲击之后的疲惫感。用简洁的设计风格，用少量的元素，把产品当成一种艺术品去打造，追求简单之美。</p>
