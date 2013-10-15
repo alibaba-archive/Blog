@@ -1,15 +1,8 @@
 <!DOCTYPE html><html><head><script src="/js/jquery.js"></script><script src="/js/blog.js"></script><meta charset="utf-8"><title>teambition blog</title><meta name="viewport" content="width=device-width, initial-scale=1.0"><link href="/css/teambition-ui.css" rel="stylesheet"><link href="/css/style.css" rel="stylesheet"><link rel="shortcut icon" href="/img/favicon.ico"></head><body><a href="/"><div class="square-brand teambition-font">t</div></a><div class="article-main"><script>$squareBrand = $('.square-brand');
-//TODO to remove
-if(document.referrer=="http://192.168.0.73:5003/"||document.referrer=="http://blog.teambition.com/"){
+if(document.referrer=="http://blog.teambition.com/"){
   $squareBrand.addClass('animated bounceInLeft');
-  /*setTimeout(function(){
-    $squareBrand.removeClass('animated bounceInLeft');
-  }, 2000);*/
 }
-else{
-  $squareBrand.css('opacity','1');
-}
-
+else $squareBrand.css('opacity','1');
 $(function () {
   var $hero=$('.hero');
   var $indicator = $('.loading-indicator');
@@ -25,14 +18,23 @@ $(function () {
       $hero.animate({opacity:1},700);
     });
   }
-  
+  var $title=$('.square-brand');
   window.onscroll = function(){
-    var offsetY = document.documentElement.scrollTop || document.body.scrollTop;
+    var offsetY=$(window).scrollTop();
     var opacityValue = 1.*(500-offsetY)/500;
     $hero.css('opacity', opacityValue);  
+    console.log(offsetY==0);
+    if(offsetY<=0){
+      $title.addClass('appear');
+      $title.removeClass('disappear');
+    }
+    if(offsetY>150){
+      $title.removeClass('appear');
+      $title.addClass('disappear');
+    }
   }
   
-})</script><div class="hero-bg"><div class="loading-indicator"><span class="loader-dot"></span><span class="loader-dot"></span><span class="loader-dot"></span></div></div><div class="hero"></div><div class="page-container"><article><header><h4><small><time datetime="Thu Oct 10 2013 16:05:29 GMT+0000">10/10/2013</time></small></h4><h1 class="title sigle-title">用户采访：不同部门间的协作也能“无缝对接”</h1></header><section class="main-content"><p>最近我们做的一份调查报告显示，90%的teambition用户都非常愿意将我们的产品介绍给他们身周围的朋友或同事，对此我们深感欣慰。在以往我们走访的用户中，我们发现不同行业的人有各种各样使用teambition的方法，一些甚至让我们自己都很受启发，他们确确实实用teambition解决了日常工作中存在已久的一些协作问题。</p>
+})</script><div class="hero-bg"><div class="loading-indicator"><span class="loader-dot"></span><span class="loader-dot"></span><span class="loader-dot"></span></div></div><div class="hero"></div><div class="page-container"><article><header><h4><small><time datetime="Thu Oct 10 2013 16:05:29 GMT+0800">10/10/2013</time></small></h4><h1 class="title sigle-title">用户采访：不同部门间的协作也能“无缝对接”</h1></header><section class="main-content"><p>最近我们做的一份调查报告显示，90%的teambition用户都非常愿意将我们的产品介绍给他们身周围的朋友或同事，对此我们深感欣慰。在以往我们走访的用户中，我们发现不同行业的人有各种各样使用teambition的方法，一些甚至让我们自己都很受启发，他们确确实实用teambition解决了日常工作中存在已久的一些协作问题。</p>
 <a id="more"></a>
 <p>今天我们分享一个IT公司是如何利用teambition解决“市场部与研发部对于用户反馈的问题进行高效处理”的案例，如果你的公司市场部门时常为在反馈了产品相关的问题或负面后，无法得知具体的处理进展而苦恼；研发人员受理的问题又和用户实际需求脱节，那么下面这个案例可能会让他们更好地进行协作。</p>
 <p>市场部在接到用户的反馈以后，会将问题的具体内容创建成“任务”告知产品经理。</p>

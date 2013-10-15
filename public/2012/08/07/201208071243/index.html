@@ -1,15 +1,8 @@
 <!DOCTYPE html><html><head><script src="/js/jquery.js"></script><script src="/js/blog.js"></script><meta charset="utf-8"><title>teambition blog</title><meta name="viewport" content="width=device-width, initial-scale=1.0"><link href="/css/teambition-ui.css" rel="stylesheet"><link href="/css/style.css" rel="stylesheet"><link rel="shortcut icon" href="/img/favicon.ico"></head><body><a href="/"><div class="square-brand teambition-font">t</div></a><div class="article-main"><script>$squareBrand = $('.square-brand');
-//TODO to remove
-if(document.referrer=="http://192.168.0.73:5003/"||document.referrer=="http://blog.teambition.com/"){
+if(document.referrer=="http://blog.teambition.com/"){
   $squareBrand.addClass('animated bounceInLeft');
-  /*setTimeout(function(){
-    $squareBrand.removeClass('animated bounceInLeft');
-  }, 2000);*/
 }
-else{
-  $squareBrand.css('opacity','1');
-}
-
+else $squareBrand.css('opacity','1');
 $(function () {
   var $hero=$('.hero');
   var $indicator = $('.loading-indicator');
@@ -25,14 +18,23 @@ $(function () {
       $hero.animate({opacity:1},700);
     });
   }
-  
+  var $title=$('.square-brand');
   window.onscroll = function(){
-    var offsetY = document.documentElement.scrollTop || document.body.scrollTop;
+    var offsetY=$(window).scrollTop();
     var opacityValue = 1.*(500-offsetY)/500;
     $hero.css('opacity', opacityValue);  
+    console.log(offsetY==0);
+    if(offsetY<=0){
+      $title.addClass('appear');
+      $title.removeClass('disappear');
+    }
+    if(offsetY>150){
+      $title.removeClass('appear');
+      $title.addClass('disappear');
+    }
   }
   
-})</script><div class="hero-bg"><div class="loading-indicator"><span class="loader-dot"></span><span class="loader-dot"></span><span class="loader-dot"></span></div></div><div class="hero"></div><div class="page-container"><article><header><h4><small><time datetime="Tue Aug 07 2012 12:43:53 GMT+0000">8/7/2012</time></small></h4><h1 class="title sigle-title">“执行远大于创意，韧性远大于热情”-采访游多多团队</h1></header><section class="main-content"><p>说到<a href="http://www.yododo.com" target="_blank">Yododo.com（游多多）</a>会有很多酷爱自助游的朋友会知道这个网站，
+})</script><div class="hero-bg"><div class="loading-indicator"><span class="loader-dot"></span><span class="loader-dot"></span><span class="loader-dot"></span></div></div><div class="hero"></div><div class="page-container"><article><header><h4><small><time datetime="Tue Aug 07 2012 12:43:53 GMT+0800">8/7/2012</time></small></h4><h1 class="title sigle-title">“执行远大于创意，韧性远大于热情”-采访游多多团队</h1></header><section class="main-content"><p>说到<a href="http://www.yododo.com" target="_blank">Yododo.com（游多多）</a>会有很多酷爱自助游的朋友会知道这个网站，
 这是个垂直社交的平台，每个用户可以在上面分享自己的游记、找驴友结伴旅行、找
 寻自己想要去的地方的各种资讯。在上面的用户已经达到了200万之多。</p>
 <a id="more"></a>

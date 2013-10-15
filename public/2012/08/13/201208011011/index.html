@@ -1,15 +1,8 @@
 <!DOCTYPE html><html><head><script src="/js/jquery.js"></script><script src="/js/blog.js"></script><meta charset="utf-8"><title>teambition blog</title><meta name="viewport" content="width=device-width, initial-scale=1.0"><link href="/css/teambition-ui.css" rel="stylesheet"><link href="/css/style.css" rel="stylesheet"><link rel="shortcut icon" href="/img/favicon.ico"></head><body><a href="/"><div class="square-brand teambition-font">t</div></a><div class="article-main"><script>$squareBrand = $('.square-brand');
-//TODO to remove
-if(document.referrer=="http://192.168.0.73:5003/"||document.referrer=="http://blog.teambition.com/"){
+if(document.referrer=="http://blog.teambition.com/"){
   $squareBrand.addClass('animated bounceInLeft');
-  /*setTimeout(function(){
-    $squareBrand.removeClass('animated bounceInLeft');
-  }, 2000);*/
 }
-else{
-  $squareBrand.css('opacity','1');
-}
-
+else $squareBrand.css('opacity','1');
 $(function () {
   var $hero=$('.hero');
   var $indicator = $('.loading-indicator');
@@ -25,14 +18,23 @@ $(function () {
       $hero.animate({opacity:1},700);
     });
   }
-  
+  var $title=$('.square-brand');
   window.onscroll = function(){
-    var offsetY = document.documentElement.scrollTop || document.body.scrollTop;
+    var offsetY=$(window).scrollTop();
     var opacityValue = 1.*(500-offsetY)/500;
     $hero.css('opacity', opacityValue);  
+    console.log(offsetY==0);
+    if(offsetY<=0){
+      $title.addClass('appear');
+      $title.removeClass('disappear');
+    }
+    if(offsetY>150){
+      $title.removeClass('appear');
+      $title.addClass('disappear');
+    }
   }
   
-})</script><div class="hero-bg"><div class="loading-indicator"><span class="loader-dot"></span><span class="loader-dot"></span><span class="loader-dot"></span></div></div><div class="hero"></div><div class="page-container"><article><header><h4><small><time datetime="Mon Aug 13 2012 10:11:42 GMT+0000">8/13/2012</time></small></h4><h1 class="title sigle-title">Y-Combinator上Flightfox实习生没写完的执行清单</h1></header><section class="main-content"><p>今天在Y-Combinator上看到一篇Flightfox实习生所写的关于怎样
+})</script><div class="hero-bg"><div class="loading-indicator"><span class="loader-dot"></span><span class="loader-dot"></span><span class="loader-dot"></span></div></div><div class="hero"></div><div class="page-container"><article><header><h4><small><time datetime="Mon Aug 13 2012 10:11:42 GMT+0800">8/13/2012</time></small></h4><h1 class="title sigle-title">Y-Combinator上Flightfox实习生没写完的执行清单</h1></header><section class="main-content"><p>今天在Y-Combinator上看到一篇Flightfox实习生所写的关于怎样
 去把自己打造成为优秀创始人的文章，觉得写的非常有道理，都是
 一些干货，他罗列了以下几点优秀精神品质:</p>
 <a id="more"></a>

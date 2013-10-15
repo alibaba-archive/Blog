@@ -3,7 +3,7 @@
   <title><![CDATA[teambition blog]]></title>
   <link href="http://blog.teambition.com/atom.xml" rel="self"/>
   <link href="http://blog.teambition.com"/>
-  <updated>2013-10-15T06:12:17.572Z</updated>
+  <updated>2013-10-15T08:06:00.147Z</updated>
   <id>http://blog.teambition.com/</id>
   <author>
     <name><![CDATA[teambition]]></name>
@@ -14,8 +14,8 @@
     <title type="html"><![CDATA[Markdown的妙用：让分享的重点内容更直观]]></title>
     <link href="http://blog.teambition.com/2013/10/14/201310140637/"/>
     <id>http://blog.teambition.com/2013/10/14/201310140637/</id>
-    <published>2013-10-14T06:37:27.000Z</published>
-    <updated>2013-10-15T06:08:44.000Z</updated>
+    <published>2013-10-13T22:37:27.000Z</published>
+    <updated>2013-10-15T06:19:32.000Z</updated>
     <content type="html"><![CDATA[<p>如果你只是在「动态墙」中输入文字，可能未必有很强的可读性。如果能为你的分享突出标题，加上一些区块的引用，或是外部链接等，就会让原本单调的文字变得更富有层次。</p>
 <a id="more"></a>
 <h2>一．行内代码</h2>
@@ -58,8 +58,8 @@
     <title type="html"><![CDATA[如何创建teambition的桌面快捷方式]]></title>
     <link href="http://blog.teambition.com/2013/10/10/201310100657/"/>
     <id>http://blog.teambition.com/2013/10/10/201310100657/</id>
-    <published>2013-10-10T18:57:37.000Z</published>
-    <updated>2013-10-14T07:43:20.000Z</updated>
+    <published>2013-10-10T10:57:37.000Z</published>
+    <updated>2013-10-12T08:20:49.000Z</updated>
     <content type="html"><![CDATA[<p>如果你觉得每次打开teambition都需要手动输入网址很麻烦，那么接下来的这个方式或许会让你省力很多。</p>
 <a id="more"></a>
 <p>我们可以通过Chrome的扩展程序来为你的teambition添加一个桌面快捷方式。</p>
@@ -81,8 +81,8 @@
     <title type="html"><![CDATA[用户采访：不同部门间的协作也能“无缝对接”]]></title>
     <link href="http://blog.teambition.com/2013/10/10/201310100405/"/>
     <id>http://blog.teambition.com/2013/10/10/201310100405/</id>
-    <published>2013-10-10T16:05:29.000Z</published>
-    <updated>2013-10-14T11:04:46.000Z</updated>
+    <published>2013-10-10T08:05:29.000Z</published>
+    <updated>2013-10-14T12:15:45.000Z</updated>
     <content type="html"><![CDATA[<p>最近我们做的一份调查报告显示，90%的teambition用户都非常愿意将我们的产品介绍给他们身周围的朋友或同事，对此我们深感欣慰。在以往我们走访的用户中，我们发现不同行业的人有各种各样使用teambition的方法，一些甚至让我们自己都很受启发，他们确确实实用teambition解决了日常工作中存在已久的一些协作问题。</p>
 <a id="more"></a>
 <p>今天我们分享一个IT公司是如何利用teambition解决“市场部与研发部对于用户反馈的问题进行高效处理”的案例，如果你的公司市场部门时常为在反馈了产品相关的问题或负面后，无法得知具体的处理进展而苦恼；研发人员受理的问题又和用户实际需求脱节，那么下面这个案例可能会让他们更好地进行协作。</p>
@@ -109,8 +109,8 @@
     <title type="html"><![CDATA[从开始处开始]]></title>
     <link href="http://blog.teambition.com/2013/01/16/201301161636/"/>
     <id>http://blog.teambition.com/2013/01/16/201301161636/</id>
-    <published>2013-01-16T16:36:37.000Z</published>
-    <updated>2013-10-14T07:43:20.000Z</updated>
+    <published>2013-01-16T08:36:37.000Z</published>
+    <updated>2013-10-12T02:12:54.000Z</updated>
     <content type="html"><![CDATA[<p>从开始寻找一个好用的协作工具 到今天一到办公室立刻打开亲手打造的teambition 很多事情变得不同</p>
 <a id="more"></a>
 <p>来到新的办公室 每一天都变得更加出色 也不断迎来新的成员</p>
@@ -139,8 +139,8 @@
     <title type="html"><![CDATA[知乎问题小样本研究--最重要的是“纽带”的同步]]></title>
     <link href="http://blog.teambition.com/2012/08/13/201208131829/"/>
     <id>http://blog.teambition.com/2012/08/13/201208131829/</id>
-    <published>2012-08-13T18:29:32.000Z</published>
-    <updated>2013-10-14T07:43:20.000Z</updated>
+    <published>2012-08-13T10:29:32.000Z</published>
+    <updated>2013-10-12T02:12:54.000Z</updated>
     <content type="html"><![CDATA[<p>导读：“我的意思并不是丢弃分享精神，只是我们究竟是先加强与熟悉的人之间的联系呢？
 还是加强和陌生人之间的呢？让是人们进入新的圈子走马观花还是在已有的圈子深度挖掘？
 或许这没有谁对谁错，或许根本没必要做单项选择，而是应该让这两者共存、互补。 ”    -- <a href="http://www.teambition.com" target="_blank">Teambition</a></p>
@@ -284,8 +284,8 @@ kill time（消磨时间）和save time（节省时间），消磨时间我觉�
     <title type="html"><![CDATA[Y-Combinator上Flightfox实习生没写完的执行清单]]></title>
     <link href="http://blog.teambition.com/2012/08/13/201208011011/"/>
     <id>http://blog.teambition.com/2012/08/13/201208011011/</id>
-    <published>2012-08-13T10:11:42.000Z</published>
-    <updated>2013-10-14T07:43:20.000Z</updated>
+    <published>2012-08-13T02:11:42.000Z</published>
+    <updated>2013-10-12T02:12:54.000Z</updated>
     <content type="html"><![CDATA[<p>今天在Y-Combinator上看到一篇Flightfox实习生所写的关于怎样
 去把自己打造成为优秀创始人的文章，觉得写的非常有道理，都是
 一些干货，他罗列了以下几点优秀精神品质:</p>
@@ -374,8 +374,8 @@ that I learned that will make me a better startup founder:
     <title type="html"><![CDATA[企业社交并没有Yammer那么简单]]></title>
     <link href="http://blog.teambition.com/2012/08/09/201208092333/"/>
     <id>http://blog.teambition.com/2012/08/09/201208092333/</id>
-    <published>2012-08-09T23:33:17.000Z</published>
-    <updated>2013-10-14T07:43:20.000Z</updated>
+    <published>2012-08-09T15:33:17.000Z</published>
+    <updated>2013-10-12T02:12:54.000Z</updated>
     <content type="html"><![CDATA[<p>我们团队对于今天雷锋网benimaru zhang的<strong><a href="http://www.leiphone.com/social-b.html" target="_blank">关于企业社交产品的讨论</a></strong>非常关注，
 与其说我们把这篇文章看作对于企业社交行业的分析，还不如把它当作
 了一篇用户写的体验报告，我们并不奢望用户在被“强迫”用了一个产品
@@ -618,8 +618,8 @@ Telecom，新兴科技、媒体和通信融合起来的综合产业），它应�
     <title type="html"><![CDATA[“执行远大于创意，韧性远大于热情”-采访游多多团队]]></title>
     <link href="http://blog.teambition.com/2012/08/07/201208071243/"/>
     <id>http://blog.teambition.com/2012/08/07/201208071243/</id>
-    <published>2012-08-07T12:43:53.000Z</published>
-    <updated>2013-10-15T06:08:44.000Z</updated>
+    <published>2012-08-07T04:43:53.000Z</published>
+    <updated>2013-10-15T06:19:32.000Z</updated>
     <content type="html"><![CDATA[<p>说到<a href="http://www.yododo.com" target="_blank">Yododo.com（游多多）</a>会有很多酷爱自助游的朋友会知道这个网站，
 这是个垂直社交的平台，每个用户可以在上面分享自己的游记、找驴友结伴旅行、找
 寻自己想要去的地方的各种资讯。在上面的用户已经达到了200万之多。</p>
@@ -671,8 +671,8 @@ Telecom，新兴科技、媒体和通信融合起来的综合产业），它应�
     <title type="html"><![CDATA[启创中国—“准天使”，为创业团队搭桥铺路]]></title>
     <link href="http://blog.teambition.com/2012/08/06/201208062138/"/>
     <id>http://blog.teambition.com/2012/08/06/201208062138/</id>
-    <published>2012-08-06T21:38:23.000Z</published>
-    <updated>2013-10-14T07:43:20.000Z</updated>
+    <published>2012-08-06T13:38:23.000Z</published>
+    <updated>2013-10-12T02:12:54.000Z</updated>
     <content type="html"><![CDATA[<p>上周五去采访启创中国团队的时候，才对他们在做什么有了更感性的认识，
 正好当时是他们一周年活动的庆典，到场有大概将近50多人，除了启创中
 国团队的成员以外还有许多是创业团队的成员，很多这些创业团队的朋友
@@ -727,8 +727,8 @@ Telecom，新兴科技、媒体和通信融合起来的综合产业），它应�
     <title type="html"><![CDATA[创业公司最大难题--怎样避免团队流失？]]></title>
     <link href="http://blog.teambition.com/2012/08/06/201208061639/"/>
     <id>http://blog.teambition.com/2012/08/06/201208061639/</id>
-    <published>2012-08-06T16:39:44.000Z</published>
-    <updated>2013-10-14T07:43:20.000Z</updated>
+    <published>2012-08-06T08:39:44.000Z</published>
+    <updated>2013-10-12T02:12:54.000Z</updated>
     <content type="html"><![CDATA[<p>创业阶段的公司，人是第一位的，事儿是人做的、资源在人手里，团队决定了项目的路
 能走多远，投资人最看重的也是团队。创业公司没钱没名气，招人、留人都很难，团队
 人员流失，不仅耽误项目进度，也影响士气，招人和留人是创业团队最头疼的问题之一。</p>
@@ -795,8 +795,8 @@ Telecom，新兴科技、媒体和通信融合起来的综合产业），它应�
     <title type="html"><![CDATA[联合创业办公社-团队协作LOFT]]></title>
     <link href="http://blog.teambition.com/2012/08/06/201208061422/"/>
     <id>http://blog.teambition.com/2012/08/06/201208061422/</id>
-    <published>2012-08-06T14:22:27.000Z</published>
-    <updated>2013-10-14T07:43:20.000Z</updated>
+    <published>2012-08-06T06:22:27.000Z</published>
+    <updated>2013-10-12T02:12:54.000Z</updated>
     <content type="html"><![CDATA[<p>Coworking是一种共享的工作环境，通常会有不同的组织和团队进驻办公，彼此独立
 完成各自项目，过程中可以与其他团队分享信息、知识、技能与想法等等，这种概念
 在硅谷特别适合小型的创业团队。维基百科上对于此概念的原文是&quot;Co-working is a
@@ -869,8 +869,8 @@ those coworking are usually not employed by the same organization.&quot;</p>
     <title type="html"><![CDATA[简单，不简单]]></title>
     <link href="http://blog.teambition.com/2012/08/01/201208012056/"/>
     <id>http://blog.teambition.com/2012/08/01/201208012056/</id>
-    <published>2012-08-01T20:56:48.000Z</published>
-    <updated>2013-10-15T06:08:44.000Z</updated>
+    <published>2012-08-01T12:56:48.000Z</published>
+    <updated>2013-10-15T06:19:32.000Z</updated>
     <content type="html"><![CDATA[<p>导读：乔布斯对设计的要求只有两个字“简化”，苹果所有的产品都是简单风格的，这也是
 苹果产品在全球受到热捧的原因。我们要本着简单原则，做不简单的产品。</p>
 <a id="more"></a>
@@ -890,8 +890,8 @@ those coworking are usually not employed by the same organization.&quot;</p>
     <title type="html"><![CDATA[解决团队阵痛：学会成长——应对公司成长问题]]></title>
     <link href="http://blog.teambition.com/2012/08/01/201208010723/"/>
     <id>http://blog.teambition.com/2012/08/01/201208010723/</id>
-    <published>2012-08-01T07:23:30.000Z</published>
-    <updated>2013-10-14T07:43:20.000Z</updated>
+    <published>2012-07-31T23:23:30.000Z</published>
+    <updated>2013-10-12T02:12:54.000Z</updated>
     <content type="html"><![CDATA[<p>今天看到 36氪上一篇来 自于 君联资本 副总裁 的 文章——<a href="http://www.36kr.com/p/132579.html" target="_blank">《 成长的阵痛：早期团队成员的成长跟不上公司成长的问题 》</a></p>
 <a id="more"></a>
 <p>作为一个投资人，作者看到了不少公司在不断升级的过程中，早期团队的能力已经无法满足团队发展的需求，而慢慢被踢出公司。</p>

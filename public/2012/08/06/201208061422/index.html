@@ -1,15 +1,8 @@
 <!DOCTYPE html><html><head><script src="/js/jquery.js"></script><script src="/js/blog.js"></script><meta charset="utf-8"><title>teambition blog</title><meta name="viewport" content="width=device-width, initial-scale=1.0"><link href="/css/teambition-ui.css" rel="stylesheet"><link href="/css/style.css" rel="stylesheet"><link rel="shortcut icon" href="/img/favicon.ico"></head><body><a href="/"><div class="square-brand teambition-font">t</div></a><div class="article-main"><script>$squareBrand = $('.square-brand');
-//TODO to remove
-if(document.referrer=="http://192.168.0.73:5003/"||document.referrer=="http://blog.teambition.com/"){
+if(document.referrer=="http://blog.teambition.com/"){
   $squareBrand.addClass('animated bounceInLeft');
-  /*setTimeout(function(){
-    $squareBrand.removeClass('animated bounceInLeft');
-  }, 2000);*/
 }
-else{
-  $squareBrand.css('opacity','1');
-}
-
+else $squareBrand.css('opacity','1');
 $(function () {
   var $hero=$('.hero');
   var $indicator = $('.loading-indicator');
@@ -25,14 +18,23 @@ $(function () {
       $hero.animate({opacity:1},700);
     });
   }
-  
+  var $title=$('.square-brand');
   window.onscroll = function(){
-    var offsetY = document.documentElement.scrollTop || document.body.scrollTop;
+    var offsetY=$(window).scrollTop();
     var opacityValue = 1.*(500-offsetY)/500;
     $hero.css('opacity', opacityValue);  
+    console.log(offsetY==0);
+    if(offsetY<=0){
+      $title.addClass('appear');
+      $title.removeClass('disappear');
+    }
+    if(offsetY>150){
+      $title.removeClass('appear');
+      $title.addClass('disappear');
+    }
   }
   
-})</script><div class="hero-bg"><div class="loading-indicator"><span class="loader-dot"></span><span class="loader-dot"></span><span class="loader-dot"></span></div></div><div class="hero"></div><div class="page-container"><article><header><h4><small><time datetime="Mon Aug 06 2012 14:22:27 GMT+0000">8/6/2012</time></small></h4><h1 class="title sigle-title">联合创业办公社-团队协作LOFT</h1></header><section class="main-content"><p>Coworking是一种共享的工作环境，通常会有不同的组织和团队进驻办公，彼此独立
+})</script><div class="hero-bg"><div class="loading-indicator"><span class="loader-dot"></span><span class="loader-dot"></span><span class="loader-dot"></span></div></div><div class="hero"></div><div class="page-container"><article><header><h4><small><time datetime="Mon Aug 06 2012 14:22:27 GMT+0800">8/6/2012</time></small></h4><h1 class="title sigle-title">联合创业办公社-团队协作LOFT</h1></header><section class="main-content"><p>Coworking是一种共享的工作环境，通常会有不同的组织和团队进驻办公，彼此独立
 完成各自项目，过程中可以与其他团队分享信息、知识、技能与想法等等，这种概念
 在硅谷特别适合小型的创业团队。维基百科上对于此概念的原文是&quot;Co-working is a
 style of <a href="http://en.wikipedia.org/wiki/Employment" target="_blank">work</a> that involves a shared working environment, often an

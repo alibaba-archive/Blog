@@ -11,17 +11,10 @@ block content
     -header=page.header||"default.jpg"
     script.
       $squareBrand = $('.square-brand');
-      //TODO to remove
-      if(document.referrer=="http://192.168.0.73:5003/"||document.referrer=="#{config.url}/"){
+      if(document.referrer=="#{config.url}/"){
         $squareBrand.addClass('animated bounceInLeft');
-        /*setTimeout(function(){
-          $squareBrand.removeClass('animated bounceInLeft');
-        }, 2000);*/
       }
-      else{
-        $squareBrand.css('opacity','1');
-      }
-
+      else $squareBrand.css('opacity','1');
       $(function () {
         var $hero=$('.hero');
         var $indicator = $('.loading-indicator');
@@ -37,11 +30,20 @@ block content
             $hero.animate({opacity:1},700);
           });
         }
-
+        var $title=$('.square-brand');
         window.onscroll = function(){
-          var offsetY = document.documentElement.scrollTop || document.body.scrollTop;
+          var offsetY=$(window).scrollTop();
           var opacityValue = 1.*(500-offsetY)/500;
           $hero.css('opacity', opacityValue);  
+          console.log(offsetY==0);
+          if(offsetY<=0){
+            $title.addClass('appear');
+            $title.removeClass('disappear');
+          }
+          if(offsetY>150){
+            $title.removeClass('appear');
+            $title.addClass('disappear');
+          }
         }
 
       })
