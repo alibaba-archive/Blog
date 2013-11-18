@@ -2,11 +2,7 @@ extends _layout
 include component/article
 
 block content
-  header.navbar
-    .navbar-inner
-      a.brand(href="/") 
-        b.teambition-font teambition
-        span  blog
+  include component/header
 
   .index-main
     section#wrapper
