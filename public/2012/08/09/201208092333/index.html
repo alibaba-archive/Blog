@@ -23,7 +23,6 @@ $(function () {
     var offsetY=$(window).scrollTop();
     var opacityValue = 1.*(500-offsetY)/500;
     $hero.css('opacity', opacityValue);  
-    console.log(offsetY==0);
     if(offsetY<=0){
       $title.addClass('appear');
       $title.removeClass('disappear');

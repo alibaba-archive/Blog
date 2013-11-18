@@ -5,8 +5,9 @@ block content
   section#wrapper
     h1(class="tag-title")='#'+page.tag
     section#post.clearfix
+      -i=1
       -page.posts.each(function(item){
-        mixin article(item,true)
+        mixin article(item,true, i++)
       -})
     section.pagination
       include component/pagination
