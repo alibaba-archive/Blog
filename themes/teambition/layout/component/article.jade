@@ -1,4 +1,4 @@
-mixin article(item, index,count)
+mixin article(item, index, count)
   article
     header
       if index
@@ -29,7 +29,7 @@ mixin article(item, index,count)
     section.main-content
       if item.excerpt && index
         !{item.excerpt}
-      else 
+      else
         !{item.content}
     if index
       footer

@@ -1,5 +1,6 @@
 extends _layout
 include component/article
+include component/heart
 include component/social
 include component/postnav
 
@@ -34,7 +35,7 @@ block content
         window.onscroll = function(){
           var offsetY=$(window).scrollTop();
           var opacityValue = 1.*(500-offsetY)/500;
-          $hero.css('opacity', opacityValue);  
+          $hero.css('opacity', opacityValue);
           if(offsetY<=0){
             $title.addClass('appear');
             $title.removeClass('disappear');
@@ -54,6 +55,7 @@ block content
     div.hero
     .page-container
       mixin article(page, false)
+      mixin heart()
       if config.disqus_shortname
         mixin social()
     mixin postnav(page.next,page.prev)
