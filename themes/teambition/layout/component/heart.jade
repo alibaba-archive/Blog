@@ -1,0 +1,16 @@
+mixin heart()
+  div.heart-handler-wrapper.active
+    a.heart-handler
+      div.poof.shake-poof
+      span.heart-icon
+      span.heart-number 10
+    div.pop-words
+  script
+    $(function(){
+      $('.heart-handler').click(function(event){
+        event.preventDefault();
+        $target = $(event.currentTarget);
+        $base = $target.parent();
+        $base.toggleClass('active');
+      })
+    })

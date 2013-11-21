@@ -1,0 +1,151 @@
+.hero{
+  .size(500px, 100%);
+  .background-size(cover);
+  background-position: center;
+  -webkit-backface-visibility: hidden;
+}
+
+.hero-bg{
+  opacity: 1;
+  position: absolute;
+  z-index: -1;
+  .size(500px, 100%);
+  background-color: #383838;
+  .loading-indicator{
+    margin-top: 240px;
+  }
+}
+.square-brand{
+  position: fixed;
+  z-index: 1;
+  top: 15px;
+  left: 15px;
+  .square(44px);
+  font-size: 36px;
+  color: #383838;
+  text-align: center;
+  line-height: 40px;
+  background-color: @white;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  .opacity(0);
+  .translate3d(0, 0, 0);
+  .transition(all 0.218s ease-in-out);
+}
+.page-container{
+  width: 660px;
+  margin: 0 auto;
+  > article{
+    margin-bottom: 70px;
+  }
+
+  header{
+    margin-top: 40px;
+  }
+
+  header > h1{
+    font-size: 42px;
+    font-weight: bold;
+    line-height: 1.2em;
+    margin-bottom: 35px;
+  }
+}
+.main-content{
+  font-size: 16px;
+  margin-top: 10px;
+  line-height: 1.7em;
+  p{
+    margin: 1.5em 0;
+  }
+
+  h2{
+    font-weight: bold;
+    font-size: 1.5em;
+    line-height: 1.1em;
+  }
+
+  h3{
+    font-weight: bold;
+    font-size: 1.2em;
+    line-height: 1.1em;
+  }
+  blockquote {
+    padding: 0 0 0 15px;
+    margin: 0 0 20px;
+    border-left: 2px solid #d9d9d9;
+  }
+}
+.postnav{
+  margin-top: 70px;
+  color: @white;
+  background-color: #333;
+  .postnav-inner{
+    height: 150px;
+    width: 1020px;
+    margin: 0 auto;
+    > div{
+      height: 150px;
+      float:left;
+    }
+  }
+  .prev,.next{
+    width: 400px;
+    line-height: 30px;
+    a{
+      display: block;
+      .size(100%, 100%);
+      padding: 20px 40px;
+      color: rgba(255,255,255,.9);
+      font-size: 20px;
+      text-decoration: none;
+      &:hover{
+        color: @white;
+        background-color: lighten(#333, 3%);
+      }
+    }
+  }
+  .home{
+    .size(150px, 220px);
+    text-align: center;
+    line-height: 150px;
+    border-left: 1px solid #444;
+    border-right: 1px solid #444;
+    .opacity(90);
+    &:hover{
+      .opacity(100);
+    }
+    a{
+      display: block;
+      .size(100%, 100%);
+      &:hover{
+        background-color: lighten(#333, 3%);
+      }
+    }
+    .icon-home{
+      display:inline-block;
+      width:50px;
+      height:50px;
+      background-image:url("../img/home-icon.png");
+      background-position:0 0px;
+      background-repeat:no-repeat;
+    }
+  }
+  span{
+    display:block;
+    color:#808080;
+  }
+}
+
+// share component
+.jiathis_style_24x24.jiathisdiv{
+  .jiathis_counter.jiathis_bubble_style{
+    width: 60px !important;
+    padding: 0 6px 0 6px;
+  }
+}
+
+// comment component
+.ds-thread{
+  .ds-powered-by{
+    display: none;
+  }
+}

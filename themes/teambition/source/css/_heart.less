@@ -1,0 +1,158 @@
+@-webkit-keyframes like_poof {
+    0% {
+        opacity: 1;
+        -webkit-transform: scale(0.5) rotate(0deg);
+    }
+    25% {
+        opacity: 1;
+        -webkit-transform: scale(1) rotate(-20deg);
+    }
+    75%{
+        -webkit-transform: rotate(20deg);
+    }
+    100% {
+        margin-top: -50px;
+        opacity: 0;
+        -webkit-transform: scale(1.1) rotate(0deg);
+    }
+}
+@keyframes like_poof {
+    0% {
+        opacity: 1;
+        transform: scale(0.5) rotate(0deg);
+    }
+    25% {
+        opacity: 1;
+        transform: scale(1) rotate(-20deg);
+    }
+    75%{
+        transform: rotate(20deg);
+    }
+    100% {
+        margin-top: -50px;
+        opacity: 0;
+        transform: scale(1.1) rotate(0deg);
+    }
+}
+
+@-webkit-keyframes pop_poof {
+    0% {
+        opacity: 1;
+        -webkit-transform: scale(0.5);
+    }
+    10% {
+        -webkit-transform: scale(1.2);
+    }
+    40%{
+        -webkit-transform: scale(1);
+    }
+    80%{
+        opacity: 1;
+        -webkit-transform: scale(1);
+    }
+    100% {
+        -webkit-transform: scale(1);
+    }
+}
+@keyframes pop_poof {
+    0% {
+        opacity: 1;
+        transform: scale(0.5);
+    }
+    10% {
+        transform: scale(1.2);
+    }
+    40% {
+        transform: scale(1);
+    }
+    80%{
+        opacity: 1;
+        transform: scale(1);
+    }
+    100% {
+        opacity: 0;
+        transform: scale(1);
+    }
+}
+
+.heart-handler-wrapper{
+  position: relative;
+  width: 70px;
+  margin: 0 auto 50px;
+  &.active{
+    .heart-handler{
+      background-color: #fff;
+      .heart-icon{
+        background-position: -16px 0;
+      }
+      .heart-number{
+        color: #ef3d59;
+      }
+    }
+    .poof{
+      -webkit-animation: like_poof .6s ease-out;
+      -moz-animation: like_poof .6s ease-out;
+      -ms-animation: like_poof .6s ease-out;
+      -o-animation: like_poof .6s ease-out;
+      animation: like_poof .6s ease-out;
+    }
+    .pop-words{
+      -webkit-animation: pop_poof 1.5s ease-out;
+      -moz-animation: pop_poof 1.5s ease-out;
+      -ms-animation: pop_poof 1.5s ease-out;
+      -o-animation: pop_poof 1.5s ease-out;
+      animation: pop_poof 1.5s ease-out;
+      -webkit-transform-origin: 0% 80%;
+      -moz-transform-origin: 0% 80%;
+      -o-transform-origin: 0% 80%;
+      transform-origin: 0% 80%;
+    }
+  }
+  .poof{
+    opacity: 0;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    margin-left: -16px;
+    margin-top: 10px;
+    .size(30px, 32px);
+    background-image: url('../img/heart.png');
+    background-position: -32px 0;
+    // background-size: 32px 15px;
+  }
+  .heart-handler{
+    display: block;
+    .square(70px);
+    .border-radius(70px);
+    border: 1px solid #ccc;
+    text-align: center;
+    font-size: 14px;
+    text-decoration: none;
+    .heart-icon{
+      display: block;
+      .size(15px, 16px);
+      margin: 17px auto 4px;
+      background-image: url('../img/heart.png');
+      background-position: 0 0;
+      background-size: 32px 15px;
+    }
+    .heart-number{
+      display: block;
+      color: #a6a6a6;
+      font-weight: bold;
+    }
+  }
+  .pop-words{
+    opacity: 0;
+    position: absolute;
+    left: 50%;
+    top: -40px;
+    margin-left: 35px;
+    .square(61px);
+    background-image: url('../img/pop-words.png');
+    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+      background-image: url('../img/pop-words@2x.png');
+      background-size: 61px 61px;
+    }
+  }
+}

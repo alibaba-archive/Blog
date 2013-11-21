@@ -1,0 +1,61 @@
+extends _layout
+include component/article
+include component/heart
+include component/social
+include component/postnav
+
+block content
+
+  a(href="/")
+    .square-brand.teambition-font t
+  .article-main
+    -header=page.header||"default.jpg"
+    script.
+      $squareBrand = $('.square-brand');
+      if(document.referrer=="#{config.url}/"){
+        $squareBrand.addClass('animated bounceInLeft');
+      }
+      else $squareBrand.css('opacity','1');
+      $(function () {
+        var $hero=$('.hero');
+        var $indicator = $('.loading-indicator');
+        var $heroBg = $('.hero-bg');
+        $hero.css('opacity',0);
+        var img=new Image();
+        img.src="/header/#{header}";
+        img.onload=function(){
+          var cover=document.getElementsByClassName('hero')[0];
+          cover.style.backgroundImage='url(/header/#{header})';
+          $indicator.animate({opacity: 0}, 500, function(){
+            $heroBg.animate({opacity:0},700);
+            $hero.animate({opacity:1},700);
+          });
+        }
+        var $title=$('.square-brand');
+        window.onscroll = function(){
+          var offsetY=$(window).scrollTop();
+          var opacityValue = 1.*(500-offsetY)/500;
+          $hero.css('opacity', opacityValue);
+          if(offsetY<=0){
+            $title.addClass('appear');
+            $title.removeClass('disappear');
+          }
+          if(offsetY>150){
+            $title.removeClass('appear');
+            $title.addClass('disappear');
+          }
+        }
+
+      })
+    div.hero-bg
+      div.loading-indicator
+        span.loader-dot
+        span.loader-dot
+        span.loader-dot
+    div.hero
+    .page-container
+      mixin article(page, false)
+      mixin heart()
+      if config.disqus_shortname
+        mixin social()
+    mixin postnav(page.next,page.prev)

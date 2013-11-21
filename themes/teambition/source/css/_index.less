@@ -1,0 +1,225 @@
+// main styles block
+body{
+  height: auto;
+  .transition(all .25s cubic-bezier(0.7,0,0.175,1) 0);
+  -moz-transition: all .2s ease-out;
+  background-color: #f5f6f7;
+}
+
+.teambition-font{
+  font-family: Ubuntu-B;
+  font-weight: normal;
+}
+
+#wrapper{
+  .tag-title{
+    margin-bottom: 40px;
+    font-size: 28px;
+    text-align: center;
+    color: @darkTextColor;
+  }
+}
+
+.navbar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  text-align: center;
+  .navbar-inner{
+    min-height: 40px;
+    .box-shadow(none);
+    border-bottom: 1px solid @grayLight;
+  }
+  .brand{
+    float: none;
+    display: table;
+    height: 100px;
+    margin: 0 auto;
+    padding: 0;
+    font-size: 16px;
+    font-weight: normal;
+    color: @lightTextColor;
+    line-height: 100px;
+    .transition(all 0.218s ease-in-out);
+    &.small{
+      height: 42px;
+      font-size: 12px;
+      line-height: 42px;
+      b{
+        font-size: 22px;
+      }
+    }
+
+    &:hover{
+      background-color: transparent;
+      color: @lightTextColor;
+    }
+
+    b{
+      float: left;
+      margin-top: -2px;
+      margin-right: 6px;
+      color: @darkTextColor;
+      font-size: 32px;
+      letter-spacing: 1px;
+      .transition(font-size 0.218s ease-in-out);
+    }
+  }
+}
+
+.pagination{
+  margin-bottom: 70px;
+  a.btn{
+    width: 80px;
+  }
+  .prev{
+    float: left;
+  }
+  .next{
+    float: right;
+  }
+}
+
+.index-footer {
+  padding: 30px 0;
+  border-top: 1px solid #f2f2f2;
+  background-color: #fff;
+  img {
+    display:none;
+  }
+  section {
+    height: 30px;
+    max-width: 1020px;
+    margin: 0 auto;
+    line-height:30px;
+    color: @lightTextColor;
+    b{
+      float: left;
+      margin-top: -2px;
+      margin-right: 6px;
+      color: @darkTextColor;
+      font-size: 32px;
+      letter-spacing: 1px;
+    }
+    .sns-info {
+      float: right;
+      margin-top: -6px;
+      line-height: 20px;
+      text-align: center;
+      > div {
+        display: inline-block;
+        position: relative;
+        .square(40px);
+        margin: 0px 10px;
+        background-color: @white;
+        .border-radius(40px);
+        cursor: pointer;
+        background-image: url(../img/helper-sns-logo.png);
+        @media (-webkit-min-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 3/2), (min-device-pixel-ratio: 2) {
+          background-image: url(../img/helper-sns-logo@2x.png);
+          background-size: 120px 80px;
+        }
+
+        &:before {
+          position: absolute;
+          left: 0;
+          top: -20px;
+          .square(40px);
+          content: "";
+        }
+
+        &:hover {
+          .pop {
+            display: block;
+          }
+        }
+        .pop {
+          display: none;
+          position: absolute;
+          padding: 20px;
+          border: 1px solid #d5d8dd;
+          background-color: @white;
+          .box-shadow(0 1px 6px rgba(0,0,0,.15));
+          &:before {
+            position: absolute;
+            left: 68px;
+            bottom: -15px;
+            border: 7px solid transparent;
+            border-top: 7px solid #d5d8dd;
+            content: "";
+          }
+          &:after {
+            position: absolute;
+            left: 68px;
+            bottom: -14px;
+            border: 7px solid transparent;
+            border-top: 7px solid white;
+            content: "";
+          }
+          label {
+            color: @grayTextColor;
+            margin-bottom: 0;
+          }
+          p {
+            margin-bottom: 10px;
+          }
+        }
+      }
+
+      .sina-info {
+        background-position: 0 0;
+        &:hover {
+          background-position: 0 -40px;
+        }
+      }
+
+      .qq-info {
+        background-position: -40px 0;
+        &:hover {
+          background-position: -40px -40px;
+        }
+      }
+
+      .weixin-info {
+        background-position: -80px 0;
+        &:hover {
+          background-position: -80px -40px;
+        }
+      }
+
+      .sina-info .pop {
+        top: -150px;
+        left: -55px;
+        .size(130px,150px);
+      }
+
+      .qq-info .pop {
+        top: -150px;
+        left: -55px;
+        .size(130px,150px);
+      }
+
+      .weixin-info .pop {
+        top: -220px;
+        left: -65px;
+        .size(200px,170px);
+        &:before {
+          left: 78px;
+        }
+        &:after {
+          left: 78px;
+        }
+        .qr-wrapper {
+          .square(120px);
+          margin: 0 auto;
+          background-image: url(../img/weixin-qr.jpg);
+          background-size: 120px 120px;
+        }
+      }
+    }
+  }
+
+}
+

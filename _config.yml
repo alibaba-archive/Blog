@@ -8,7 +8,7 @@ subtitle:
 description:
 author: teambition
 email: support@teambition.com
-language:
+language: zh_CN
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -41,7 +41,7 @@ tag_map:
 ## 2: Enable pagination
 ## 1: Disable pagination
 ## 0: Fully Disable
-archive: 2
+archive: 0
 category: 2
 tag: 2
 
@@ -57,7 +57,7 @@ logger_format:
 ## Hexo uses Moment.js to parse and display date
 ## You can customize the date format as defined in
 ## http://momentjs.com/docs/#/displaying/format/
-date_format: MMM D YYYY
+date_format: M/D/YYYY
 time_format: H:mm:ss
 
 # Pagination
@@ -66,17 +66,25 @@ per_page: 10
 pagination_dir: page
 
 # Disqus
-disqus_shortname:
+disqus_shortname: teambition
 
 # Extensions
 ## Plugins: https://github.com/tommy351/hexo/wiki/Plugins
 ## Themes: https://github.com/tommy351/hexo/wiki/Themes
-theme: light
+theme: teambition
 exclude_generator:
 plugins:
+- hexo-renderer-tbmarked
 - hexo-generator-feed
+- hexo-renderer-jade
+- hexo-renderer-less
 
 # Deployment
 ## Docs: http://zespia.tw/hexo/docs/deploy.html
 deploy:
-  type:
+  type: rsync
+  host: blog.teambition.com
+  user: blog
+  root: ~/blog
+  port: 22
+  delete: true

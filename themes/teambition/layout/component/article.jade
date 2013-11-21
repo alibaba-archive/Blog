@@ -1,0 +1,36 @@
+mixin article(item, index, count)
+  article
+    header
+      if index
+        -header='small-'+item.header||'default.jpg'
+        script.
+          $(function(){
+            var cover=$('##{count}');
+            var $imageBg = $('.image-bg');
+            cover.css('opacity',0);
+            var img=new Image();
+            img.src="/header/#{header}";
+            img.onload=function(){
+              cover[0].style.backgroundImage='url(/header/#{header})';
+              //$imageBg.animate({opacity: 0}, 700);
+              cover.animate({opacity:1},700);
+            }
+          });
+        a(href=config.root+item.path)
+          div.image-bg
+          div.image-wrapper(id="#{count}")
+        a(href=config.root+item.path): h1.title=item.title
+      else
+        h4: small: time(datetime=item.date)=item.date.format(config.date_format)
+        h1.title.sigle-title=item.title
+        -item.tags.each(function(tag){
+          a(href=config.root+tag.path, class="tag")='#'+tag.name
+        -})
+    section.main-content
+      if item.excerpt && index
+        !{item.excerpt}
+      else
+        !{item.content}
+    if index
+      footer
+        h4: small: time(datetime=item.date)=item.date.format(config.date_format)

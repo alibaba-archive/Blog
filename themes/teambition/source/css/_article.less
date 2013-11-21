@@ -1,0 +1,62 @@
+.text-multiline-overflow(@lineNumber) {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: @lineNumber;
+  -webkit-box-orient: vertical;
+}
+article{
+  time{
+    font-size: 12px;
+  }
+  .tag{
+    color: @lightTextColor;
+    font-size: @fontSizeLarger;
+    text-decoration: none;
+    margin-right: 15px;
+    font-style: italic;
+  }
+}
+
+#post > article{
+  width: 480px;
+  float: left;
+  position: relative;
+  margin-bottom: 60px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #e0e0e0;
+  a:hover{
+    text-decoration: none;
+  }
+  header h1{
+    margin-top: 30px;
+    color: @darkTextColor;
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 1.2em;
+  }
+  .image-bg{
+    opacity: 1;
+    position: absolute;
+    z-index: -1;
+    .size(300px, 100%);
+    background-color: #f5f6f7;
+  }
+  .image-wrapper{
+    .size(300px, 100%);
+    .background-size(cover); 
+    background-position: center;
+  }
+  > .main-content > p{
+    height: 54px;
+    .text-multiline-overflow(2);
+  }
+
+  p{
+    font-size: 16px;
+    color: @darkTextColor;
+  }
+  img{
+    display: none;
+  }
+}
