@@ -150,5 +150,9 @@
     margin-left: 35px;
     .square(61px);
     background-image: url('../img/pop-words.png');
+    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+      background-image: url('../img/pop-words@2x.png');
+      background-size: 61px 61px;
+    }
   }
 }
