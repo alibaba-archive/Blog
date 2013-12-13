@@ -32,11 +32,13 @@
   font-style: normal;
 }
 body {
+  height: auto;
   -webkit-transition: all 0.25s cubic-bezier(0.7, 0, 0.175, 1) 0;
   -moz-transition: all 0.25s cubic-bezier(0.7, 0, 0.175, 1) 0;
   -o-transition: all 0.25s cubic-bezier(0.7, 0, 0.175, 1) 0;
   transition: all 0.25s cubic-bezier(0.7, 0, 0.175, 1) 0;
   -moz-transition: all 0.2s ease-out;
+  background-color: #f5f6f7;
 }
 .teambition-font {
   font-family: Ubuntu-B;
@@ -271,7 +273,7 @@ article .tag {
   position: relative;
   margin-bottom: 60px;
   padding-bottom: 30px;
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #e0e0e0;
 }
 #post > article a:hover {
   text-decoration: none;
@@ -361,7 +363,7 @@ article .tag {
   transition: all 0.218s ease-in-out;
 }
 .page-container {
-  width: 640px;
+  width: 660px;
   margin: 0 auto;
 }
 .page-container > article {

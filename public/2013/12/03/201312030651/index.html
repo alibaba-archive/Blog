@@ -1,0 +1,104 @@
+<!DOCTYPE html><html><head><script src="/js/jquery.js"></script><script src="/js/blog.js"></script><meta charset="utf-8"><title>teambition blog</title><meta name="viewport" content="width=device-width, initial-scale=1.0"><link href="/css/teambition-ui.css" rel="stylesheet"><link href="/css/style.css" rel="stylesheet"><link rel="shortcut icon" href="/img/favicon.ico"><link href="/atom.xml" type="application/atom+xml" rel="alternate" title="teambition blog"></head><body><a href="/"><div class="square-brand teambition-font">t</div></a><div class="article-main"><script>$squareBrand = $('.square-brand');
+if(document.referrer=="http://blog.teambition.com/"){
+  $squareBrand.addClass('animated bounceInLeft');
+}
+else $squareBrand.css('opacity','1');
+$(function () {
+  var $hero=$('.hero');
+  var $indicator = $('.loading-indicator');
+  var $heroBg = $('.hero-bg');
+  $hero.css('opacity',0);
+  var img=new Image();
+  img.src="/header/blogpic1203.jpg";
+  img.onload=function(){
+    var cover=document.getElementsByClassName('hero')[0];
+    cover.style.backgroundImage='url(/header/blogpic1203.jpg)';
+    $indicator.animate({opacity: 0}, 500, function(){
+      $heroBg.animate({opacity:0},700);
+      $hero.animate({opacity:1},700);
+    });
+  }
+  var $title=$('.square-brand');
+  window.onscroll = function(){
+    var offsetY=$(window).scrollTop();
+    var opacityValue = 1.*(500-offsetY)/500;
+    $hero.css('opacity', opacityValue);  
+    if(offsetY<=0){
+      $title.addClass('appear');
+      $title.removeClass('disappear');
+    }
+    if(offsetY>150){
+      $title.removeClass('appear');
+      $title.addClass('disappear');
+    }
+  }
+  
+})</script><div class="hero-bg"><div class="loading-indicator"><span class="loader-dot"></span><span class="loader-dot"></span><span class="loader-dot"></span></div></div><div class="hero"></div><div class="page-container"><article><header><h4><small><time datetime="Tue Dec 03 2013 18:51:34 GMT+0800">12/3/2013</time></small></h4><h1 class="title sigle-title">齐俊元：如何提升协作化应用的用户体验</h1></header><section class="main-content"><p>「上个礼拜接受了IT桔子的邀请，在他们的会场分享teambition在用户体验上做的一些努力，现场反响不错，所以我请同事按照讲稿整理了一下，和各位共勉。」</p>
+<a id="more"></a>
+<p>如果你用过一些企业产品，那么看到teambition后，第一句话应该是“它非常的不一样”。这个不一样在哪里？不一样在它的用户体验：它非常漂亮，非常优雅，会有一些很有意思的细节让你用的时候非常方便，非常贴心。我把这个感受叫做“用户体验好”。今天分享的主题就是，怎么打造一个用户体验出色的协作应用。首先从分析协作应用的特点开始。</p>
+<h2>协作性应用的特点</h2>
+<p>我们要先弄清楚“协作应用”和“传统应用”有什么不同。下面这张图罗列了一些主要的区别：</p>
+<p><img src="/image/13860680583191.jpg" alt=""></p>
+<p><strong>首先是我们什么时候用这个应用：</strong></p>
+<p>我观察我身边的人，个人应用可能在早晨挤地铁的时候、中午休息的时候，或者晚上回到家的时候使用，而协作应用更多解决工作上的问题，一定是在工作时间使用。</p>
+<p><strong>第二点是，两者的停留时间也很不一样</strong></p>
+<p>Facebook应该是全世界停留时间最长的个人网站，它的停留时间也不会超过每天一两个小时，但协作性应用不一样，从我们的数据上来看，用户每天会花好多个小时在上面。</p>
+<p><strong>最后，人们使用它们的出发点非常不一样</strong></p>
+<p>个人应用是用来消磨时间的，因为我有一些碎片时间，我看一些文章，打一个游戏，是希望把这些时间用掉。协作应用不一样，我的出发点是，我不想浪费很多时间开会，我不想浪费很多时间跟我的团队争一些有的没的，总结而言，我希望节约时间。</p>
+<h2>协作应用的体验要素</h2>
+<p>由上面说的这些差异点出发，我总结了协作应用相比传统个人应用的体验要素，和大家探讨：</p>
+<p><img src="/image/13860681466262.jpg" alt=""></p>
+<p><strong>首当其冲的是协作性</strong></p>
+<p>你在设计一个协作应用的时候必须考虑它是几个人一起用的，所以保障协作性最为关键。</p>
+<p>有关协作性的第一点是发生的讨论必须要有明确的上下文。我们想想邮件为什么有时候会很不爽？因为我万一回复的时候忘记加一个人，万一抄送的时候忘记加一个人，然后再补，对话就会很乱，最后可能参与的人很难搞清楚整个讨论究竟前因后果是怎样的，容易造成误会和低效。Gmail引入了邮件的对话模式，其实就是想解决这个问题，但是很难，邮件天生就是这样，没有办法做到很好。所以做协作应用必须在乎这点，讨论一定要有清晰的上下文。</p>
+<p>然后，信息对于不同的人来说不能出现不对称。你可能在用邮件的时候会说：“你的邮件我没有收到，所以这事情我没有处理”，或者：“不好意思，这邮件我收到晚了，所以我才处理”，又或者发现邮件进垃圾箱了，这些事情经常发生。这就是所谓的信息不对称，你知道这件事情要处理，可是我还不知道。这种情况在协作应用里不能发生，发生了就是低效的。</p>
+<p>再来说说后期查找数据的事情，以文件为例，我们现在可能会用网盘共享一些文件，比以往用U盘拷贝方便很多，但有的时候同事可能把一个文件放在很深的一个目录里，我找半天都找不到。我认为这就是网盘在设计的时候并没有充分考虑怎样提高协作性。一个好的协作应用的数据应该是尽可能平的，便于查找，我认为iCloud在这个方面要考虑的充分一些。</p>
+<p><strong>第二个体验要素，协作类产品需要有很高的可用性</strong></p>
+<p>为什么我把可用性加进来，可能大家觉得什么样的应用都得有可用性啊。这么来考虑这个问题，平时一个应用假如有10个用户，一个不会用没关系，其他几个继续用。但是在协作应用里面不一样，10个人的团队，有一个人不用，这10个人全都不会用，所以协作应用对可用性的要求要高很多。它的学习成本必须非常低，有10个用户，必须10个用户全都会用，全都不用教。另外，协作应用是用来节约时间的，所以你要把使用效率放在心里面，你不应该有很复杂的操作，让别人要干一件事情浪费很多时间去做。</p>
+<p><strong>第三点是很多人忽略的一点，就是持续性非常重要</strong></p>
+<p>协作应用被打开以后，往往一天都不会关闭，所以它必须足够可靠、足够稳定，能够支撑用户一天的工作，我称之为持续性。持续性的另外一点是延伸到更多的使用场景中去，比如很多人会走出去办公，比如今天我在会场这里做演讲，我的员工在办公室，移动端保证我可以把工作延续下去。持续性的第三点在设计上，用户长年累月在你的产品上，如果它长得很不讨喜就很糟糕，我时常听到别人抱怨公司的办公系统：“我们公司的OA长得丑的不得了，不是老板逼我用，绝对不用。” 我们不能搞出这样的东西来，我们要确保大家每天都很享受地使用我们的应用。</p>
+<h2>Teambition的实际努力</h2>
+<p>最后，我和大家分享一下teambition在提高用户体验上做的一些实际努力。</p>
+<p><strong>分拆应用</strong></p>
+<p>Teambition在优化这些体验要素上都花了很大的心思，我们想做一个又简单，又很强大的工具。当时就在想到底该怎么做，就想去参考一下生活中有没有这样的先例。最后我们发现没有一个例子能战胜我们手中的智能手机这个例子，它将不同的功能拆到不同的应用里面，每一个应用去解决一个针对性的问题，它使用最好、最简单上手的交互方式去处理一个特定的问题。于是我爷爷奶奶每天也会拿着我送给他们的iPad看股票。</p>
+<p>所以我们当时就想，我们为你不同的项目提供几个不同的应用，每一个应用解决项目中的一类需求，这样我们就可以让每一个应用用最好的方式处理这个问题。</p>
+<p>第一个应用是动态墙，专门帮助项目成员进行交流、讨论。</p>
+<p><img src="/image/13860684025474.jpg" alt=""></p>
+<p>现在很多teambition的用户都告诉我，他们内部已经不再用邮件了，因为动态墙让讨论变得非常方便，你想说什么就可以直接说出来。我如果觉得某个成员和这个讨论有关系，不需要邮件抄送他，可以直接在动态墙上把他的头像拖拽到讨论里，他就会自动收到提醒，在回复的时候也可以实时同步。 </p>
+<p>第二个是任务板，在项目中最重要的任务管理，我们希望找到最好的方式帮助项目里的所有人都按时完成任务。</p>
+<p><img src="/image/5.jpg" alt=""></p>
+<p>我们将任务管理做成一个很大的白板，将任务的阶段一个一个列出来，所有的人第一眼看到就知道每个任务进展到什么阶段了。如果我自己的任务进展到新的阶段，我只需要把任务卡片拽起来拖到下一个阶段就可以了，相关的人自动会收到通知。如果我是项目负责人，我要修改一个任务的执行者，那么把新的执行者头像拖拽到这个任务卡片上，执行者就修改好了，非常简单。</p>
+<p>第三个应用是文件库，帮助项目成员共享文件，并且可以针对每一个文件展开讨论。</p>
+<p><img src="/image/6.jpg" alt=""></p>
+<p>teambition的文件库和其他网盘都不一样，我们规定它只有一级，你不能在一个文件夹里再建一个文件夹。我们的用户起先不理解，后来事实证明这样的方式真的能帮助他们找到文件，提高效率。</p>
+<p>我个人认为分拆应用是teambition在用户体验上做的最好的一个努力，就讲的多了一些。下面再分享几个细节。</p>
+<p><strong>永远无需刷新</strong></p>
+<p>teambition有iOS，有Android，但绝大多数用户在办公室使用网页端，所以我们在网页端上投入了非常多的研发力量，最让我喜爱的一点是：我们的网页是永远不需要刷新的，所有信息都会实时自动更新。并且，我们做了很好的内存管理，让它永远都不会奔溃。</p>
+<p><strong>邮件整合功能</strong></p>
+<p>在实际使用上可能出现一种情况就是，很多员工都用了，但是老板说：“我只收邮件”。我们做了一个功能就是，teambition上的讨论我们都会发个邮件给你，你可以直接回复邮件，就可以参与讨论。这也算我们在持续性上的一个尝试吧，数据还不错。</p>
+<p><strong>桌面通知</strong></p>
+<p>另外teambition用了html 5的桌面通知，所以当你的浏览器在后台运行的时候，你也会收到一个通知告诉你有新的工作进来了。这对于提高成员间协作的效率非常有意义。</p>
+<p><strong>使用灰阶色调</strong></p>
+<p>我希望用户在teambition上持续使用一天都会觉得看着很舒服，所以使用了灰阶色调。这在所有网站中很少这么使用，因为你如果往里面加色彩来让它变生动是很容易的，但如果只给你黑色到白色之间的灰阶，你要把一个网站设计得层次很分明，逻辑很清楚，是比较困难的。但是我认为这能满足不同年龄段在品味上的要求，就好像最初iPhone只有黑白色，一直到最近才出来iPhone 5c，卖点是色彩斑斓，不过它卖得并不好(笑)。</p>
+<h2>总结并展开一些讨论</h2>
+<p>以上就是我在提高协作性应用的用户体验上的一些思考和体会，希望能够大家启发。最后，我想留两个问题和大家探讨：</p>
+<p>1.<strong>新手引导是否有必要存在？</strong>现在我打开任何一个应用，一定有一个新手引导，但是我不确定大家是否觉得这是好的。是不是一个好的应用，不需要新手引导，大家应该拿起来就会用？这是值得思考的问题。</p>
+<p>2.<strong>移动版也应足够强大？</strong>有的公司愿意说，我的移动端拥有我PC端的全部功能，所有强大的功能都被放在你手上，但事实上是不是当我们走在路上的时候，我们其实没有能力做这么多的事情，而应该把最重要的事情放在移动端上，这也是一个很有意思的问题。</p>
+</section></article><div class="clearfix jiathis_style_24x24 jiathisdiv">
+<a class="jiathis_button_qzone"></a>
+<a class="jiathis_button_tsina"></a>
+<a class="jiathis_button_tqq"></a>
+<a class="jiathis_button_weixin"></a>
+<a class="jiathis_button_renren"></a>
+<a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
+<a class="jiathis_counter_style"></a>
+</div>
+<script type="text/javascript" src="http://v3.jiathis.com/code_mini/jia.js" charset="utf-8"></script><div class="ds-thread"></div><script>var duoshuoQuery = {short_name:"teambition"};
+  (function() {
+    var ds = document.createElement('script');
+    ds.type = 'text/javascript';ds.async = true;
+    ds.src = 'http://static.duoshuo.com/embed.js';
+    ds.charset = 'UTF-8';
+    (document.getElementsByTagName('head')[0] 
+      || document.getElementsByTagName('body')[0]).appendChild(ds);
+  })();</script></div><div class="postnav clearfix"><div class="postnav-inner"><div class="prev"><a href="/2013/12/13/201312130158/"><span>上一篇</span><div>如何利用teambition进行IT项目管理</div></a></div><div class="home"><a href="/"><i class="icon-home"></i></a></div><div class="next"><a href="/2013/11/08/201311080333/"><span>下一篇</span><div>90后创业：拼了命地工作+带点科幻的梦想</div></a></div></div></div></div><footer class="index-footer"><script>var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://"); document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F20a90cbf6b73fb35adf028fda309db3c' type='text/javascript'%3E%3C/script%3E"));</script><section><a href="http://www.teambition.com"><b class="teambition-font">teambition</b></a><span> &copy; 2013 make work enjoyable</span><div class="sns-info"><div class="sina-info"><div class="pop"><label>官方微博</label><p>@teambition</p><a href="http://weibo.com/teambition" target="_blank" class="btn btn-primary"><i class="icon-plus-white"></i>加关注</a></div></div><div class="qq-info"><div class="pop"><label>QQ群</label><p>329601963</p><a href="http://wp.qq.com/wpa/qunwpa?idkey=f12bcaf9c408d7adadf0f204217256e98250e99f41ed7a32fd0b6913aaf7f1d8" target="_blank" class="btn btn-primary"><i class="icon-plus-white"></i>加入</a></div></div><div class="weixin-info"><div class="pop"><label>微信客服</label><p>扫瞄二维码关注我们</p><div class="qr-wrapper"></div></div></div></div></section></footer></body></html>
