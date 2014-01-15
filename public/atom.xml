@@ -3,7 +3,7 @@
   <title><![CDATA[teambition blog]]></title>
   <link href="http://blog.teambition.com/atom.xml" rel="self"/>
   <link href="http://blog.teambition.com"/>
-  <updated>2014-01-15T03:54:39.960Z</updated>
+  <updated>2014-01-15T05:15:46.502Z</updated>
   <id>http://blog.teambition.com/</id>
   <author>
     <name><![CDATA[teambition]]></name>
@@ -15,7 +15,7 @@
     <link href="http://blog.teambition.com/2014/01/13/201401131152/"/>
     <id>http://blog.teambition.com/2014/01/13/201401131152/</id>
     <published>2014-01-13T03:52:22.000Z</published>
-    <updated>2014-01-14T02:44:21.000Z</updated>
+    <updated>2014-01-15T04:49:51.000Z</updated>
     <content type="html"><![CDATA[<p>前些天和朋友说起移动办公的话题，对方向我推荐了他新买的签批系统。由于工作关系他经常不在公司办公，但是只要有网络的地方，就可以很方便地在手机上进行日常事务的处理。</p>
 <a id="more"></a>
 <p>平时的工作中，Teambition团队也常常收到用户类似的反馈：“希望移动端可以有怎样怎样的功能”，或者“我之所以会用你们的产品，是因为你们多终端的同步做得好，手机上处理事情非常方便”。</p>
@@ -48,7 +48,7 @@
     <link href="http://blog.teambition.com/2013/12/30/201312300500/"/>
     <id>http://blog.teambition.com/2013/12/30/201312300500/</id>
     <published>2013-12-30T09:00:18.000Z</published>
-    <updated>2014-01-13T04:11:07.000Z</updated>
+    <updated>2014-01-15T04:49:51.000Z</updated>
     <content type="html"><![CDATA[<p>我之前在大众点评网工作，公司在2013年完成了整个技术部团队向Scrum的转型，更多可以参考<a href="http://www.infoq.com/cn/news/2013/09/dianping-agile" target="_blank">大众点评网研发管理高级经理唐灏：几百人规模的研发团队如何进行敏捷转型</a>。</p>
 <a id="more"></a>
 <p>现在我加入了<a href="https://www.teambition.com/?s=scrum" target="_blank">Teambition</a>，一个初创的团队，我们致力为追求效率及品质的团队打造简单、高效的项目协作工具。也是因为在大众点评网的Scrum体验，让我增加了对团队协作工具的兴趣，遂而加入了Teambition。</p>
@@ -119,7 +119,7 @@
     <link href="http://blog.teambition.com/2013/12/26/201312261107/"/>
     <id>http://blog.teambition.com/2013/12/26/201312261107/</id>
     <published>2013-12-26T03:07:40.000Z</published>
-    <updated>2014-01-13T04:11:40.000Z</updated>
+    <updated>2014-01-15T04:49:51.000Z</updated>
     <content type="html"><![CDATA[<p>说起“创业”这个话题，可能很多朋友都很感兴趣。前阵子在和一些年轻的朋友分享我创业时遇到的一些事情，希望可以为他们的创业提供一些借鉴和鼓励。</p>
 <a id="more"></a>
 <h2>关键词一：选择</h2>
@@ -155,7 +155,7 @@
     <link href="http://blog.teambition.com/2013/12/13/201312130210/"/>
     <id>http://blog.teambition.com/2013/12/13/201312130210/</id>
     <published>2013-12-13T06:10:46.000Z</published>
-    <updated>2014-01-13T04:11:30.000Z</updated>
+    <updated>2014-01-15T04:49:51.000Z</updated>
     <content type="html"><![CDATA[<p>前几天看新闻，说起一篇名为“雾霾天在家办公温暖人心”的报道，不禁莞尔。自从进入12月以来，上海的空气质量一直处于令人担忧的状态，报道说许多外企可以允许员工在家办公，问了一圈身边的朋友后发现，国内企业实行该举措的少之又少。细细想了一下，老板的担心或许不无道理，如果没有一套合理的团队协作机制，在家办公只能沦为无谓的“带薪休假”。</p>
 <a id="more"></a>
 <p>其实，现在远程办公的条件已经十分完善，有些工作除非紧急或者必须在现场办公的，完全可以借助一些团队协作类的工具，在家里保质保量地完成。我想以我们团队目前正在使用的一款团队协作工具——teambition为例，展示团队是如何远程进行协作办公的。</p>
@@ -178,7 +178,7 @@
     <link href="http://blog.teambition.com/2013/12/13/201312130158/"/>
     <id>http://blog.teambition.com/2013/12/13/201312130158/</id>
     <published>2013-12-13T05:58:14.000Z</published>
-    <updated>2014-01-13T04:11:51.000Z</updated>
+    <updated>2014-01-15T04:49:51.000Z</updated>
     <content type="html"><![CDATA[<p>在teambition的用户中有许多IT界的朋友，大家对提升IT项目管理有着一些需求，有些曾经用过其他的项目管理工具，有些则没有。Teambition作为一个项目协作工具，我们本身也是这款产品的爱用者，今天想把我们自己团队内部如何使用teambition进行IT项目管理的方法分享出来，如果你从未接触过项目协作类产品，曾被“项目”、“任务分组”、“任务”等概念弄得晕头转向，那么下面的内容可能会对你有帮助。</p>
 <a id="more"></a>
 <h2>任务分组的方式</h2>
@@ -210,7 +210,7 @@
     <link href="http://blog.teambition.com/2013/12/03/201312030651/"/>
     <id>http://blog.teambition.com/2013/12/03/201312030651/</id>
     <published>2013-12-03T10:51:34.000Z</published>
-    <updated>2013-12-03T11:07:53.000Z</updated>
+    <updated>2014-01-15T04:49:51.000Z</updated>
     <content type="html"><![CDATA[<p>「上个礼拜接受了IT桔子的邀请，在他们的会场分享teambition在用户体验上做的一些努力，现场反响不错，所以我请同事按照讲稿整理了一下，和各位共勉。」</p>
 <a id="more"></a>
 <p>如果你用过一些企业产品，那么看到teambition后，第一句话应该是“它非常的不一样”。这个不一样在哪里？不一样在它的用户体验：它非常漂亮，非常优雅，会有一些很有意思的细节让你用的时候非常方便，非常贴心。我把这个感受叫做“用户体验好”。今天分享的主题就是，怎么打造一个用户体验出色的协作应用。首先从分析协作应用的特点开始。</p>
@@ -269,7 +269,7 @@
     <link href="http://blog.teambition.com/2013/11/08/201311080333/"/>
     <id>http://blog.teambition.com/2013/11/08/201311080333/</id>
     <published>2013-11-08T07:33:22.000Z</published>
-    <updated>2013-11-26T04:01:55.000Z</updated>
+    <updated>2014-01-15T04:49:51.000Z</updated>
     <content type="html"><![CDATA[<p><em>编者语：本文采访自teambition创始人齐俊元。</em></p>
 <a id="more"></a>
 <p>上周末去做了一个名为“高效人士的百宝箱”的活动的分享，到场的有来自各行各业的将近50人，也有一部分年轻的创业者，跟他们分享了一些创业中遇到的事情，大家对如何保持高效的工作状态都比较感兴趣。</p>
@@ -307,7 +307,7 @@
     <link href="http://blog.teambition.com/2013/10/31/201310310633/"/>
     <id>http://blog.teambition.com/2013/10/31/201310310633/</id>
     <published>2013-10-31T10:33:28.000Z</published>
-    <updated>2013-11-20T09:50:54.000Z</updated>
+    <updated>2014-01-15T04:49:51.000Z</updated>
     <content type="html"><![CDATA[<p>都说产品只有自己用的好，才知道痛点在哪里，作为一个与邮件打了近10年交道的资深白骨精，我不得不说邮件是工作中必不可少的沟通工具，在对外沟通中，邮件很好的体现了商务形象，沟通的过程也像是一种有据可查的凭证，显得十分专业并且有条理。但在内部协作时，邮件的一些弊端让团队的效率大打折扣，主要有以下两点：</p>
 <a id="more"></a>
 <p><strong>1. 非即时性</strong></p>
@@ -396,7 +396,7 @@
     <link href="http://blog.teambition.com/2013/10/16/201310160822/"/>
     <id>http://blog.teambition.com/2013/10/16/201310160822/</id>
     <published>2013-10-16T00:22:25.000Z</published>
-    <updated>2013-11-27T08:53:30.000Z</updated>
+    <updated>2014-01-15T04:49:51.000Z</updated>
     <content type="html"><![CDATA[<p>许多用过teambition的朋友或许会对“桌面通知”这个功能情有独钟，它让你不会漏掉任何一个重要事项。然而最近我们接到一些用户反映，在最初没有设置桌面通知的功能，事后想要找回，却苦无方法。</p>
 <a id="more"></a>
 <p><img src="/image/1385542178484桌面通知1.jpg" alt=""></p>
@@ -463,7 +463,7 @@
     <link href="http://blog.teambition.com/2013/10/10/201310100657/"/>
     <id>http://blog.teambition.com/2013/10/10/201310100657/</id>
     <published>2013-10-10T10:57:37.000Z</published>
-    <updated>2013-11-26T08:36:15.000Z</updated>
+    <updated>2014-01-15T04:49:51.000Z</updated>
     <content type="html"><![CDATA[<p>如果你觉得每次打开teambition都需要手动输入网址很麻烦，那么接下来的这个方式或许会让你省力很多。</p>
 <a id="more"></a>
 <p>我们可以通过Chrome的扩展程序来为你的teambition添加一个桌面快捷方式。</p>
@@ -487,7 +487,7 @@
     <link href="http://blog.teambition.com/2013/10/10/201310100405/"/>
     <id>http://blog.teambition.com/2013/10/10/201310100405/</id>
     <published>2013-10-10T08:05:29.000Z</published>
-    <updated>2013-11-26T09:35:26.000Z</updated>
+    <updated>2014-01-15T04:49:51.000Z</updated>
     <content type="html"><![CDATA[<p>最近我们做的一份调查报告显示，90%的teambition用户都非常愿意将我们的产品介绍给他们身周围的朋友或同事，对此我们深感欣慰。在以往我们走访的用户中，我们发现不同行业的人有各种各样使用teambition的方法，一些甚至让我们自己都很受启发，他们确确实实用teambition解决了日常工作中存在已久的一些协作问题。</p>
 <a id="more"></a>
 <p>今天我们分享一个IT公司是如何利用teambition解决“市场部与研发部对于用户反馈的问题进行高效处理”的案例，如果你的公司市场部门时常为在反馈了产品相关的问题或负面后，无法得知具体的处理进展而苦恼；研发人员受理的问题又和用户实际需求脱节，那么下面这个案例可能会让他们更好地进行协作。</p>

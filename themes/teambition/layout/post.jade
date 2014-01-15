@@ -5,7 +5,7 @@ include component/postnav
 
 block content
 
-  a(href="/")
+  a(href="#{config.root}")
     .square-brand.teambition-font t
   .article-main
     -header=page.header||"default.jpg"
@@ -21,10 +21,10 @@ block content
         var $heroBg = $('.hero-bg');
         $hero.css('opacity',0);
         var img=new Image();
-        img.src="/header/#{header}";
+        img.src="#{config.root}header/#{header}";
         img.onload=function(){
           var cover=document.getElementsByClassName('hero')[0];
-          cover.style.backgroundImage='url(/header/#{header})';
+          cover.style.backgroundImage='url(#{config.root}/header/#{header})';
           $indicator.animate({opacity: 0}, 500, function(){
             $heroBg.animate({opacity:0},700);
             $hero.animate({opacity:1},700);

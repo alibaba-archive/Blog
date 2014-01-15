@@ -9,9 +9,9 @@ mixin article(item, index,count)
             var $imageBg = $('.image-bg');
             cover.css('opacity',0);
             var img=new Image();
-            img.src="/header/#{header}";
+            img.src="#{config.root}header/#{header}";
             img.onload=function(){
-              cover[0].style.backgroundImage='url(/header/#{header})';
+              cover[0].style.backgroundImage='url(#{config.root}header/#{header})';
               //$imageBg.animate({opacity: 0}, 700);
               cover.animate({opacity:1},700);
             }
