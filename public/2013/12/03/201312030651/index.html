@@ -1,4 +1,4 @@
-<!DOCTYPE html><html><head><script src="/js/jquery.js"></script><script src="/js/blog.js"></script><meta charset="utf-8"><title>齐俊元：如何提升协作化应用的用户体验</title><meta name="viewport" content="width=device-width, initial-scale=1.0"><link href="/css/teambition-ui.css" rel="stylesheet"><link href="/css/style.css" rel="stylesheet"><link rel="shortcut icon" href="/img/favicon.ico"><link href="/atom.xml" type="application/atom+xml" rel="alternate" title="teambition blog"></head><body><a href="/"><div class="square-brand teambition-font">t</div></a><div class="article-main"><script>$squareBrand = $('.square-brand');
+<!DOCTYPE html><html><head><script src="/blog/js/jquery.js"></script><script src="/blog/js/blog.js"></script><meta charset="utf-8"><title>齐俊元：如何提升协作化应用的用户体验</title><meta name="viewport" content="width=device-width, initial-scale=1.0"><link href="/blog/css/teambition-ui.css" rel="stylesheet"><link href="/blog/css/style.css" rel="stylesheet"><link rel="shortcut icon" href="/blog/img/favicon.ico"><link href="/blog/atom.xml" type="application/atom+xml" rel="alternate" title="teambition blog"></head><body><a href="/blog/"><div class="square-brand teambition-font">t</div></a><div class="article-main"><script>$squareBrand = $('.square-brand');
 if(document.referrer=="http://blog.teambition.com/"){
   $squareBrand.addClass('animated bounceInLeft');
 }
@@ -9,10 +9,10 @@ $(function () {
   var $heroBg = $('.hero-bg');
   $hero.css('opacity',0);
   var img=new Image();
-  img.src="/header/blogpic1203.jpg";
+  img.src="/blog/header/blogpic1203.jpg";
   img.onload=function(){
     var cover=document.getElementsByClassName('hero')[0];
-    cover.style.backgroundImage='url(/header/blogpic1203.jpg)';
+    cover.style.backgroundImage='url(/blog//header/blogpic1203.jpg)';
     $indicator.animate({opacity: 0}, 500, function(){
       $heroBg.animate({opacity:0},700);
       $hero.animate({opacity:1},700);
@@ -38,7 +38,7 @@ $(function () {
 <p>如果你用过一些企业产品，那么看到teambition后，第一句话应该是“它非常的不一样”。这个不一样在哪里？不一样在它的用户体验：它非常漂亮，非常优雅，会有一些很有意思的细节让你用的时候非常方便，非常贴心。我把这个感受叫做“用户体验好”。今天分享的主题就是，怎么打造一个用户体验出色的协作应用。首先从分析协作应用的特点开始。</p>
 <h2>协作性应用的特点</h2>
 <p>我们要先弄清楚“协作应用”和“传统应用”有什么不同。下面这张图罗列了一些主要的区别：</p>
-<p><img src="/image/13860680583191.jpg" alt=""></p>
+<p><img src="/blog/image/13860680583191.jpg" alt=""></p>
 <p><strong>首先是我们什么时候用这个应用：</strong></p>
 <p>我观察我身边的人，个人应用可能在早晨挤地铁的时候、中午休息的时候，或者晚上回到家的时候使用，而协作应用更多解决工作上的问题，一定是在工作时间使用。</p>
 <p><strong>第二点是，两者的停留时间也很不一样</strong></p>
@@ -47,7 +47,7 @@ $(function () {
 <p>个人应用是用来消磨时间的，因为我有一些碎片时间，我看一些文章，打一个游戏，是希望把这些时间用掉。协作应用不一样，我的出发点是，我不想浪费很多时间开会，我不想浪费很多时间跟我的团队争一些有的没的，总结而言，我希望节约时间。</p>
 <h2>协作应用的体验要素</h2>
 <p>由上面说的这些差异点出发，我总结了协作应用相比传统个人应用的体验要素，和大家探讨：</p>
-<p><img src="/image/13860681466262.jpg" alt=""></p>
+<p><img src="/blog/image/13860681466262.jpg" alt=""></p>
 <p><strong>首当其冲的是协作性</strong></p>
 <p>你在设计一个协作应用的时候必须考虑它是几个人一起用的，所以保障协作性最为关键。</p>
 <p>有关协作性的第一点是发生的讨论必须要有明确的上下文。我们想想邮件为什么有时候会很不爽？因为我万一回复的时候忘记加一个人，万一抄送的时候忘记加一个人，然后再补，对话就会很乱，最后可能参与的人很难搞清楚整个讨论究竟前因后果是怎样的，容易造成误会和低效。Gmail引入了邮件的对话模式，其实就是想解决这个问题，但是很难，邮件天生就是这样，没有办法做到很好。所以做协作应用必须在乎这点，讨论一定要有清晰的上下文。</p>
@@ -63,13 +63,13 @@ $(function () {
 <p>Teambition在优化这些体验要素上都花了很大的心思，我们想做一个又简单，又很强大的工具。当时就在想到底该怎么做，就想去参考一下生活中有没有这样的先例。最后我们发现没有一个例子能战胜我们手中的智能手机这个例子，它将不同的功能拆到不同的应用里面，每一个应用去解决一个针对性的问题，它使用最好、最简单上手的交互方式去处理一个特定的问题。于是我爷爷奶奶每天也会拿着我送给他们的iPad看股票。</p>
 <p>所以我们当时就想，我们为你不同的项目提供几个不同的应用，每一个应用解决项目中的一类需求，这样我们就可以让每一个应用用最好的方式处理这个问题。</p>
 <p>第一个应用是动态墙，专门帮助项目成员进行交流、讨论。</p>
-<p><img src="/image/13860684025474.jpg" alt=""></p>
+<p><img src="/blog/image/13860684025474.jpg" alt=""></p>
 <p>现在很多teambition的用户都告诉我，他们内部已经不再用邮件了，因为动态墙让讨论变得非常方便，你想说什么就可以直接说出来。我如果觉得某个成员和这个讨论有关系，不需要邮件抄送他，可以直接在动态墙上把他的头像拖拽到讨论里，他就会自动收到提醒，在回复的时候也可以实时同步。 </p>
 <p>第二个是任务板，在项目中最重要的任务管理，我们希望找到最好的方式帮助项目里的所有人都按时完成任务。</p>
-<p><img src="/image/5.jpg" alt=""></p>
+<p><img src="/blog/image/5.jpg" alt=""></p>
 <p>我们将任务管理做成一个很大的白板，将任务的阶段一个一个列出来，所有的人第一眼看到就知道每个任务进展到什么阶段了。如果我自己的任务进展到新的阶段，我只需要把任务卡片拽起来拖到下一个阶段就可以了，相关的人自动会收到通知。如果我是项目负责人，我要修改一个任务的执行者，那么把新的执行者头像拖拽到这个任务卡片上，执行者就修改好了，非常简单。</p>
 <p>第三个应用是文件库，帮助项目成员共享文件，并且可以针对每一个文件展开讨论。</p>
-<p><img src="/image/6.jpg" alt=""></p>
+<p><img src="/blog/image/6.jpg" alt=""></p>
 <p>teambition的文件库和其他网盘都不一样，我们规定它只有一级，你不能在一个文件夹里再建一个文件夹。我们的用户起先不理解，后来事实证明这样的方式真的能帮助他们找到文件，提高效率。</p>
 <p>我个人认为分拆应用是teambition在用户体验上做的最好的一个努力，就讲的多了一些。下面再分享几个细节。</p>
 <p><strong>永远无需刷新</strong></p>
@@ -84,21 +84,9 @@ $(function () {
 <p>以上就是我在提高协作性应用的用户体验上的一些思考和体会，希望能够大家启发。最后，我想留两个问题和大家探讨：</p>
 <p>1.<strong>新手引导是否有必要存在？</strong>现在我打开任何一个应用，一定有一个新手引导，但是我不确定大家是否觉得这是好的。是不是一个好的应用，不需要新手引导，大家应该拿起来就会用？这是值得思考的问题。</p>
 <p>2.<strong>移动版也应足够强大？</strong>有的公司愿意说，我的移动端拥有我PC端的全部功能，所有强大的功能都被放在你手上，但事实上是不是当我们走在路上的时候，我们其实没有能力做这么多的事情，而应该把最重要的事情放在移动端上，这也是一个很有意思的问题。</p>
-</section></article><div class="clearfix jiathis_style_24x24 jiathisdiv">
-<a class="jiathis_button_qzone"></a>
-<a class="jiathis_button_tsina"></a>
-<a class="jiathis_button_tqq"></a>
-<a class="jiathis_button_weixin"></a>
-<a class="jiathis_button_renren"></a>
-<a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
-<a class="jiathis_counter_style"></a>
-</div>
-<script type="text/javascript" src="http://v3.jiathis.com/code_mini/jia.js" charset="utf-8"></script><div class="ds-thread"></div><script>var duoshuoQuery = {short_name:"teambition"};
-  (function() {
-    var ds = document.createElement('script');
-    ds.type = 'text/javascript';ds.async = true;
-    ds.src = 'http://static.duoshuo.com/embed.js';
-    ds.charset = 'UTF-8';
-    (document.getElementsByTagName('head')[0] 
-      || document.getElementsByTagName('body')[0]).appendChild(ds);
-  })();</script></div><div class="postnav clearfix"><div class="postnav-inner"><div class="prev"><a href="/2013/12/13/201312130158/"><span>上一篇</span><div>如何利用teambition进行IT项目管理</div></a></div><div class="home"><a href="/"><i class="icon-home"></i></a></div><div class="next"><a href="/2013/11/08/201311080333/"><span>下一篇</span><div>90后创业：拼了命地工作+带点科幻的梦想</div></a></div></div></div></div><footer class="index-footer"><script>var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://"); document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F20a90cbf6b73fb35adf028fda309db3c' type='text/javascript'%3E%3C/script%3E"));</script><section><a href="http://www.teambition.com"><b class="teambition-font">teambition</b></a><span> &copy; 2013 make work enjoyable</span><div class="sns-info"><div class="sina-info"><div class="pop"><label>官方微博</label><p>@teambition</p><a href="http://weibo.com/teambition" target="_blank" class="btn btn-primary"><i class="icon-plus-white"></i>加关注</a></div></div><div class="qq-info"><div class="pop"><label>QQ群</label><p>329601963</p><a href="http://wp.qq.com/wpa/qunwpa?idkey=f12bcaf9c408d7adadf0f204217256e98250e99f41ed7a32fd0b6913aaf7f1d8" target="_blank" class="btn btn-primary"><i class="icon-plus-white"></i>加入</a></div></div><div class="weixin-info"><div class="pop"><label>微信客服</label><p>扫瞄二维码关注我们</p><div class="qr-wrapper"></div></div></div></div></section></footer></body></html>
+</section></article><div id="disqus_thread"></div><script>var disqus_shortname = 'teambition';
+(function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();</script></div><div class="postnav clearfix"><div class="postnav-inner"><div class="prev"><a href="/blog/2013/12/13/201312130158/"><span>上一篇</span><div>如何利用teambition进行IT项目管理</div></a></div><div class="home"><a href="/blog/"><i class="icon-home"></i></a></div><div class="next"><a href="/blog/2013/11/08/201311080333/"><span>下一篇</span><div>90后创业：拼了命地工作+带点科幻的梦想</div></a></div></div></div></div><footer class="index-footer"><script>var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://"); document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F20a90cbf6b73fb35adf028fda309db3c' type='text/javascript'%3E%3C/script%3E"));</script><section><a href="http://www.teambition.com"><b class="teambition-font">teambition</b></a><span> &copy; 2013 make work enjoyable</span><div class="sns-info"><div class="sina-info"><div class="pop"><label>官方微博</label><p>@teambition</p><a href="http://weibo.com/teambition" target="_blank" class="btn btn-primary"><i class="icon-plus-white"></i>加关注</a></div></div><div class="qq-info"><div class="pop"><label>QQ群</label><p>329601963</p><a href="http://wp.qq.com/wpa/qunwpa?idkey=f12bcaf9c408d7adadf0f204217256e98250e99f41ed7a32fd0b6913aaf7f1d8" target="_blank" class="btn btn-primary"><i class="icon-plus-white"></i>加入</a></div></div><div class="weixin-info"><div class="pop"><label>微信客服</label><p>扫瞄二维码关注我们</p><div class="qr-wrapper"></div></div></div></div></section></footer></body></html>

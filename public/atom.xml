@@ -3,7 +3,7 @@
   <title><![CDATA[teambition blog]]></title>
   <link href="http://blog.teambition.com/atom.xml" rel="self"/>
   <link href="http://blog.teambition.com"/>
-  <updated>2014-01-15T05:15:46.502Z</updated>
+  <updated>2014-01-15T11:41:59.478Z</updated>
   <id>http://blog.teambition.com/</id>
   <author>
     <name><![CDATA[teambition]]></name>
@@ -15,7 +15,7 @@
     <link href="http://blog.teambition.com/2014/01/13/201401131152/"/>
     <id>http://blog.teambition.com/2014/01/13/201401131152/</id>
     <published>2014-01-13T03:52:22.000Z</published>
-    <updated>2014-01-15T04:49:51.000Z</updated>
+    <updated>2014-01-15T07:25:07.000Z</updated>
     <content type="html"><![CDATA[<p>前些天和朋友说起移动办公的话题，对方向我推荐了他新买的签批系统。由于工作关系他经常不在公司办公，但是只要有网络的地方，就可以很方便地在手机上进行日常事务的处理。</p>
 <a id="more"></a>
 <p>平时的工作中，Teambition团队也常常收到用户类似的反馈：“希望移动端可以有怎样怎样的功能”，或者“我之所以会用你们的产品，是因为你们多终端的同步做得好，手机上处理事情非常方便”。</p>
@@ -26,18 +26,18 @@
 <p>如果类似的事情时有发生，那可能你就需要考虑找一个适合你的移动办公方案了。Teambition可以有4个方向帮到你：</p>
 <p><strong>及时查看项目动态</strong></p>
 <p>如果你是个管理者，你可能需要及时地知道安排给下属的任务具体进展到哪一个阶段了，这个时候teambition的“任务阶段”就可以显示这条任务的进展。</p>
-<p><img src="/image/未标题-1.jpg" alt=""></p>
+<p><img src="/blog/image/未标题-1.jpg" alt=""></p>
 <p>另外，如果你的团队成员经常会针对一条任务展开讨论，可以通过“添加相关成员”来让对方知道“这件事情需要你马上参与讨论”。</p>
-<p><img src="/image/未标题-2.jpg" alt=""></p>
+<p><img src="/blog/image/未标题-2.jpg" alt=""></p>
 <p><strong>随时访问工作文档</strong></p>
 <p>很多重要的工作资料和文档，平时都会存放在公司电脑里，在外急需时却很难找寻。我们把文档都存放在“文件库”中，所有文件在手机端也可以完整预览，无论你是出去见客户、在外地出差，亦或是因故在家办公，文件库里的资料都可以供你随时取阅。</p>
-<p><img src="/image/未标题-3.jpg" alt=""></p>
+<p><img src="/blog/image/未标题-3.jpg" alt=""></p>
 <p><strong>随时随地分享信息</strong></p>
 <p>有一次我的同事在一个线下沙龙里向用户展示Teambition的功能，在介绍“分享墙”的时候，他用手机随手拍了一张现场的照片传到Teambition上，屏幕投影上立马显现了出来。分享墙可以实时展示你分享的文字或图片。你可以在外随手拍照上传，办公室里的同事可以及时收到推送，并展开讨论。</p>
-<p><img src="/image/未标题-4.jpg" alt=""></p>
+<p><img src="/blog/image/未标题-4.jpg" alt=""></p>
 <p><strong>突发情况及时上报</strong></p>
 <p>你总是不知道在什么时候会有意想不到的突发状况发生。以往在公司中，突发状况往往需要层层上报，一位在500强工作的朋友曾经告诉我，在他们公司上报一件事情直到收到反馈，周期需要整整2个礼拜的时间。而在Teambition中，你只需要把相关的同事或领导添加为相关者，对方就能在最短的时间内收到通知。</p>
-<p><img src="/image/1389586102222未标题-5.jpg" alt=""></p>
+<p><img src="/blog/image/1389586102222未标题-5.jpg" alt=""></p>
 <p>如果你还在为移动方案而发愁，那不妨来看看我们用心打造的Teambition，任何的建议或赞美我们都会虚心接受。</p>
 <p><a href="http://www.teambition.com/" target="_blank">了解Teambition</a></p>
 ]]></content>
@@ -48,7 +48,7 @@
     <link href="http://blog.teambition.com/2013/12/30/201312300500/"/>
     <id>http://blog.teambition.com/2013/12/30/201312300500/</id>
     <published>2013-12-30T09:00:18.000Z</published>
-    <updated>2014-01-15T04:49:51.000Z</updated>
+    <updated>2014-01-15T07:25:07.000Z</updated>
     <content type="html"><![CDATA[<p>我之前在大众点评网工作，公司在2013年完成了整个技术部团队向Scrum的转型，更多可以参考<a href="http://www.infoq.com/cn/news/2013/09/dianping-agile" target="_blank">大众点评网研发管理高级经理唐灏：几百人规模的研发团队如何进行敏捷转型</a>。</p>
 <a id="more"></a>
 <p>现在我加入了<a href="https://www.teambition.com/?s=scrum" target="_blank">Teambition</a>，一个初创的团队，我们致力为追求效率及品质的团队打造简单、高效的项目协作工具。也是因为在大众点评网的Scrum体验，让我增加了对团队协作工具的兴趣，遂而加入了Teambition。</p>
@@ -57,29 +57,29 @@
 <p>Scrum中的角色设定是一种扁平的结构，PO（产品负责人）、Scrum Master（Scrum的推动者）、Team（团队）各尽其责，并没有上司和下属的区分。我们可以使用Teambition非常灵活迅速的组建这样的团队。</p>
 <p><strong>创建项目</strong></p>
 <p>如果公司中同时有多个项目并行，分别由不同的Scrum团队负责，我们就可以通过创建对应的项目进行协作管理，将Scrum团队成员邀请到这些项目中。当然，你可以创建并选择这个项目的拥有者，比如Web App这个项目是隶属于Teambition公司的，那这个项目的拥有者就是Teambition。</p>
-<p><img src="/image/1225_1.png" alt=""></p>
+<p><img src="/blog/image/1225_1.png" alt=""></p>
 <p><strong>邀请同事，构建Scrum团队</strong></p>
 <p>你可以邀请Scrum团队或与之相关的同事加入到Web App这个项目中。一般Scrum团队的配置是1名PO、1名Scrum Master和数名Team成员（通常是5到9个开发者）。Teambition支持同一个成员加入到不同的项目中，作为特定的领导角色，可以参与到各个Scrum团队中；跟踪项目进度。</p>
-<p><img src="/image/1225_2.png" alt=""></p>
+<p><img src="/blog/image/1225_2.png" alt=""></p>
 <p>一个Scrum团队搭建好了，下一步给大家介绍一下如何使用Teambition的任务板来实现Scrum中的工件。</p>
 <h2>Scrum中的工件</h2>
 <p>一个团队要实施Scrum，那其中的工件必不可少。例如，Product Backlog、Sprint Backlog、燃尽图等等；在缺乏工具的情况下，我们可以使用一些文档工具来做记录，例如Excel、或者是Google Docs等；使用这些文档工具来实现Scrum我觉得维护成本比较高，而且无法积累。Teambition提供的任务板功能，有很强的定制性，可以完美地解决这些问题。</p>
 <p><strong>创建Product Backlog</strong></p>
 <p>我们首先为PO创建一个Product Backlog的任务分组，产品负责人可以在这个Backlog中管理产品需求，添加或编辑用户故事；在这个Backlog中，我们可以为产品负责人设定一些分类或阶段，比如说考虑中、紧急等等；</p>
-<p><img src="/image/1225_3.png" alt=""></p>
+<p><img src="/blog/image/1225_3.png" alt=""></p>
 <p><strong>创建Sprint Backlog</strong></p>
 <p>Sprint Backlog即为Scrum冲刺的任务板，Scrum每个冲刺一般取一到两周，我们可以根据开始截止时间、冲刺的主要任务或者冲刺的编号来命名Sprint Backlog；例如 冲刺1、Sprint 9 、Sprint 支付功能 等。</p>
-<p><img src="/image/1225_4.png" alt=""></p>
+<p><img src="/blog/image/1225_4.png" alt=""></p>
 <p>接着我们可以根据团队角色的设定或者团队习惯，可以为冲刺设定一些阶段，例如：</p>
 <p>• todo doing done</p>
 <p>• 计划中 进行中 提交测试 测试通过 已上线</p>
 <p>• 要做 正在做 提测 产品验收 预发布 上线</p>
-<p><img src="/image/1225_5.png" alt=""></p>
+<p><img src="/blog/image/1225_5.png" alt=""></p>
 <p><strong>燃尽图</strong></p>
 <p>在Teambition没有标准的燃尽图，但Teambition提供了多方位的获取项目状态的渠道：</p>
 <p>• 任务进度条</p>
 <p>• 智能分组</p>
-<p><img src="/image/1225_6.png" alt=""></p>
+<p><img src="/blog/image/1225_6.png" alt=""></p>
 <p>项目中的所有任务分组对所有的成员都是可见的，这非常方便大家浏览和沟通，加快信息的流动，产品负责人可以快速查看项目的开发进度，而开发人员也可以通过Product Backlog提前了解需求，做好技术上的设计准备。</p>
 <h2>Scrum流</h2>
 <p>Scrum流，即Scrum的迭代周期，就是产品的需要逐渐被消化，被实现的过程。中间穿插了大量团队成员的沟通、协作。</p>
@@ -88,26 +88,26 @@
 <p><strong><em>作为xxx用户，需要xxx功能，这样我就可以xxx；</em></strong></p>
 <p>我们并不拘泥于形式，这些故事可能来自于直接的用户需求，或者产品思考的、设计的，甚至是线上的issue等；</p>
 <p>PO在Product Backlog中对这些需求进行整理，思索和鉴别，在下次迭代的前两天，需要把高优先级（紧急、重要）的用户故事整理出来；</p>
-<p><img src="/image/1225_7.png" alt=""></p>
+<p><img src="/blog/image/1225_7.png" alt=""></p>
 <p><strong>Sprint 计划会议</strong></p>
 <p>创建对应的Sprint Backlog，PO将用户故事从Product Backlog移入到新建的Sprint Backlog中，为团队介绍用户故事，讨论需求。</p>
-<p><img src="/image/1225_8.png" alt=""></p>
+<p><img src="/blog/image/1225_8.png" alt=""></p>
 <p>团队思考解决方案，在子任务中拆解完成这个用户故事需要的做的子任务，可以在备注中注明完成的定义（即验收的标准）。</p>
-<p><img src="/image/1225_9.png" alt=""></p>
+<p><img src="/blog/image/1225_9.png" alt=""></p>
 <p>故事拆解完后，根据团队的速率领取适当的任务，分配责任人。</p>
 <p><strong>Scrum 站会</strong></p>
 <p>每天早上或者快下班的时候，全部团队成员站到一起，交流完成的事情、遇到的问题已经接下去要做的事情。</p>
-<p><img src="/image/1225_10.png" alt=""></p>
+<p><img src="/blog/image/1225_10.png" alt=""></p>
 <p>在任务板中，我们可以将任务移动来表示完成或者即将要做任务。</p>
 <p><strong>工作时间</strong></p>
 <p>PO在思考故事时可以将一些产品文档上传上来，与大家分享；</p>
-<p><img src="/image/1225_11.png" alt=""></p>
+<p><img src="/blog/image/1225_11.png" alt=""></p>
 <p>设计师，可以把设计好的交互或者素材上传上来，让产品验收或者让开发使用；</p>
 <p>开发人员可以一起在用户故事下细致的讨论，或者与产品或者设计师沟通；移动用户故事，完成、提测等等；</p>
 <p>Teambition可以把这些动态实时的通过消息的形式，反馈给每一个相关的人。</p>
 <p><strong>Sprint 评审和回顾</strong></p>
 <p>在Sprint行进的过程中，所有的点都反映在了Sprint Backlog中，我们可以参考任务项和备注来demo。Teambition同样提供了强大的回顾功能，便于团队发现问题，持续改进。</p>
-<p><img src="/image/1226.jpg" alt=""></p>
+<p><img src="/blog/image/1226.jpg" alt=""></p>
 <p>随着一个个迭代的进行，PO Backlog中的用户故事不断地加入到每个迭代的Sprint的Backlog，被消化和发布，形成了一条敏捷的产品迭代流，随着团队的不断沉淀和总结，这种迭代的速度会越来越快！</p>
 <h2>总结</h2>
 <p>虽然Teambition并不是一个专门针对Scrum的产品，但是不得不说，使用Teambition完全可以打造一个非常棒的敏捷团队，甚至是一个敏捷的公司！他们乐于沟通，反应迅速，组织有序。他们是小而美的。</p>
@@ -119,7 +119,7 @@
     <link href="http://blog.teambition.com/2013/12/26/201312261107/"/>
     <id>http://blog.teambition.com/2013/12/26/201312261107/</id>
     <published>2013-12-26T03:07:40.000Z</published>
-    <updated>2014-01-15T04:49:51.000Z</updated>
+    <updated>2014-01-15T07:25:07.000Z</updated>
     <content type="html"><![CDATA[<p>说起“创业”这个话题，可能很多朋友都很感兴趣。前阵子在和一些年轻的朋友分享我创业时遇到的一些事情，希望可以为他们的创业提供一些借鉴和鼓励。</p>
 <a id="more"></a>
 <h2>关键词一：选择</h2>
@@ -155,20 +155,20 @@
     <link href="http://blog.teambition.com/2013/12/13/201312130210/"/>
     <id>http://blog.teambition.com/2013/12/13/201312130210/</id>
     <published>2013-12-13T06:10:46.000Z</published>
-    <updated>2014-01-15T04:49:51.000Z</updated>
+    <updated>2014-01-15T07:25:07.000Z</updated>
     <content type="html"><![CDATA[<p>前几天看新闻，说起一篇名为“雾霾天在家办公温暖人心”的报道，不禁莞尔。自从进入12月以来，上海的空气质量一直处于令人担忧的状态，报道说许多外企可以允许员工在家办公，问了一圈身边的朋友后发现，国内企业实行该举措的少之又少。细细想了一下，老板的担心或许不无道理，如果没有一套合理的团队协作机制，在家办公只能沦为无谓的“带薪休假”。</p>
 <a id="more"></a>
 <p>其实，现在远程办公的条件已经十分完善，有些工作除非紧急或者必须在现场办公的，完全可以借助一些团队协作类的工具，在家里保质保量地完成。我想以我们团队目前正在使用的一款团队协作工具——teambition为例，展示团队是如何远程进行协作办公的。</p>
 <p>首先，领导会布置一项工作给下属，将其在任务板中进行发布，并指派任务的执行人。</p>
-<p><img src="/image/blog1212_1.jpg" alt=""></p>
+<p><img src="/blog/image/blog1212_1.jpg" alt=""></p>
 <p>下属接到任务的时候，会收到通知提醒。</p>
-<p><img src="/image/blog1212_2.png" alt=""></p>
+<p><img src="/blog/image/blog1212_2.png" alt=""></p>
 <p>当下属接到任务后，将任务拖拽到阶段“进行中”中，表明她开始着手处理这项工作了。</p>
-<p><img src="/image/blog1212_3.jpg" alt=""></p>
+<p><img src="/blog/image/blog1212_3.jpg" alt=""></p>
 <p>所有关于任务的内容，都可以在任务卡片下进行讨论，任务相关的人都会实时收到提醒。当然，你也可以上传或更新你的工作文档。</p>
-<p><img src="/image/blog1212_4.png" alt=""></p>
+<p><img src="/blog/image/blog1212_4.png" alt=""></p>
 <p>当下属完成工作以后，将任务卡片拖拽到阶段“已完成”中，表示任务已经处理完成。此时，领导也会收到通知提醒。另外，由于teambition完美支持多终端同步，即使不在电脑旁，也可以在手机上收到相应任务提醒。</p>
-<p><img src="/image/blog1212_5.png" alt=""></p>
+<p><img src="/blog/image/blog1212_5.png" alt=""></p>
 <p>雾霾天选择让员工在家“躲霾”，这种人性化的做法，会形成一种无形的粘合剂，让团队内部更有向心力和凝聚力。如果你是老板，或许你需要做的，就是选择一种合适的团队协作方式，让工作在家里也能很好地运转起来。</p>
 ]]></content>
     <category scheme="http://blog.teambition.com/tags/使用技巧/" term="使用技巧"/>
@@ -178,27 +178,27 @@
     <link href="http://blog.teambition.com/2013/12/13/201312130158/"/>
     <id>http://blog.teambition.com/2013/12/13/201312130158/</id>
     <published>2013-12-13T05:58:14.000Z</published>
-    <updated>2014-01-15T04:49:51.000Z</updated>
+    <updated>2014-01-15T07:25:07.000Z</updated>
     <content type="html"><![CDATA[<p>在teambition的用户中有许多IT界的朋友，大家对提升IT项目管理有着一些需求，有些曾经用过其他的项目管理工具，有些则没有。Teambition作为一个项目协作工具，我们本身也是这款产品的爱用者，今天想把我们自己团队内部如何使用teambition进行IT项目管理的方法分享出来，如果你从未接触过项目协作类产品，曾被“项目”、“任务分组”、“任务”等概念弄得晕头转向，那么下面的内容可能会对你有帮助。</p>
 <a id="more"></a>
 <h2>任务分组的方式</h2>
 <p>IT项目管理中，使用的最多的就是任务板。进入teambition的任务板，你可能会需要创建许多的任务。通过“任务分组”功能，将有关联的任务归类在一起，查找的时候就会非常方便。在teambition内部，对“任务分组”的玩法也有很多种，下面我将逐一介绍下：</p>
 <p><strong>按照工作职能分组</strong></p>
 <p>IT项目管理中比较常见的分组方法，是按照具体工作的职能进行分组，比如teambition内部，我们的产品部门在需要对网页端的开发工作进行协作，我们在任务板的分组方法如下：</p>
-<p><img src="/image/1216_1.jpg" alt=""></p>
+<p><img src="/blog/image/1216_1.jpg" alt=""></p>
 <p><strong>1) Issues：</strong>用于容纳teambition上发现的种种问题。这个列表主要有几个工程师维护，teambition任何人只要发现有问题，就可以在这个列表中添加任务给对应的工程师，从而第一时间对这些问题进行响应和处理。 </p>
 <p><strong>2）Dev:</strong>为了让开发工作变得轻松方便，这个任务列表主要用于容纳开发过程中一些基础性的工作，包括框架的构建、底层的逻辑等。 </p>
 <p><strong>3）Feature：</strong>产品设计或者开发过程中往往会有一些新的想法，包括功能的改进、添加，Feature任务列表就用于容纳这些任务。考虑到时间的问题，我们将feature和版本号进行了关联。哪些事情这个版本开发，哪些事情要放到今后的版本，我们都进行了相应的安排。</p>
 <p><strong>按照个人分组</strong></p>
 <p>在项目管理中，除了必要的协作以外，可能有些朋友也会需要有个地方记录自己平时的工作安排。在teambition中市场部用个人分组的方式来管理个人的任务。</p>
-<p><img src="/image/1216_2.jpg" alt=""></p>
+<p><img src="/blog/image/1216_2.jpg" alt=""></p>
 <p>相比起IT项目管理中一些必要的协作，这样的分组方式更便于组员查看自己的任务，领导也能方便地看到每个人有哪些需要完成的工作，现在每项工作的进展情况。</p>
 <h2>活用任务分组</h2>
 <p>如果你认为“任务分组”功能只是起到简单的归类作用的话，那就错了。在IT项目管理中，协作是必不可少的环节。Teambition内部灵活运用“单个任务可以在不同的任务分组间任意移动”这条规则进行协作。以准备市场活动的宣传海报为例，我们是这样操作的：</p>
 <p>我们先为该任务创建了一张任务卡片，首先需要介入工作的是文案策划，负责撰写文案的相关同事认领了任务之后，将任务卡片拖拽到“文案”阶段。</p>
-<p><img src="/image/blog插图1.jpg" alt=""></p>
+<p><img src="/blog/image/blog插图1.jpg" alt=""></p>
 <p>当文案准备完毕，需要设计部的同事进行视觉设计。这时，点开该任务卡片，选择更改任务分组，将其从“市场营销”转移到“创意设计”中。</p>
-<p><img src="/image/blog插图2.jpg" alt=""></p>
+<p><img src="/blog/image/blog插图2.jpg" alt=""></p>
 <p>当设计部的同事完成了海报的设计，需要投入到实际的印刷环节，那么依然可以用同样的方法将该任务转移给市场部进行制作。当任务完成时，拖拽到任务阶段“已完成”，任务就此结束。</p>
 <p>以上就是teambition进行IT项目管理时的一些用法分享，这样的方法在便于你查找任务的同时，可以清楚地看到每个任务的具体进展，也便于不同部门间的彼此协作。如果你在IT项目管理中有更多的使用心得，欢迎随时与我们联系：<a href="mailto:support@teambition.com">support@teambition.com</a></p>
 <p>更多的案例分享，请关注官方博客：<a href="http://blog.teambition.com/">blog.teambition.com</a></p>
@@ -210,13 +210,13 @@
     <link href="http://blog.teambition.com/2013/12/03/201312030651/"/>
     <id>http://blog.teambition.com/2013/12/03/201312030651/</id>
     <published>2013-12-03T10:51:34.000Z</published>
-    <updated>2014-01-15T04:49:51.000Z</updated>
+    <updated>2014-01-15T07:25:07.000Z</updated>
     <content type="html"><![CDATA[<p>「上个礼拜接受了IT桔子的邀请，在他们的会场分享teambition在用户体验上做的一些努力，现场反响不错，所以我请同事按照讲稿整理了一下，和各位共勉。」</p>
 <a id="more"></a>
 <p>如果你用过一些企业产品，那么看到teambition后，第一句话应该是“它非常的不一样”。这个不一样在哪里？不一样在它的用户体验：它非常漂亮，非常优雅，会有一些很有意思的细节让你用的时候非常方便，非常贴心。我把这个感受叫做“用户体验好”。今天分享的主题就是，怎么打造一个用户体验出色的协作应用。首先从分析协作应用的特点开始。</p>
 <h2>协作性应用的特点</h2>
 <p>我们要先弄清楚“协作应用”和“传统应用”有什么不同。下面这张图罗列了一些主要的区别：</p>
-<p><img src="/image/13860680583191.jpg" alt=""></p>
+<p><img src="/blog/image/13860680583191.jpg" alt=""></p>
 <p><strong>首先是我们什么时候用这个应用：</strong></p>
 <p>我观察我身边的人，个人应用可能在早晨挤地铁的时候、中午休息的时候，或者晚上回到家的时候使用，而协作应用更多解决工作上的问题，一定是在工作时间使用。</p>
 <p><strong>第二点是，两者的停留时间也很不一样</strong></p>
@@ -225,7 +225,7 @@
 <p>个人应用是用来消磨时间的，因为我有一些碎片时间，我看一些文章，打一个游戏，是希望把这些时间用掉。协作应用不一样，我的出发点是，我不想浪费很多时间开会，我不想浪费很多时间跟我的团队争一些有的没的，总结而言，我希望节约时间。</p>
 <h2>协作应用的体验要素</h2>
 <p>由上面说的这些差异点出发，我总结了协作应用相比传统个人应用的体验要素，和大家探讨：</p>
-<p><img src="/image/13860681466262.jpg" alt=""></p>
+<p><img src="/blog/image/13860681466262.jpg" alt=""></p>
 <p><strong>首当其冲的是协作性</strong></p>
 <p>你在设计一个协作应用的时候必须考虑它是几个人一起用的，所以保障协作性最为关键。</p>
 <p>有关协作性的第一点是发生的讨论必须要有明确的上下文。我们想想邮件为什么有时候会很不爽？因为我万一回复的时候忘记加一个人，万一抄送的时候忘记加一个人，然后再补，对话就会很乱，最后可能参与的人很难搞清楚整个讨论究竟前因后果是怎样的，容易造成误会和低效。Gmail引入了邮件的对话模式，其实就是想解决这个问题，但是很难，邮件天生就是这样，没有办法做到很好。所以做协作应用必须在乎这点，讨论一定要有清晰的上下文。</p>
@@ -241,13 +241,13 @@
 <p>Teambition在优化这些体验要素上都花了很大的心思，我们想做一个又简单，又很强大的工具。当时就在想到底该怎么做，就想去参考一下生活中有没有这样的先例。最后我们发现没有一个例子能战胜我们手中的智能手机这个例子，它将不同的功能拆到不同的应用里面，每一个应用去解决一个针对性的问题，它使用最好、最简单上手的交互方式去处理一个特定的问题。于是我爷爷奶奶每天也会拿着我送给他们的iPad看股票。</p>
 <p>所以我们当时就想，我们为你不同的项目提供几个不同的应用，每一个应用解决项目中的一类需求，这样我们就可以让每一个应用用最好的方式处理这个问题。</p>
 <p>第一个应用是动态墙，专门帮助项目成员进行交流、讨论。</p>
-<p><img src="/image/13860684025474.jpg" alt=""></p>
+<p><img src="/blog/image/13860684025474.jpg" alt=""></p>
 <p>现在很多teambition的用户都告诉我，他们内部已经不再用邮件了，因为动态墙让讨论变得非常方便，你想说什么就可以直接说出来。我如果觉得某个成员和这个讨论有关系，不需要邮件抄送他，可以直接在动态墙上把他的头像拖拽到讨论里，他就会自动收到提醒，在回复的时候也可以实时同步。 </p>
 <p>第二个是任务板，在项目中最重要的任务管理，我们希望找到最好的方式帮助项目里的所有人都按时完成任务。</p>
-<p><img src="/image/5.jpg" alt=""></p>
+<p><img src="/blog/image/5.jpg" alt=""></p>
 <p>我们将任务管理做成一个很大的白板，将任务的阶段一个一个列出来，所有的人第一眼看到就知道每个任务进展到什么阶段了。如果我自己的任务进展到新的阶段，我只需要把任务卡片拽起来拖到下一个阶段就可以了，相关的人自动会收到通知。如果我是项目负责人，我要修改一个任务的执行者，那么把新的执行者头像拖拽到这个任务卡片上，执行者就修改好了，非常简单。</p>
 <p>第三个应用是文件库，帮助项目成员共享文件，并且可以针对每一个文件展开讨论。</p>
-<p><img src="/image/6.jpg" alt=""></p>
+<p><img src="/blog/image/6.jpg" alt=""></p>
 <p>teambition的文件库和其他网盘都不一样，我们规定它只有一级，你不能在一个文件夹里再建一个文件夹。我们的用户起先不理解，后来事实证明这样的方式真的能帮助他们找到文件，提高效率。</p>
 <p>我个人认为分拆应用是teambition在用户体验上做的最好的一个努力，就讲的多了一些。下面再分享几个细节。</p>
 <p><strong>永远无需刷新</strong></p>
@@ -269,7 +269,7 @@
     <link href="http://blog.teambition.com/2013/11/08/201311080333/"/>
     <id>http://blog.teambition.com/2013/11/08/201311080333/</id>
     <published>2013-11-08T07:33:22.000Z</published>
-    <updated>2014-01-15T04:49:51.000Z</updated>
+    <updated>2014-01-15T07:25:07.000Z</updated>
     <content type="html"><![CDATA[<p><em>编者语：本文采访自teambition创始人齐俊元。</em></p>
 <a id="more"></a>
 <p>上周末去做了一个名为“高效人士的百宝箱”的活动的分享，到场的有来自各行各业的将近50人，也有一部分年轻的创业者，跟他们分享了一些创业中遇到的事情，大家对如何保持高效的工作状态都比较感兴趣。</p>
@@ -280,22 +280,22 @@
 <h2>每周工作100小时+出色的效率工具</h2>
 <p>Teambition是一个项目工具，帮助大家更好地做项目管理和项目协作。作为一个年轻的创始人，我需要带领我的团队去把这件事情做好，在行业里占有很高的位置，因此我需要做很多的事情，每周工作近100个小时。因为我经验不如我的成员，在某一方面的专业程度也不如团队里的某个成员，我只能通过做很多事情，了解很多事情，才能够带领这个团队往正确的方向走。而我会用一些软件来支持我的工作，帮助我提升效率。</p>
 <p><strong>Digg Reader——自媒体订阅</strong></p>
-<p><img src="/image/1383901315295blog-1.jpg" alt=""></p>
+<p><img src="/blog/image/1383901315295blog-1.jpg" alt=""></p>
 <p>每天早晨起来，我会打开Digg Reader阅读一些文章，它是一个订阅器，我会在上面订阅一些Blog、竞争对手的产品信息、或者一些出色设计师的个人网站。通过更新，我可以随时收到最新的信息，相较于更新较快的新闻而言，这些文章的更新频次低但是质量很高，通过订阅就能确保我不会落下精彩的信息。</p>
 <p><strong>Evernote——把信息归类分档</strong></p>
-<p><img src="/image/blog-2.jpg" alt=""></p>
+<p><img src="/blog/image/blog-2.jpg" alt=""></p>
 <p>接下来我会用Evernote把我早上看到的有用的信息，分门别类地整理归档，并推送给我的各个团队。比如一些好的设计，我会打一个包发在teambition上给我的设计师们去看。但是很多信息可能当场用不到，未来可能需要用到，这时候会用Evernote记录，并通过标签归档，需要的时候就会很容易搜索到。</p>
 <p><strong>CUE——日程管理</strong></p>
-<p><img src="/image/blog-3.jpg" alt=""></p>
+<p><img src="/blog/image/blog-3.jpg" alt=""></p>
 <p>因为我一天可能还会开很多的会，CUE会把我一天要开的会从我的日历里摘出来然后陈列在里面，它还会很聪明地做一些智能匹配，比如自动找出某个会议举行的地点，你可以将它跟车上的GPS匹配，就能快速知道应该如何到达会场。</p>
 <p><strong>HELLO——人脉积累</strong></p>
-<p><img src="/image/blog-4.jpg" alt=""></p>
+<p><img src="/blog/image/blog-4.jpg" alt=""></p>
 <p>当你见了很多的人，你可能需要一个一个记住他们。我在收到名片的时候，会用印象笔记的HELLO把名片拍下来，你也可以将每个会面人的相关信息添加进来，那么在下次碰面的时候就会立刻知道当时对方身上的一些重要信息。</p>
 <p><strong>Teambition——项目管理，团队协同</strong></p>
-<p><img src="/image/blog-5.jpg" alt=""></p>
+<p><img src="/blog/image/blog-5.jpg" alt=""></p>
 <p>当这些都处理完之后，我就会打开teambition，里面有我现在正在进行的所有项目，进去之后我可以看到整个项目的进展及联系人，最重要的是，它可以让我清楚地看到，项目里面所有的任务进展得怎么样。如果发现团队有些任务进度已经明显滞后了，那我可以在上面提醒他。另外，项目里面也会有很多文件，我可以很方便地去看。</p>
 <h2>我的梦想带有一点科幻色彩</h2>
-<p><img src="/image/blog-6.jpg" alt=""></p>
+<p><img src="/blog/image/blog-6.jpg" alt=""></p>
 <p>我每天回到家躺在床上，我一直在梦想有一件事情，就像Iron Man里Tony Stark一样可以有一个人工智能，它会很聪明地跟我说：“Sir, you should sleep.”</p>
 <p>因为我们每个人都希望做得更多学得更多，这样我们会比别人更优秀，但是如果没有工具的辅助我们想实现这个梦想是很难的。我最近在看一本书叫《奇点临近》，里面阐述的一个观点就是：未来我们人类的自然进化不会再快了，就像我不觉得我比孔子更聪明，我觉得我比他蠢多了。但是在这几千年里，技术的发展是非常快的，现在每一年你都会看到你手里的iPad变得越来越快，你用的软件越来越好用。未来有一天，人类能做更多的事情，来自于生物智能与人工智能，也就是我们的计算智慧，可以融合得更好，更多的事情是计算机来帮你完成的。</p>
 <p>我希望有一天，有这么一个助手，他知道我今天需要做的所有的事情，他知道我未来的目标，他可以在合适的时候提醒我该做些什么事情了。这也是我和我的团队想要努力实现的事情，我们希望可以把一个助手放在每一个人的口袋里，它可以告诉你，你每天该做什么了，该见谁了，该说什么了。这是我想要的。</p>
@@ -307,7 +307,7 @@
     <link href="http://blog.teambition.com/2013/10/31/201310310633/"/>
     <id>http://blog.teambition.com/2013/10/31/201310310633/</id>
     <published>2013-10-31T10:33:28.000Z</published>
-    <updated>2014-01-15T04:49:51.000Z</updated>
+    <updated>2014-01-15T07:25:07.000Z</updated>
     <content type="html"><![CDATA[<p>都说产品只有自己用的好，才知道痛点在哪里，作为一个与邮件打了近10年交道的资深白骨精，我不得不说邮件是工作中必不可少的沟通工具，在对外沟通中，邮件很好的体现了商务形象，沟通的过程也像是一种有据可查的凭证，显得十分专业并且有条理。但在内部协作时，邮件的一些弊端让团队的效率大打折扣，主要有以下两点：</p>
 <a id="more"></a>
 <p><strong>1. 非即时性</strong></p>
@@ -315,13 +315,13 @@
 <p><strong>2. 沟通的过程很难被追溯</strong></p>
 <p>当项目开展后，我经常希望可以随时“接上”某件事情的进展，但在面对一堆邮件和几个闪烁的QQ群后我开始变得手足无措。</p>
 <p>teambition在项目协作中更像一个“轻邮件”。它和邮件一样简单，但是更快、更强大。邮件的所有动作，诸如“发送”、“转发”、“抄送”、“回复”等，在teambition中，当我需要让伙伴了解某件事时，我只需要把他的头像拖动过来就完成了，这就像我发了一封邮件一样。</p>
-<p><img src="/image/图-1.jpg" alt=""></p>
+<p><img src="/blog/image/图-1.jpg" alt=""></p>
 <p>但更强大的是伙伴可以迅速地了解任务的进展以及讨论的上下文。由于人员的组成是按照项目来的，因此在添加相关人员时会非常方便，这种一键式添加的方式，确实比邮件中一个一个选联系人要方便很多。</p>
-<p><img src="/image/13849410328762.jpg" alt=""></p>
+<p><img src="/blog/image/13849410328762.jpg" alt=""></p>
 <p>再者，被提及的人会实时收到信息，无论是在公司内还是在外出差，都能多平台同步收到消息提示，随时参与到项目进展中。</p>
-<p><img src="/image/13832156955303.jpg" alt=""></p>
+<p><img src="/blog/image/13832156955303.jpg" alt=""></p>
 <p>我非常喜欢的teambition另一个特点是，我可以很轻松地就一个任务、一张图片或者一个分享立即展开讨论，这种纵向的讨论模式让我非常简单的追溯和定位我需要的信息，而不用再在邮件堆里去搜索“当时的主题”了。</p>
-<p><img src="/image/4.jpg" alt=""></p>
+<p><img src="/blog/image/4.jpg" alt=""></p>
 ]]></content>
     <category scheme="http://blog.teambition.com/tags/我们的视角/" term="我们的视角"/>
   </entry>
@@ -330,18 +330,18 @@
     <link href="http://blog.teambition.com/2013/10/24/201310240646/"/>
     <id>http://blog.teambition.com/2013/10/24/201310240646/</id>
     <published>2013-10-24T10:46:07.000Z</published>
-    <updated>2013-10-31T08:55:24.000Z</updated>
-    <content type="html"><![CDATA[<p><img src="/image/1383209719172IMG_2772-001.JPG" alt=""></p>
+    <updated>2014-01-15T07:25:07.000Z</updated>
+    <content type="html"><![CDATA[<p><img src="/blog/image/1383209719172IMG_2772-001.JPG" alt=""></p>
 <a id="more"></a>
 <h5><a href="http://www.hyphen100.com/" target="_blank">海风教育</a>：<span style="color:#808080">由一群毕业于复旦、交大的大学生于2010年创立，是沪上专注于高校自主招生领域的名校自主招生教育辅导机构。</span></h5>
 <p>前不久我们推出了“任务支持子任务”功能，这个需求最初来自于我们教育行业的一个用户——<a href="http://www.hyphen100.com/" target="_blank">海风教育</a>。他们在成长中发现的一个需求，可能对于很多其他行业的公司而言也普遍存在着：一个新职员进来，短时间内将工作快速上手的方式可能需要依靠有经验的老员工手把手地教，过程旷日持久，诸多细节也难免有遗漏。同时，一旦员工离职，以往累积的经验也会被一并带走，团队的扩张效率会被降低。因而急需一个可以进行知识沉淀并且让管理者可以随时确认任务进展的工具，让那些琐碎但重要的事情沉淀下来，并随着今后的运作情况随时更新。</p>
 <p>“子任务”就像是一份checklist，它的价值在于，你可以将你的经验变成一份执行清单，当员工需要工作时，只需要对照着这份清单，那么即使是毫无经验的新手也可以将工作完成得很漂亮，而你只需要确认这些工作是否按时完成。</p>
 <p>我们以海风教育为例，由于是教育行业的用户，其核心业务是一堂堂的课程，在teambition中则会以任务卡片的形式呈现。</p>
-<p><img src="/image/13826116783621.jpg" alt=""></p>
+<p><img src="/blog/image/13826116783621.jpg" alt=""></p>
 <p>点击任务，在展开的任务卡片中，“子任务”往往被用来记录日常工作的具体内容。并且由于工作性质的关系，这些工作往往是重复的，比方这周开课的地点与上周是相同的，那么你只需要跟同一个人确认场地的使用情况。在这个过程中有些东西会被沉淀下来，包括场地的容纳人数、联系人方式、开课的时间以及事务准备的流程等。我们通过“子任务”的形式将它们记录下来，这些工作就会变得一目了然。</p>
-<p><img src="/image/2.jpg" alt=""></p>
+<p><img src="/blog/image/2.jpg" alt=""></p>
 <p>同时，与你进行协同工作的团队成员也能查看到任务的进展情况。当你添加了子任务，在任务板阶段视图中就可以看到“子任务”的总数量，以及已经完成的“子任务”数量，便于之后的工作开展。</p>
-<p><img src="/image/3.jpg" alt=""></p>
+<p><img src="/blog/image/3.jpg" alt=""></p>
 <p>用这样的方式，即使是毫无经验的人也能快速上手工作，让团队高速运转，有效提高工作效率。</p>
 <p>Teambition一直坚持每天发布新的更新，每月发布重大的功能升级，这些需求往往来自于我们的用户。如果您对产品有更好的想法，欢迎随时与我们交流。</p>
 <p>联系方式：support@teambition.com</p>
@@ -353,10 +353,10 @@
     <link href="http://blog.teambition.com/2013/10/21/201310210144/"/>
     <id>http://blog.teambition.com/2013/10/21/201310210144/</id>
     <published>2013-10-21T05:44:21.000Z</published>
-    <updated>2013-10-22T07:56:23.000Z</updated>
+    <updated>2014-01-15T07:25:07.000Z</updated>
     <content type="html"><![CDATA[<p>内容来自：虎嗅网</p>
 <a id="more"></a>
-<p><img src="/image/120808197u797eldenejno.jpg" alt=""></p>
+<p><img src="/blog/image/120808197u797eldenejno.jpg" alt=""></p>
 <p>基于SaaS的企业应用，可以说是个人社交产品、效率工具、传统企业软件共同发展的产物，似乎就在不经意间，国内关于SaaS类企业应用的创业公司已如雨后春笋般冒出来了。另一方面，随着移动互联网、云计算的盛行，也给这些SaaS类企业应用公司提供了创业和发展的机会。无论是三五个人的创业团队，还是已经有一定实力的传统知名软件公司，甚至连某知名互联网公司的个别产品经理都看好了这片创业的蓝海，所以，似乎蓝海很快就已经变成红海。</p>
 <p>从一个在德勤做咨询的朋友那里了解到，他们已经把未来两三年看作是SaaS企业或团队的爆炸期。他告诉我：未来两三年，全球SaaS类企业软件市场平均复合增长率将达到30%以上。</p>
 <p>“门店”有了，客户未至，SaaS的真正“红海”还没出现</p>
@@ -382,10 +382,10 @@
     <link href="http://blog.teambition.com/2013/10/21/201310211149/"/>
     <id>http://blog.teambition.com/2013/10/21/201310211149/</id>
     <published>2013-10-21T03:49:25.000Z</published>
-    <updated>2013-10-22T07:35:19.000Z</updated>
+    <updated>2014-01-15T07:25:07.000Z</updated>
     <content type="html"><![CDATA[<p>近日，被投资界誉为“硅谷圣经”的美国著名投资商业杂志《Red Herring》（《红鲱鱼》）在香港宣布了2013年亚洲创新百强企业评选总榜单，teambition作为国内协作化项目管理平台的领航者，成为亚洲唯一一家获选的企业协作化项目管理平台企业。</p>
 <a id="more"></a>
-<p><img src="/image/RedHerring2013亚洲创新技术100强.jpg" alt=""></p>
+<p><img src="/blog/image/RedHerring2013亚洲创新技术100强.jpg" alt=""></p>
 <p>Red Herring亚洲创新百强的宗旨是对企业过往实际业绩及长远预期进行严格审核，依据企业的科技创新、管理团队、市场现状、投资情况、消费需求和财务状况，评选出在亚洲高科技领域最具前瞻性的100名未上市公司，并把它们推向世界的舞台。每年评选的结果都会被投资界看作是“高科技行业未来新星的风向标”而广受投资人关注。往届的百强中，诞生了许多知名企业，如Facebook、Google、eBay、百度、阿里巴巴等。据官方资料显示，今年入围百强的国内企业仅有20家。</p>
 <p>Teambition创始人及首席执行官齐俊元在会后接受记者采访时表示：“我们很高兴获得认可，并且能有机会与其他如此出色的企业交流。我们希望改善人们的工作方式，未来会做得更好。”</p>
 ]]></content>
@@ -396,19 +396,19 @@
     <link href="http://blog.teambition.com/2013/10/16/201310160822/"/>
     <id>http://blog.teambition.com/2013/10/16/201310160822/</id>
     <published>2013-10-16T00:22:25.000Z</published>
-    <updated>2014-01-15T04:49:51.000Z</updated>
+    <updated>2014-01-15T07:25:07.000Z</updated>
     <content type="html"><![CDATA[<p>许多用过teambition的朋友或许会对“桌面通知”这个功能情有独钟，它让你不会漏掉任何一个重要事项。然而最近我们接到一些用户反映，在最初没有设置桌面通知的功能，事后想要找回，却苦无方法。</p>
 <a id="more"></a>
-<p><img src="/image/1385542178484桌面通知1.jpg" alt=""></p>
+<p><img src="/blog/image/1385542178484桌面通知1.jpg" alt=""></p>
 <h2>如何开启桌面通知</h2>
 <p>Teambition本身是带有桌面提醒的功能的，但是为什么有些用户却没有看到桌面通知，也没有看到添加桌面通知的按钮呢？</p>
 <p>首先，我们需要一个支持桌面提醒的浏览器，推荐用户体验比较好的google chrome以及safari。当第一次收到通知的时候，就会有窗口弹出是否开启桌面通知的提示，以google chrome为例，如图：</p>
-<p><img src="/image/1.jpg" alt=""></p>
+<p><img src="/blog/image/1.jpg" alt=""></p>
 <p>选择启用桌面通知，在弹出的提示窗口，选择“允许”,通知就会在桌面显示了。</p>
 <h2>第一次收到通知时，选择了“取消”怎么办？</h2>
 <p>首先，打开google浏览器，选择右上角 自定义及控制google chrome→设置→显示高级设置→重置浏览器设置，如图：</p>
-<p><img src="/image/桌面通知3.jpg" alt=""></p>
-<p><img src="/image/桌面通知4.jpg" alt=""></p>
+<p><img src="/blog/image/桌面通知3.jpg" alt=""></p>
+<p><img src="/blog/image/桌面通知4.jpg" alt=""></p>
 <p>重置完浏览器后，重新登录teambition，当首次收到通知时，创建桌面通知的窗口就会再次出现了。</p>
 ]]></content>
     <category scheme="http://blog.teambition.com/tags/使用技巧/" term="使用技巧"/>
@@ -418,41 +418,41 @@
     <link href="http://blog.teambition.com/2013/10/14/201310140637/"/>
     <id>http://blog.teambition.com/2013/10/14/201310140637/</id>
     <published>2013-10-13T22:37:27.000Z</published>
-    <updated>2013-10-16T11:09:01.000Z</updated>
+    <updated>2014-01-15T07:25:07.000Z</updated>
     <content type="html"><![CDATA[<p>如果你只是在「动态墙」中输入文字，可能未必有很强的可读性。如果能为你的分享突出标题，加上一些区块的引用，或是外部链接等，就会让原本单调的文字变得更富有层次。</p>
 <a id="more"></a>
 <h2>一．行内代码</h2>
 <p>你可以在「动态墙」中可以插入一段代码，只需将代码前后加入一对反引号（· ·）就可以实现。
-<img src="/image/1381823518358代码1.jpg" alt=""></p>
+<img src="/blog/image/1381823518358代码1.jpg" alt=""></p>
 <p>效果如下：
-<img src="/image/1381824022416代码2.jpg" alt=""></p>
+<img src="/blog/image/1381824022416代码2.jpg" alt=""></p>
 <p>你也可以直接将代码复制到「动态墙」内，就会产生这样的效果：
-<img src="/image/代码3.jpg" alt=""></p>
+<img src="/blog/image/代码3.jpg" alt=""></p>
 <h2>二．标题</h2>
 <p>如果键入的文字都是同样的大小，那么标题就无法重点突出。现在，你可以在需要输入的文字前面插入 1 到 5 个 “#”来突出文字标题，对应的是标题1到5阶的字体大小。
-<img src="/image/标题1.jpg" alt=""></p>
+<img src="/blog/image/标题1.jpg" alt=""></p>
 <p>出来的效果1为最大，5为最小。
-<img src="/image/标题2.jpg" alt=""></p>
+<img src="/blog/image/标题2.jpg" alt=""></p>
 <h2>三．无序列标记</h2>
 <p>当发布的内容需要加上序列标记时，「动态墙」其实也可以实现，只需要在内容前面加上“星号空格”。
-<img src="/image/序列1.jpg" alt=""></p>
+<img src="/blog/image/序列1.jpg" alt=""></p>
 <p>效果如下：
-<img src="/image/序列2.jpg" alt=""></p>
+<img src="/blog/image/序列2.jpg" alt=""></p>
 <h2>四．分隔线</h2>
 <p>你可以在一行中用三个以上的星号来建立一个分隔线，行内不能有其他东西。
-<img src="/image/1381828067231分割线1.jpg" alt=""></p>
+<img src="/blog/image/1381828067231分割线1.jpg" alt=""></p>
 <p>效果如下：
-<img src="/image/1381828085357分割线2.jpg" alt=""></p>
+<img src="/blog/image/1381828085357分割线2.jpg" alt=""></p>
 <h2>五．字体的斜体加粗</h2>
 <p>在分享的内容中如果需要强调某句话，可以用斜体加粗来实现。在需要强调的字体前后加入星号：
-<img src="/image/1381828616805强调1.jpg" alt=""></p>
+<img src="/blog/image/1381828616805强调1.jpg" alt=""></p>
 <p>效果如下：
-<img src="/image/强调2.jpg" alt=""></p>
+<img src="/blog/image/强调2.jpg" alt=""></p>
 <h2>六. 行内链</h2>
 <p>如果想要在分享中加入链接，也是可以实现的。只需要将链接前后加上“()”就可以了。比如：（<a href="http://www.teambition.com），" target="_blank">http://www.teambition.com），</a> 括号必须是英文的。另外，如果想要加入文字链，在圆括号前面加上一个方括号，方括号里填写相应的文字，就可以实现。
-<img src="/image/link1.jpg" alt=""></p>
+<img src="/blog/image/link1.jpg" alt=""></p>
 <p>效果如下：
-<img src="/image/link2.jpg" alt=""></p>
+<img src="/blog/image/link2.jpg" alt=""></p>
 <p>有了以上这些用法，相信你在「动态墙」分享的重点内容将能更直观的被呈现出来。当然，如果你有更好的用法也可以告诉我们，我们会选取优秀的案例在官网上进行展示。</p>
 <p>投稿方式：support@teambition.com</p>
 ]]></content>
@@ -463,21 +463,21 @@
     <link href="http://blog.teambition.com/2013/10/10/201310100657/"/>
     <id>http://blog.teambition.com/2013/10/10/201310100657/</id>
     <published>2013-10-10T10:57:37.000Z</published>
-    <updated>2014-01-15T04:49:51.000Z</updated>
+    <updated>2014-01-15T07:25:07.000Z</updated>
     <content type="html"><![CDATA[<p>如果你觉得每次打开teambition都需要手动输入网址很麻烦，那么接下来的这个方式或许会让你省力很多。</p>
 <a id="more"></a>
 <p>我们可以通过Chrome的扩展程序来为你的teambition添加一个桌面快捷方式。</p>
 <p>首先你需要点击Chrome浏览器右上角的“自定义及控制Goole Chrome”按钮，没错，它就是一个三道杠。</p>
-<p><img src="/image/桌面快捷方式1.jpg" alt=""></p>
+<p><img src="/blog/image/桌面快捷方式1.jpg" alt=""></p>
 <p>点击工具——扩展程序——获取更多扩展程序。</p>
-<p><img src="/image/桌面快捷方式2.jpg" alt=""></p>
-<p><img src="/image/桌面快捷方式3.jpg" alt=""></p>
+<p><img src="/blog/image/桌面快捷方式2.jpg" alt=""></p>
+<p><img src="/blog/image/桌面快捷方式3.jpg" alt=""></p>
 <p>在Chorme网上应用商店搜索“teambition”，并在结果页添加teambition。</p>
-<p><img src="/image/桌面快捷方式4.jpg" alt=""></p>
+<p><img src="/blog/image/桌面快捷方式4.jpg" alt=""></p>
 <p>同意添加后，teambition就会出现在你Chrome浏览器的“应用”里。</p>
-<p><img src="/image/桌面快捷方式5.jpg" alt=""></p>
+<p><img src="/blog/image/桌面快捷方式5.jpg" alt=""></p>
 <p>右键点击该应用，选择“创建快捷方式”就可以了。</p>
-<p><img src="/image/1385454968832桌面快捷方式6.jpg" alt=""></p>
+<p><img src="/blog/image/1385454968832桌面快捷方式6.jpg" alt=""></p>
 <p>还在等什么？快去试试看吧！</p>
 ]]></content>
     <category scheme="http://blog.teambition.com/tags/使用技巧/" term="使用技巧"/>
@@ -487,25 +487,25 @@
     <link href="http://blog.teambition.com/2013/10/10/201310100405/"/>
     <id>http://blog.teambition.com/2013/10/10/201310100405/</id>
     <published>2013-10-10T08:05:29.000Z</published>
-    <updated>2014-01-15T04:49:51.000Z</updated>
+    <updated>2014-01-15T07:25:07.000Z</updated>
     <content type="html"><![CDATA[<p>最近我们做的一份调查报告显示，90%的teambition用户都非常愿意将我们的产品介绍给他们身周围的朋友或同事，对此我们深感欣慰。在以往我们走访的用户中，我们发现不同行业的人有各种各样使用teambition的方法，一些甚至让我们自己都很受启发，他们确确实实用teambition解决了日常工作中存在已久的一些协作问题。</p>
 <a id="more"></a>
 <p>今天我们分享一个IT公司是如何利用teambition解决“市场部与研发部对于用户反馈的问题进行高效处理”的案例，如果你的公司市场部门时常为在反馈了产品相关的问题或负面后，无法得知具体的处理进展而苦恼；研发人员受理的问题又和用户实际需求脱节，那么下面这个案例可能会让他们更好地进行协作。</p>
 <p>市场部在接到用户的反馈以后，会将问题的具体内容创建成“任务”告知产品经理。</p>
-<p><img src="/image/用户支持1.jpg" alt=""></p>
+<p><img src="/blog/image/用户支持1.jpg" alt=""></p>
 <p>产品经理接到“任务”之后，会第一时间收到相关通知。</p>
-<p><img src="/image/不同部门协作2.jpg" alt=""></p>
+<p><img src="/blog/image/不同部门协作2.jpg" alt=""></p>
 <p>产品经理受理该问题反馈后，将问题拖动到“处理中”，分配给研发人员，设定问题的截止时间以及任务的优先级。</p>
-<p><img src="/image/用户支持3.jpg" alt=""></p>
-<p><img src="/image/不同部门协作4.jpg" alt="">
-<img src="/image/不同部门协作5.jpg" alt="">
-<img src="/image/不同部门协作6.jpg" alt=""></p>
+<p><img src="/blog/image/用户支持3.jpg" alt=""></p>
+<p><img src="/blog/image/不同部门协作4.jpg" alt="">
+<img src="/blog/image/不同部门协作5.jpg" alt="">
+<img src="/blog/image/不同部门协作6.jpg" alt=""></p>
 <p>利用teambition，市场部人员能对反馈的问题的具体进展一目了然。</p>
-<p><img src="/image/不同部门协作7.jpg" alt=""></p>
+<p><img src="/blog/image/不同部门协作7.jpg" alt=""></p>
 <p>研发人员收到任务以后，也会第一时间收到通知，并开始着手解决问题。当其完成任务时，会将该任务拖动到“已解决”。</p>
-<p><img src="/image/用户支持6.jpg" alt=""></p>
+<p><img src="/blog/image/用户支持6.jpg" alt=""></p>
 <p>市场人员第一时间收到任务“已解决”的通知后，就能将任务的进展告知用户，并且拖动该任务至“已反馈用户&amp;问题解决”，至此该任务彻底结束。</p>
-<p><img src="/image/不同部门协作9.jpg" alt=""></p>
+<p><img src="/blog/image/不同部门协作9.jpg" alt=""></p>
 <p>Teambition或许还有很多种用法，如果你有好的方法也可以告诉我们，我们会将优秀的案例放在官网上进行展示。</p>
 <p>投稿方式：support@teambition.com</p>
 ]]></content>
@@ -516,7 +516,7 @@
     <link href="http://blog.teambition.com/2013/01/16/201301161636/"/>
     <id>http://blog.teambition.com/2013/01/16/201301161636/</id>
     <published>2013-01-16T08:36:37.000Z</published>
-    <updated>2013-10-12T02:12:54.000Z</updated>
+    <updated>2014-01-15T07:25:07.000Z</updated>
     <content type="html"><![CDATA[<p>从开始寻找一个好用的协作工具 到今天一到办公室立刻打开亲手打造的teambition 很多事情变得不同</p>
 <a id="more"></a>
 <p>来到新的办公室 每一天都变得更加出色 也不断迎来新的成员</p>
@@ -546,7 +546,7 @@
     <link href="http://blog.teambition.com/2012/08/13/201208131829/"/>
     <id>http://blog.teambition.com/2012/08/13/201208131829/</id>
     <published>2012-08-13T10:29:32.000Z</published>
-    <updated>2013-10-12T02:12:54.000Z</updated>
+    <updated>2014-01-15T07:25:07.000Z</updated>
     <content type="html"><![CDATA[<p>导读：“我的意思并不是丢弃分享精神，只是我们究竟是先加强与熟悉的人之间的联系呢？
 还是加强和陌生人之间的呢？让是人们进入新的圈子走马观花还是在已有的圈子深度挖掘？
 或许这没有谁对谁错，或许根本没必要做单项选择，而是应该让这两者共存、互补。 ”    -- <a href="http://www.teambition.com" target="_blank">Teambition</a></p>
@@ -691,7 +691,7 @@ kill time（消磨时间）和save time（节省时间），消磨时间我觉�
     <link href="http://blog.teambition.com/2012/08/13/201208011011/"/>
     <id>http://blog.teambition.com/2012/08/13/201208011011/</id>
     <published>2012-08-13T02:11:42.000Z</published>
-    <updated>2013-10-12T02:12:54.000Z</updated>
+    <updated>2014-01-15T07:25:07.000Z</updated>
     <content type="html"><![CDATA[<p>今天在Y-Combinator上看到一篇Flightfox实习生所写的关于怎样
 去把自己打造成为优秀创始人的文章，觉得写的非常有道理，都是
 一些干货，他罗列了以下几点优秀精神品质:</p>
@@ -781,7 +781,7 @@ that I learned that will make me a better startup founder:
     <link href="http://blog.teambition.com/2012/08/09/201208092333/"/>
     <id>http://blog.teambition.com/2012/08/09/201208092333/</id>
     <published>2012-08-09T15:33:17.000Z</published>
-    <updated>2013-10-12T02:12:54.000Z</updated>
+    <updated>2014-01-15T07:25:07.000Z</updated>
     <content type="html"><![CDATA[<p>我们团队对于今天雷锋网benimaru zhang的<strong><a href="http://www.leiphone.com/social-b.html" target="_blank">关于企业社交产品的讨论</a></strong>非常关注，
 与其说我们把这篇文章看作对于企业社交行业的分析，还不如把它当作
 了一篇用户写的体验报告，我们并不奢望用户在被“强迫”用了一个产品
@@ -1025,12 +1025,12 @@ Telecom，新兴科技、媒体和通信融合起来的综合产业），它应�
     <link href="http://blog.teambition.com/2012/08/07/201208071243/"/>
     <id>http://blog.teambition.com/2012/08/07/201208071243/</id>
     <published>2012-08-07T04:43:53.000Z</published>
-    <updated>2013-10-15T06:19:32.000Z</updated>
+    <updated>2014-01-15T07:25:07.000Z</updated>
     <content type="html"><![CDATA[<p>说到<a href="http://www.yododo.com" target="_blank">Yododo.com（游多多）</a>会有很多酷爱自助游的朋友会知道这个网站，
 这是个垂直社交的平台，每个用户可以在上面分享自己的游记、找驴友结伴旅行、找
 寻自己想要去的地方的各种资讯。在上面的用户已经达到了200万之多。</p>
 <a id="more"></a>
-<p><img src="/image/ydd.jpg" alt=""></p>
+<p><img src="/blog/image/ydd.jpg" alt=""></p>
 <hr>
 <p>当我去到Yododo总部，能够看到公司休息区的书架上有着好几排的旅游书籍，这些书籍的内容有很大
 一部分来自于游多多的用户，里面图文并茂地展示了全球各地的旅游城市，可以见到游多多社区创造
