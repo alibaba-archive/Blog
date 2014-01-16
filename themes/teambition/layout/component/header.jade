@@ -1,5 +1,30 @@
-header.navbar
-  .navbar-inner
-    a.brand(href="#{config.root}")
-      b.teambition-font teambition
-      span  blog
+//- header.navbar
+//-   .navbar-inner
+//-     a.brand(href="#{config.root}")
+//-       b.teambition-font teambition
+//-       span  blog
+
+header#site-nav
+  h1.pull-left
+    a.logo(href='./features.html') teambition
+  nav.link-nav.pull-left
+    a.features-link(href='https://www.teambition.com/feature') 功能
+    a.download-link(href='https://www.teambition.com/download_apps') 下载
+    a.blog-link.active(href='/') 博客
+    a.help-link(href='https://www.teambition.com/support') 帮助
+  div.entrance.pull-right
+    a(href='https://www.teambition.com/login').btn.btn-default.login-handler 登录
+    a(href='https://www.teambition.com/signup').signup-handler.btn.btn-primary 注册
+  a.trigger-nav
+    div.line-one.path
+    div.line-two.path
+    div.line-three.path
+  ul.mobile-nav-list
+    li
+      a(href='https://www.teambition.com/feature') 功能
+    li
+      a(href='https://www.teambition.com/download_apps') 下载
+    li
+      a(href='/') 博客
+    li
+      a(href='https://www.teambition.com/support') 帮助
