@@ -84,7 +84,7 @@ plugins:
 deploy:
   type: rsync
   host: blog.teambition.com
-  user: blog
-  root: ~/blog
+  user: honglai
+  root: /data/web/blog
   port: 22
   delete: true
