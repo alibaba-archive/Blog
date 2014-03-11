@@ -33,4 +33,8 @@ mixin article(item, index,count)
         !{item.content}
     if index
       footer
-        h4: small: time(datetime=item.date)=item.date.format(config.date_format)
+        h4: small
+          time(datetime=item.date)=item.date.format(config.date_format)
+          -item.tags.each(function(tag){
+            a(href=config.root+tag.path, class="tag")='#'+tag.name
+          -})

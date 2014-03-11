@@ -1,0 +1,58 @@
+<!DOCTYPE html><html><head><script src="/blog/js/jquery.js"></script><script src="/blog/js/blog.js"></script><meta charset="utf-8"><title>还有多少任务没完成？把Calendar、Pocket和Wunderlist全部打包进“今天”吧</title><meta name="viewport" content="width=device-width, initial-scale=1.0"><link href="https://dn-tbui.qbox.me/0.11.0/css/tb.ui.min.css" rel="stylesheet"><link href="/blog/css/style.css" rel="stylesheet"><link rel="shortcut icon" href="/blog/img/favicon.ico"><link href="/blog/atom.xml" type="application/atom+xml" rel="alternate" title="teambition blog"></head><body><a href="/blog/"><div class="square-brand teambition-font">t</div></a><div class="article-main"><script>$squareBrand = $('.square-brand');
+if(document.referrer=="http://blog.teambition.com/"){
+  $squareBrand.addClass('animated bounceInLeft');
+}
+else $squareBrand.css('opacity','1');
+$(function () {
+  var $hero=$('.hero');
+  var $indicator = $('.loading-indicator');
+  var $heroBg = $('.hero-bg');
+  $hero.css('opacity',0);
+  var img=new Image();
+  img.src="/blog/header/blogpic0305.jpg";
+  img.onload=function(){
+    var cover=document.getElementsByClassName('hero')[0];
+    cover.style.backgroundImage='url(/blog//header/blogpic0305.jpg)';
+    $indicator.animate({opacity: 0}, 500, function(){
+      $heroBg.animate({opacity:0},700);
+      $hero.animate({opacity:1},700);
+    });
+  }
+  var $title=$('.square-brand');
+  window.onscroll = function(){
+    var offsetY=$(window).scrollTop();
+    var opacityValue = 1.*(500-offsetY)/500;
+    $hero.css('opacity', opacityValue);  
+    if(offsetY<=0){
+      $title.addClass('appear');
+      $title.removeClass('disappear');
+    }
+    if(offsetY>150){
+      $title.removeClass('appear');
+      $title.addClass('disappear');
+    }
+  }
+  
+})</script><div class="hero-bg"><div class="loading-indicator"><span class="loader-dot"></span><span class="loader-dot"></span><span class="loader-dot"></span></div></div><div class="hero"></div><div class="page-container"><article><header><h4><small><time datetime="Wed Feb 26 2014 19:13:26 GMT+0800">2/26/2014</time></small></h4><h1 class="title sigle-title">还有多少任务没完成？把Calendar、Pocket和Wunderlist全部打包进“今天”吧</h1></header><section class="main-content"><p><em>*本文来自于PingWest的报道</em></p>
+<a id="more"></a>
+<p><img src="/blog/image/today.png" alt=""></p>
+<p>今天，你需要做哪些事呢？</p>
+<p>或许你会先去Google Calendar翻看一下自己的日程安排，然后再去Wunderlist里翻看待办事项，之后再看看团队协作工具里今天的工作任务有哪些，最后还要浏览一下需要阅读的文章。</p>
+<p>然而，在各种应用里跳转查看和安排自己的今日计划并不是高效率的解决方案。“今天”是这么一款应用，通过接入各种第三方待办事项类服务，使得用户得以在一个应用里一次查看到所有的近日计划安排。</p>
+<p>目前，还处于测试阶段的“今天”暂时只接入了Google Calendar和Pocket这两项第三方服务，你可以在“订阅中心”里开启第三方账号来进行同步。“今天”目前整合的主要是三块功能，分别是日程、任务和文章，并按照过去、今天和未来三个时间纬度做以分割。</p>
+<p>除了第三方服务，“今天”也自己提供同类服务。目前他们为Chrome用户推出了两款插件，分别是“今天阅读”和“今天开始”。“今天阅读”提供的是稍后阅读服务，它允许你将页面上的文章添加到阅读列表，并快速安排在今天、明天或更晚的时候阅读。“今天开始”提供的是一个自定义的Chrome页面，它允许你在Chrome浏览器的新建页面里快速查看到今天需要完成的任务和需要阅读的文章数量。</p>
+<p>除了同步Google Calendar和Pocket、通过插件添加内容外，你也可以手动在网页端上添加新日程、任务和文章。正如同大多数稍后读服务一样，“今天”的文章阅读界面也重新经过排版，去除了网站中的无关页面元素。</p>
+<p><img src="/blog/image/iphoneapp.jpg" alt=""></p>
+<p>“今天”的移动客户端目前尚未对外提供下载，主要的功能特性与网页端相近。你可以从在移动应用上快速从右上角加号新建事件或任务，设置时间、地点和优先级。你还可以通过滑动项目将任务或阅读列表快速标记为“做过的事”，或将任务安排在其他时间点。</p>
+<p>“今天”的开发商Teambition是一家做团队协作工具起步的创业公司。Teambition将会把面向企业用户和个人用户的管理工具分离，分别命名为Project.ai和Today.ai。Teambiton的创始人兼CEO齐俊元认为，满足企业信息化要求的工具对个人而言门槛太高，所以他们做了另一款适合个人用户使用的信息化管理工具。</p>
+<p>与同名团队协作应用Teambition（将改名为Project）相比，”今天“的诉求点有很大的不同。”今天“不会提供任务板、分享墙、文件库等项目进度管理功能，而专注于整合多方服务的待办事项。“用户根本不需要关心数据存放在哪儿，只需要关心每天自己需要做哪些事情。”齐俊元告诉PingWest。</p>
+<p>“今天”所加入的订阅功能，不仅允许用户订阅新闻源，还可以订阅任务列表。例如，你可以订阅一个名叫“每天读圣经”的列表，“今天”会每天定期向你推送一段圣经。此外，齐俊元说他们已经与一些大学合作导入选课数据库，用户将来可以订阅自己的课程，并在“今天”上快速查看。</p>
+<p>齐俊元对PingWest说，Teambition实际上完全面向的是企业市场。他们之所以推出偏面向个人市场的“今天”，是因为他们认为服务“企业中的个人”也是服务企业市场需求的一部分。况且，“企业中的个人”通常比其他人拥有更强烈的日程管理需求。</p>
+<p><img src="/blog/image/07.jpg" alt=""></p>
+<p>接下来，Teambition会为“今天”接入更多的服务，包括Asana、Trello、Basecamp、Readability等。目前，“今天”仍然处于测试期，你可以通过关注他们的微信公众账号：今天  获取测试资格，他们会在每天的下午3点~4点发放邀请码。拿到邀请码后，你可以正常使用网页版，iPhone应用预计将会在一个月内上线App Store，Android客户端也将会在一季度内推出。此外，他们还计划推出Mac客户端、Windows客户端和Google离线应用。</p>
+</section></article><div id="disqus_thread"></div><script>var disqus_shortname = 'teambition';
+(function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();</script></div><div class="postnav clearfix"><div class="postnav-inner"><div class="prev"><a href="/blog/2014/03/03/201403031122/"><span>上一篇</span><div>团队采访：如何利用teambition管理人力资源工作</div></a></div><div class="home"><a href="/blog/"><i class="icon-home"></i></a></div><div class="next"><a href="/blog/2014/02/25/201402251159/"><span>下一篇</span><div>SegmentFault 采访Teambition：简单高效的协作平台</div></a></div></div></div></div><footer class="index-footer"><script>var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://"); document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F20a90cbf6b73fb35adf028fda309db3c' type='text/javascript'%3E%3C/script%3E"));</script><section><a href="http://www.teambition.com"><b class="teambition-font">teambition</b></a><span> &copy; 2013 make work enjoyable</span><div class="sns-info"><div class="sina-info"><div class="pop"><label>官方微博</label><p>@teambition</p><a href="http://weibo.com/teambition" target="_blank" class="btn btn-primary"><i class="icon-plus-white"></i>加关注</a></div></div><div class="qq-info"><div class="pop"><label>QQ群</label><p>329601963</p><a href="http://wp.qq.com/wpa/qunwpa?idkey=f12bcaf9c408d7adadf0f204217256e98250e99f41ed7a32fd0b6913aaf7f1d8" target="_blank" class="btn btn-primary"><i class="icon-plus-white"></i>加入</a></div></div><div class="weixin-info"><div class="pop"><label>微信客服</label><p>扫瞄二维码关注我们</p><div class="qr-wrapper"></div></div></div></div></section></footer></body></html>

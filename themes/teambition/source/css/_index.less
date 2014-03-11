@@ -57,194 +57,70 @@ a{
 }
 
 
-// .navbar{
-//   position: fixed;
-//   top: 0;
-//   left: 0;
-//   right: 0;
-//   z-index: 100;
-//   text-align: center;
-//   .navbar-inner{
-//     min-height: 40px;
-//     .box-shadow(none);
-//     border-bottom: 1px solid @grayLight;
-//   }
-//   .brand{
-//     float: none;
-//     display: table;
-//     height: 100px;
-//     margin: 0 auto;
-//     padding: 0;
-//     font-size: 16px;
-//     font-weight: normal;
-//     color: @lightTextColor;
-//     line-height: 100px;
-//     .transition(all 0.218s ease-in-out);
-//     &.small{
-//       height: 42px;
-//       font-size: 12px;
-//       line-height: 42px;
-//       b{
-//         font-size: 22px;
-//       }
-//     }
 
-//     &:hover{
-//       background-color: transparent;
-//       color: @lightTextColor;
-//     }
-
-//     b{
-//       float: left;
-//       margin-top: -2px;
-//       margin-right: 6px;
-//       color: @darkTextColor;
-//       font-size: 32px;
-//       letter-spacing: 1px;
-//       .transition(font-size 0.218s ease-in-out);
-//     }
-//   }
-// }
-
-// site nav
-#site-nav {
-  position: absolute;
-  top: 0;
-  z-index: 1;
-  width: 100%;
-  padding: 15px 100px;
-  line-height: 40px;
-  background-color: rgba(255, 255, 255, 0.97);
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
-  font-size: 15px;
-
-  > h1{
-    margin: 0;
+// header
+.site-header{
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+  .navbar {
+    margin-bottom: 0;
+    padding: 7px 0;
   }
-
-  @media (max-width: 979px) {
-    padding: 15px 30px;
-  }
-  .logo{
-    display: block;
-    width: 170px;
-    height: 40px;
-    margin-right: 35px;
+  .navbar-brand {
+    width: 180px;
     text-indent: -9999px;
-    background-image: url(https://dn-st.qbox.me/pages/images/teambitionlogo.png);
-    background-size: auto 24px;
-    background-position: left center;
+    background-image: url("https://dn-project-site.qbox.me/images/logo@2x.png");
+    background-size: auto 25px;
     background-repeat: no-repeat;
-    -webkit-transition: opacity 0.2s ease-out;
-    transition: opacity 0.2s ease-out;
-    @media (max-width: 979px) {
-      width: 40px;
-      height: 40px;
-      background-image: url(https://dn-st.qbox.me/pages/images/logo-circle@2x.png);
-      background-size: 40px 40px;
+    background-position: center 10px;
+  }
+  .navbar-nav > li > a {
+    color: #383838;
+    font-size: 16px;
+    margin-left: 20px;
+    &:hover, &:focus {
+      color: #428bca;
+      background-color: transparent;
     }
+  }
 
-    &:hover{
-      opacity: 0.85;
-    }
+  .navbar-nav > li.active > a {
+    color: #428bca;
   }
-  .link-nav{
-    @media (max-width: 767px){
-      display: none;
-    }
-  }
-  nav > a{
-    margin: 0 35px;
-    color: #000;
-    -webkit-transition: color 0.2s ease-out;
-    transition: color 0.2s ease-out;
-    @media (max-width: 1199px){
-      margin: 0 24px;
-    }
-    &:hover{
-      color: #0088cc;
-    }
-    &.active{
-      color: #0088cc;
-    }
-  }
-  .entrance{
-    @media (max-width: 767px){
+
+  .navbar-button {
+    list-style: none;
+    padding-left: 0;
+    padding-top: 10px;
+    > li {
       float: left;
+      margin-left: 20px;
     }
-    @media (max-width: 479px){
-      display: none;
-    }
-  }
-  .login-handler,
-  .signup-handler{
-    padding: 0;
-    margin-left: 30px;
-    width: 100px;
-    height: 40px;
-    line-height: 40px;
-  }
-  .trigger-nav{
-    float: right;
-    display: none;
-    height: 30px;
-    width: 30px;
-    margin-top: 5px;
-    cursor: pointer;
-    @media (max-width: 767px){
-      display: block;
-    }
-    &.crossed{
-      .line-one{
-        -webkit-transform: translate3d(0,8px,0) rotate(-45deg);
-        transform: translate3d(0,8px,0) rotate(-45deg);
-      }
-      .line-two{
-        opacity: 0;
-      }
-      .line-three{
-        -webkit-transform: translate3d(0,-8px,0) rotate(45deg);
-        transform: translate3d(0,-8px,0) rotate(45deg);
-      }
-    }
-    .path{
-      width: 30px;
-      height: 3px;
-      margin: 5px 0;
-      background-color: #808080;
-      -webkit-transition: all 0.218s ease-out;
-      transition: all 0.218s ease-out;
-    }
-  }
-
-  .mobile-nav-list{
-    display: none;
-    width: 100%;
-    margin-top: 55px;
-    padding-top: 15px;
-    text-align: center;
-    border-top: 1px solid #d9d9d9;
-    &.for-hero{
-      position: absolute;
-      left: 0;
-      margin-top: 60px;
-      padding-top: 0;
-      background-color: #383838;
-      border-top: 0;
-      > li > a{
-        color: #fff;
-      }
-    }
-    > li:hover{
-      > a{
-        color: #0088cc;
-      }
-    }
-    &.show{
-      display: block;
+    .btn {
+      width: 80px;
     }
   }
 }
+
+@media (max-width: 992px) {
+  // header
+  .site-header {
+    .navbar-brand {
+      width: 120px;
+      background-size: 120px auto;
+      background-position: center 14px;
+    }
+    .navbar-nav > li > a {
+      font-size: 15px;
+      margin-left: 14px;
+    }
+    .navbar-button .btn {
+      width: 70px;
+    }
+
+  }
+}
+
 // footer
 #site-footer {
   height: 180px;
@@ -451,6 +327,7 @@ a{
 // pagination
 .pagination{
   margin-bottom: 70px;
+  width: 100%;
   a.btn{
     width: 80px;
   }

@@ -1,30 +1,15 @@
-//- header.navbar
-//-   .navbar-inner
-//-     a.brand(href="#{config.root}")
-//-       b.teambition-font teambition
-//-       span  blog
-
-header#site-nav
-  h1.pull-left
-    a.logo(href='https://www.teambition.com') teambition
-  nav.link-nav.pull-left
-    a.features-link(href='https://www.teambition.com/feature') 功能
-    a.download-link(href='https://www.teambition.com/download_apps') 下载
-    a.blog-link.active(href='/') 博客
-    a.help-link(href='https://www.teambition.com/support') 帮助
-  div.entrance.pull-right
-    a(href='https://www.teambition.com/login').btn.btn-default.login-handler 登录
-    a(href='https://www.teambition.com/signup').signup-handler.btn.btn-primary 注册
-  a.trigger-nav
-    div.line-one.path
-    div.line-two.path
-    div.line-three.path
-  ul.mobile-nav-list
-    li
-      a(href='https://www.teambition.com/feature') 功能
-    li
-      a(href='https://www.teambition.com/download_apps') 下载
-    li
-      a(href='/') 博客
-    li
-      a(href='https://www.teambition.com/support') 帮助
+header.site-header
+  div.container
+    nav.navbar(role="navigation")
+      div.navbar-header
+        a.navbar-brand(href='/') Teambition
+      div.collapse.navbar-collapse
+        ul.nav.navbar-nav
+          li: a(href='/') 首页
+          li: a(href='/feature') 功能
+          li: a(href='/apps') 客户端
+          li.active: a(href=config.root) 博客
+          li: a(href='/support') 帮助
+        ul.navbar-button.pull-right
+          li: a.btn.btn-default(href='/login') 登录
+          li: a.btn.btn-primary(href='/signup') 注册

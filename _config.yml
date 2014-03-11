@@ -71,6 +71,9 @@ disqus_shortname: teambition
 # Extensions
 ## Plugins: https://github.com/tommy351/hexo/wiki/Plugins
 ## Themes: https://github.com/tommy351/hexo/wiki/Themes
+
+sitemap:
+  path: sitemap.xml
 theme: teambition
 exclude_generator:
 plugins:
