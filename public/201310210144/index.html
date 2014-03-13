@@ -1,0 +1,46 @@
+<!DOCTYPE html><html><head><script src="/blog/js/jquery.js"></script><script src="/blog/js/blog.js"></script><!--[if lt IE 9]><script src=config.root+"js/html5shiv.js"></script><![endif]--><meta charset="utf-8"><title>仍在营造市场，国内云计算SaaS企业应用离“红海”还有距离</title><meta name="viewport" content="width=device-width, initial-scale=1.0"><link href="https://dn-tbui.qbox.me/0.11.0/css/tb.ui.min.css" rel="stylesheet"><link href="/blog/css/style.css" rel="stylesheet"><link rel="shortcut icon" href="/blog/img/favicon.ico"><link href="/blog/atom.xml" type="application/atom+xml" rel="alternate" title="teambition blog"></head><body><a href="/blog/"><div class="square-brand teambition-font">t</div></a><div class="article-main"><script>$(function () {
+  var $hero=$('.hero');
+  var $indicator = $('.loading-indicator');
+  var $heroBg = $('.hero-bg');
+  $hero.css('opacity',0);
+  var img=new Image();
+  img.src="/blog/header/Cloud.jpg";
+  img.onload=function(){
+    var cover=document.getElementsByClassName('hero')[0];
+    cover.style.backgroundImage='url(/blog//header/Cloud.jpg)';
+    $indicator.animate({opacity: 0}, 500, function(){
+      $heroBg.animate({opacity:0},700);
+      $hero.animate({opacity:1},700);
+    });
+  }
+  window.onscroll = function(){
+    var offsetY=$(window).scrollTop();
+    var opacityValue = 1.*(500-offsetY)/500;
+    $hero.css('opacity', opacityValue);  
+  }
+})</script><div class="hero-bg"><div class="loading-indicator"><span class="loader-dot"></span><span class="loader-dot"></span><span class="loader-dot"></span></div></div><div class="hero"></div><div class="page-container"><article><header><h4><small><time datetime="Mon Oct 21 2013 13:44:21 GMT+0800">10/21/2013</time></small></h4><h1 class="title sigle-title">仍在营造市场，国内云计算SaaS企业应用离“红海”还有距离</h1><a href="/blog/tags/媒体聚焦/" class="tag">#媒体聚焦</a></header><section class="main-content"><p>内容来自：虎嗅网</p>
+<a id="more"></a>
+<p><img src="/blog/image/120808197u797eldenejno.jpg" alt=""></p>
+<p>基于SaaS的企业应用，可以说是个人社交产品、效率工具、传统企业软件共同发展的产物，似乎就在不经意间，国内关于SaaS类企业应用的创业公司已如雨后春笋般冒出来了。另一方面，随着移动互联网、云计算的盛行，也给这些SaaS类企业应用公司提供了创业和发展的机会。无论是三五个人的创业团队，还是已经有一定实力的传统知名软件公司，甚至连某知名互联网公司的个别产品经理都看好了这片创业的蓝海，所以，似乎蓝海很快就已经变成红海。</p>
+<p>从一个在德勤做咨询的朋友那里了解到，他们已经把未来两三年看作是SaaS企业或团队的爆炸期。他告诉我：未来两三年，全球SaaS类企业软件市场平均复合增长率将达到30%以上。</p>
+<p>“门店”有了，客户未至，SaaS的真正“红海”还没出现</p>
+<p>然而在笔者看来，现在的这种状况并非是红海，怎么讲？这其实就像一个菜市场在刚刚建立，大家都花钱租门面，并没有多少客户来买菜。目前，各类做企业应用的公司都是正处在一个营造市场的过程，当市场形成后，让用户有了选择余地的时候，红海才是真正开始形成的时候。对此，我将就以下几方面做些分析：</p>
+<p>1、基于企业2.0概念，多种类似的国内产品涌现</p>
+<p>企业2.0概念是个舶来品，我把它看成SaaS类企业应用的祖师爷。早在2006年哈佛商学院副教授Andrew McAfee就已提出这个概念，按个人理解，企业2.0的范围比较广，包括以下两大类：2010年出现的yammer、chatter、jive等类以企业内部社交为核心类似于twitter的企业社交平台；2011年后产品细分，又相继产生以项目协作为目的的项目协作平台，如：Trello、Podio、Basecamp等。</p>
+<p>上述两类都是企业2.0概念的主要代表应用。舶来中国后，国内很多公司或者创业团队看到了企业2.0的前景，根据国内需求把SaaS类企业产品演绎出更多“本土化”形式和功能，其实也可称得上是一种创新。依产品定位简单分类的化：企业社交平台，国外有Yammer，国内有tita、纷享销客等；项目协作类，国外有Trello， Basecamp，国内有teambition。</p>
+<p>2、产品需求旺盛程度</p>
+<p>国内SaaS类企业应用的需求到底有大？从一次由微软委托益普索公司发起、面向中国302名企业员工进行的调查了解到：84%的中国企业员工认为，社交工具有助于提高他们的工作效率，明显高于全球平均值46%；有47%的中国员工认为他们供职的公司低估了社交工具的重要性；79%的员工认为，社交化的协作工具有利于在工作中促进员工彼此间的协作，并有助于加强团队合作；80%的中国员工希望能更多地参与到企业引进新技术和新工具的决策过程中；61%的员工表示愿意付费使用SaaS类企业协作工具，以提高企业的工作效率并且成本低廉。</p>
+<p>虽然上述调查范围较小，且被调查企业的属性也对调查结果产生很大影响。但是至少在微软有兴趣的企业中（微软在云计算领域主要经营PaaS和SaaS层），这一调查结果对与SaaS类企业无疑是一个利好消息——虽然还没有大批客户购买，但国内对企业社交平台潜在的旺盛需求是大大小小的团队都涌入这个领域的原因。</p>
+<p>3、生存是挑战，盈利更是挑战</p>
+<p>既然国内这个领域还是处于营造市场的阶段，那么谁能挺到最后，谁将必将在其中取得巨大利益。</p>
+<p>不同规模的公司和创业团队都有各自的发展手段和武器，有的拿了巨额的风险投资并提出软件使用完全免费，有的以经验丰富的营销手段疯狂宣传，有的坚信做出体验更好的产品来赢得用户。</p>
+<p>前几日，笔者在北京的通信展上遇到了其中的两家公司，一家是做企业社交平台的纷享销客，他们负责人提到其团队优势在于核心成员在企业产品方面具有多年经验；而另一家则是相对更年轻，以项目协作平台为代表的teambition团队，他们更重视提供更好的产品体验和视觉感官来取胜。</p>
+<p>想要从SaaS类企业软件切入云计算大潮，要么就要在营销体系、人才储备方面具备别人无法立刻拥有的资源，要么就要通过产品本身给客户更好的体验。这场竞争是一个资源和产品的竞争，依个人观点，产品体验更能抓住用户的心，所为得用户者得天下。而生存时间也不可忽视，多生存几天就意味着在市场上立足。就目前阶段，生存要远远比盈利更重要。   </p>
+<p>从中国特色的市场角度看，或许得到雄厚的资金支持，在保证产品好用的基础上完全免费会成为市场争夺进入红海后的主流趋势。</p>
+<p>由于数据安全和保管信誉的问题，以及用户长时间的习惯于免费使用盗版的企业产品的现象，这种基于云计算的SaaS产品在中国的普及率还需要一段时间的沉淀才能形成气候。这个趋势就像当初在淘宝购物一样，需要慢慢形成，当信誉机制逐渐完善的时候，用户也将可以安心的选择更加便捷高效的工作方式。</p>
+</section></article><div id="disqus_thread"></div><script>var disqus_shortname = 'teambition';
+(function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();</script></div><div class="postnav clearfix"><div class="postnav-inner"><div class="prev"><a href="/blog/201310240646/"><span>上一篇</span><div>用户采访：新人上手，其实不必依靠老员工</div></a></div><div class="home"><a href="/blog/"><i class="icon-home"></i></a></div><div class="next"><a href="/blog/201310211149/"><span>下一篇</span><div>Teambition荣膺2013年《Red Herring》亚洲100强企业</div></a></div></div></div></div><footer class="index-footer"><script>var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://"); document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F20a90cbf6b73fb35adf028fda309db3c' type='text/javascript'%3E%3C/script%3E"));</script><section><a href="http://www.teambition.com"><b class="teambition-font">teambition</b></a><span> &copy; 2013 make work enjoyable</span><div class="sns-info"><div class="sina-info"><div class="pop"><label>官方微博</label><p>@teambition</p><a href="http://weibo.com/teambition" target="_blank" class="btn btn-primary"><i class="icon-plus-white"></i>加关注</a></div></div><div class="qq-info"><div class="pop"><label>QQ群</label><p>329601963</p><a href="http://wp.qq.com/wpa/qunwpa?idkey=f12bcaf9c408d7adadf0f204217256e98250e99f41ed7a32fd0b6913aaf7f1d8" target="_blank" class="btn btn-primary"><i class="icon-plus-white"></i>加入</a></div></div><div class="weixin-info"><div class="pop"><label>微信客服</label><p>扫瞄二维码关注我们</p><div class="qr-wrapper"></div></div></div></div></section></footer></body></html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html><html><head><script src="/blog/js/jquery.js"></script><script src="/blog/js/blog.js"></script><!--[if lt IE 9]><script src=config.root+"js/html5shiv.js"></script><![endif]--><meta charset="utf-8"><title>与邮件一样简单，但更快、更强大</title><meta name="viewport" content="width=device-width, initial-scale=1.0"><link href="https://dn-tbui.qbox.me/0.11.0/css/tb.ui.min.css" rel="stylesheet"><link href="/blog/css/style.css" rel="stylesheet"><link rel="shortcut icon" href="/blog/img/favicon.ico"><link href="/blog/atom.xml" type="application/atom+xml" rel="alternate" title="teambition blog"></head><body><a href="/blog/"><div class="square-brand teambition-font">t</div></a><div class="article-main"><script>$(function () {
+  var $hero=$('.hero');
+  var $indicator = $('.loading-indicator');
+  var $heroBg = $('.hero-bg');
+  $hero.css('opacity',0);
+  var img=new Image();
+  img.src="/blog/header/blogpic111.jpg";
+  img.onload=function(){
+    var cover=document.getElementsByClassName('hero')[0];
+    cover.style.backgroundImage='url(/blog//header/blogpic111.jpg)';
+    $indicator.animate({opacity: 0}, 500, function(){
+      $heroBg.animate({opacity:0},700);
+      $hero.animate({opacity:1},700);
+    });
+  }
+  window.onscroll = function(){
+    var offsetY=$(window).scrollTop();
+    var opacityValue = 1.*(500-offsetY)/500;
+    $hero.css('opacity', opacityValue);  
+  }
+})</script><div class="hero-bg"><div class="loading-indicator"><span class="loader-dot"></span><span class="loader-dot"></span><span class="loader-dot"></span></div></div><div class="hero"></div><div class="page-container"><article><header><h4><small><time datetime="Thu Oct 31 2013 18:33:28 GMT+0800">10/31/2013</time></small></h4><h1 class="title sigle-title">与邮件一样简单，但更快、更强大</h1><a href="/blog/tags/我们的视角/" class="tag">#我们的视角</a></header><section class="main-content"><p>都说产品只有自己用的好，才知道痛点在哪里，作为一个与邮件打了近10年交道的资深白骨精，我不得不说邮件是工作中必不可少的沟通工具，在对外沟通中，邮件很好的体现了商务形象，沟通的过程也像是一种有据可查的凭证，显得十分专业并且有条理。但在内部协作时，邮件的一些弊端让团队的效率大打折扣，主要有以下两点：</p>
+<a id="more"></a>
+<p><strong>1. 非即时性</strong></p>
+<p>当我处在密集工作的氛围中，我很难及时的处理邮件，后来迫使我们用QQ解决随时沟通的问题，但在QQ中经常说着说着主题就不明确了。</p>
+<p><strong>2. 沟通的过程很难被追溯</strong></p>
+<p>当项目开展后，我经常希望可以随时“接上”某件事情的进展，但在面对一堆邮件和几个闪烁的QQ群后我开始变得手足无措。</p>
+<p>teambition在项目协作中更像一个“轻邮件”。它和邮件一样简单，但是更快、更强大。邮件的所有动作，诸如“发送”、“转发”、“抄送”、“回复”等，在teambition中，当我需要让伙伴了解某件事时，我只需要把他的头像拖动过来就完成了，这就像我发了一封邮件一样。</p>
+<p><img src="/blog/image/图-1.jpg" alt=""></p>
+<p>但更强大的是伙伴可以迅速地了解任务的进展以及讨论的上下文。由于人员的组成是按照项目来的，因此在添加相关人员时会非常方便，这种一键式添加的方式，确实比邮件中一个一个选联系人要方便很多。</p>
+<p><img src="/blog/image/13849410328762.jpg" alt=""></p>
+<p>再者，被提及的人会实时收到信息，无论是在公司内还是在外出差，都能多平台同步收到消息提示，随时参与到项目进展中。</p>
+<p><img src="/blog/image/13832156955303.jpg" alt=""></p>
+<p>我非常喜欢的teambition另一个特点是，我可以很轻松地就一个任务、一张图片或者一个分享立即展开讨论，这种纵向的讨论模式让我非常简单的追溯和定位我需要的信息，而不用再在邮件堆里去搜索“当时的主题”了。</p>
+<p><img src="/blog/image/4.jpg" alt=""></p>
+</section></article><div id="disqus_thread"></div><script>var disqus_shortname = 'teambition';
+(function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();</script></div><div class="postnav clearfix"><div class="postnav-inner"><div class="prev"><a href="/blog/201311080333/"><span>上一篇</span><div>90后创业：拼了命地工作+带点科幻的梦想</div></a></div><div class="home"><a href="/blog/"><i class="icon-home"></i></a></div><div class="next"><a href="/blog/201310240646/"><span>下一篇</span><div>用户采访：新人上手，其实不必依靠老员工</div></a></div></div></div></div><footer class="index-footer"><script>var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://"); document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F20a90cbf6b73fb35adf028fda309db3c' type='text/javascript'%3E%3C/script%3E"));</script><section><a href="http://www.teambition.com"><b class="teambition-font">teambition</b></a><span> &copy; 2013 make work enjoyable</span><div class="sns-info"><div class="sina-info"><div class="pop"><label>官方微博</label><p>@teambition</p><a href="http://weibo.com/teambition" target="_blank" class="btn btn-primary"><i class="icon-plus-white"></i>加关注</a></div></div><div class="qq-info"><div class="pop"><label>QQ群</label><p>329601963</p><a href="http://wp.qq.com/wpa/qunwpa?idkey=f12bcaf9c408d7adadf0f204217256e98250e99f41ed7a32fd0b6913aaf7f1d8" target="_blank" class="btn btn-primary"><i class="icon-plus-white"></i>加入</a></div></div><div class="weixin-info"><div class="pop"><label>微信客服</label><p>扫瞄二维码关注我们</p><div class="qr-wrapper"></div></div></div></div></section></footer></body></html>

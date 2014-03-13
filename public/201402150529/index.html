@@ -1,0 +1,46 @@
+<!DOCTYPE html><html><head><script src="/blog/js/jquery.js"></script><script src="/blog/js/blog.js"></script><!--[if lt IE 9]><script src=config.root+"js/html5shiv.js"></script><![endif]--><meta charset="utf-8"><title>全新「分享墙」：帮你打开团队分享模式</title><meta name="viewport" content="width=device-width, initial-scale=1.0"><link href="https://dn-tbui.qbox.me/0.11.0/css/tb.ui.min.css" rel="stylesheet"><link href="/blog/css/style.css" rel="stylesheet"><link rel="shortcut icon" href="/blog/img/favicon.ico"><link href="/blog/atom.xml" type="application/atom+xml" rel="alternate" title="teambition blog"></head><body><a href="/blog/"><div class="square-brand teambition-font">t</div></a><div class="article-main"><script>$(function () {
+  var $hero=$('.hero');
+  var $indicator = $('.loading-indicator');
+  var $heroBg = $('.hero-bg');
+  $hero.css('opacity',0);
+  var img=new Image();
+  img.src="/blog/header/blogpic0217.png";
+  img.onload=function(){
+    var cover=document.getElementsByClassName('hero')[0];
+    cover.style.backgroundImage='url(/blog//header/blogpic0217.png)';
+    $indicator.animate({opacity: 0}, 500, function(){
+      $heroBg.animate({opacity:0},700);
+      $hero.animate({opacity:1},700);
+    });
+  }
+  window.onscroll = function(){
+    var offsetY=$(window).scrollTop();
+    var opacityValue = 1.*(500-offsetY)/500;
+    $hero.css('opacity', opacityValue);  
+  }
+})</script><div class="hero-bg"><div class="loading-indicator"><span class="loader-dot"></span><span class="loader-dot"></span><span class="loader-dot"></span></div></div><div class="hero"></div><div class="page-container"><article><header><h4><small><time datetime="Sat Feb 15 2014 17:29:38 GMT+0800">2/15/2014</time></small></h4><h1 class="title sigle-title">全新「分享墙」：帮你打开团队分享模式</h1></header><section class="main-content"><p>在我们的研究中发现，成功团队都具有自我成长的特性，具体而言，它们内部会有良好的分享习惯，知识管理意识很强。因此，我们改进了「分享墙」，帮助项目成员以更快速而专业的方式分享内容，达到知识管理的目的。下面，让我们来看下究竟有哪些升级。</p>
+<a id="more"></a>
+<h3>专业的文档分享形式</h3>
+<p>以往动态滚动的方式形似社交网络，发布的信息较为零碎，并且往往指意不清。经过我们的优化后，采用类似邮件的模式，由“标题”和“正文”两个部分组成内容，来改善分享质量。你依然可以添加成员为相关者，或者对发布的分享内容进行讨论。</p>
+<p><img src="/blog/image/文章-3.jpg" alt=""></p>
+<h3>支持富文本编辑</h3>
+<p>我们在原来单纯的文字编辑基础上，加入了富文本编辑，你可以给你的文字加上各种效果以进行强调和区分。</p>
+<p><img src="/blog/image/untitled0.png" alt=""></p>
+<p>也可以详细复制带文字、图片或链接的信息到分享墙，相关的附件会呈现在文字的下方。</p>
+<p><img src="/blog/image/untitled1.png" alt=""></p>
+<h3>支持二次编辑</h3>
+<p>你可以对已经发布的内容进行二次编辑，不断更新素材内容，便于重要信息的累积。当然，如果你的成员拥有权限，它就像是另一种可以支持多人同时编辑的在线文档工具。</p>
+<p><img src="/blog/image/untitled2.png" alt=""></p>
+<h3>利于阅读的交互形式</h3>
+<p>在新版「分享墙」中，我们充分利用了屏幕宽度的优势，形成“左-右”的交互展现形式。</p>
+<p><img src="/blog/image/文章-1.jpg" alt=""></p>
+<p>分享的标题会以目录的形式呈现在左侧，你通过标题就可以找到自己需要的信息。正在查看的标题会用蓝色显示出来。</p>
+<p><img src="/blog/image/文章-2.jpg" alt=""></p>
+<p>通过点击“我的分享”可以轻松查看所有自己分享的内容。</p>
+<p><img src="/blog/image/untitled3.png" alt=""></p>
+</section></article><div id="disqus_thread"></div><script>var disqus_shortname = 'teambition';
+(function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();</script></div><div class="postnav clearfix"><div class="postnav-inner"><div class="prev"><a href="/blog/201402251159/"><span>上一篇</span><div>SegmentFault 采访Teambition：简单高效的协作平台</div></a></div><div class="home"><a href="/blog/"><i class="icon-home"></i></a></div><div class="next"><a href="/blog/201401240148/"><span>下一篇</span><div>齐俊元：没有什么事是特别难的，只要努力去做</div></a></div></div></div></div><footer class="index-footer"><script>var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://"); document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F20a90cbf6b73fb35adf028fda309db3c' type='text/javascript'%3E%3C/script%3E"));</script><section><a href="http://www.teambition.com"><b class="teambition-font">teambition</b></a><span> &copy; 2013 make work enjoyable</span><div class="sns-info"><div class="sina-info"><div class="pop"><label>官方微博</label><p>@teambition</p><a href="http://weibo.com/teambition" target="_blank" class="btn btn-primary"><i class="icon-plus-white"></i>加关注</a></div></div><div class="qq-info"><div class="pop"><label>QQ群</label><p>329601963</p><a href="http://wp.qq.com/wpa/qunwpa?idkey=f12bcaf9c408d7adadf0f204217256e98250e99f41ed7a32fd0b6913aaf7f1d8" target="_blank" class="btn btn-primary"><i class="icon-plus-white"></i>加入</a></div></div><div class="weixin-info"><div class="pop"><label>微信客服</label><p>扫瞄二维码关注我们</p><div class="qr-wrapper"></div></div></div></div></section></footer></body></html>

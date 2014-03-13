@@ -1,0 +1,49 @@
+<!DOCTYPE html><html><head><script src="/blog/js/jquery.js"></script><script src="/blog/js/blog.js"></script><!--[if lt IE 9]><script src=config.root+"js/html5shiv.js"></script><![endif]--><meta charset="utf-8"><title>用户采访：用任务看板提高团队执行力</title><meta name="viewport" content="width=device-width, initial-scale=1.0"><link href="https://dn-tbui.qbox.me/0.11.0/css/tb.ui.min.css" rel="stylesheet"><link href="/blog/css/style.css" rel="stylesheet"><link rel="shortcut icon" href="/blog/img/favicon.ico"><link href="/blog/atom.xml" type="application/atom+xml" rel="alternate" title="teambition blog"></head><body><a href="/blog/"><div class="square-brand teambition-font">t</div></a><div class="article-main"><script>$(function () {
+  var $hero=$('.hero');
+  var $indicator = $('.loading-indicator');
+  var $heroBg = $('.hero-bg');
+  $hero.css('opacity',0);
+  var img=new Image();
+  img.src="/blog/header/blog0310.jpg";
+  img.onload=function(){
+    var cover=document.getElementsByClassName('hero')[0];
+    cover.style.backgroundImage='url(/blog//header/blog0310.jpg)';
+    $indicator.animate({opacity: 0}, 500, function(){
+      $heroBg.animate({opacity:0},700);
+      $hero.animate({opacity:1},700);
+    });
+  }
+  window.onscroll = function(){
+    var offsetY=$(window).scrollTop();
+    var opacityValue = 1.*(500-offsetY)/500;
+    $hero.css('opacity', opacityValue);  
+  }
+})</script><div class="hero-bg"><div class="loading-indicator"><span class="loader-dot"></span><span class="loader-dot"></span><span class="loader-dot"></span></div></div><div class="hero"></div><div class="page-container"><article><header><h4><small><time datetime="Fri Mar 07 2014 18:11:23 GMT+0800">3/7/2014</time></small></h4><h1 class="title sigle-title">用户采访：用任务看板提高团队执行力</h1></header><section class="main-content"><p>前几天跟一位在投资公司做管理的用户朋友聊天，对方说起自己由于是搞研发出身，所以对团队“执行力”的要求非常高，除了各部门自己内部的工作，跨部门之间的沟通与协作同样需要在既定的时间内高质量地完成。一时出于好奇，便向对方请教了他们使用teambition的方法，结果大开眼界，想要分享出来，为更多想用teambition来提高团队效率的朋友提供借鉴。</p>
+<a id="more"></a>
+<h2>制定新的团队工作模式</h2>
+<p>Teambition作为一种新的团队协作模式，能有效提升团队的执行能力，但对于以往习惯以邮件进行工作沟通的人而言，免不了一阵磨合。这时，你需要做的就是与你的团队约定使用teambition，告知并确保他们知晓具体的使用规则，并建立相应的监督机制。</p>
+<p>• <strong>子任务代替签字确认</strong></p>
+<p>领导所做的各种要求，都被要求以“子任务已阅”的形式让每个人确认。比如，在任务板中告知成员需要开始使用teambition进行团队协作，制定具体的项目使用规范，在添加所有成员为相关者后，以单个成员作为子任务，如“XX已阅”。当某成员了解情况之后，点击自己的子任务，代表他已知晓并会遵守使用规范。</p>
+<p><img src="/blog/image/1394187160208未标题-1.jpg" alt=""></p>
+<p>• <strong>任务日志成为奖惩凭证</strong></p>
+<p>员工点击自己的子任务后，就会出现任务日志。若是某成员在知情的情况下，未按照要求完成工作，就会收到相应的处罚，而任务日志便会成为处罚的依据。</p>
+<p><img src="/blog/image/1394187206093未标题-2.jpg" alt=""></p>
+<h2>利用任务板训练团队执行力</h2>
+<p>团队执行力低下，看起来似乎是底层执行者的责任，但传达者是否传达到位也很关键。需要明确告知对方执行的具体内容、由谁来完成以及设定任务的截止时间。当然，这些可以直接影响执行力的因素，teambition已经全部考虑进去了。</p>
+<p>• <strong>强化要求和过程管理</strong></p>
+<p>执行力的训练，往往要靠要求和过程管理来实现。比如，为团队成员指派任务的时候，按照“描述详细的任务+明确的任务完成截止日期+完成这个任务明确的人或谁谁谁”这种方式进行（实际上跟开发模式很像），如果无法按时完成，可以申请延期，但必须写明延期的原因，原因如果不合格就会影响绩效；如果每次提前完成任务或超预期完成任务，就会给予奖励。有了适时适度的奖惩，执行力就会逐渐变得到位。</p>
+<p><img src="/blog/image/1394187276018未标题-3.jpg" alt=""></p>
+<p>• <strong>任务板取代传统邮件</strong></p>
+<p>只有执行力提升了，才有资格谈团队效率。从这个角度看，以往通过邮件汇报或请示工作的方式，一来不够及时，二来需要在成堆的邮件中快速找到需要的附件版本会有些困难。在teambition中，可以用任务板来代替邮件进行沟通和协作。</p>
+<p>以团队成员提交各自的周报为例，在名为“工作周报”的任务板中，分别建立各自的任务，如“XX2014年工作周报汇报”。子任务添加周报发布的时间，如“2014年3月第一周工作周报”“2014年3月第二周工作周报”……当周报以附件的形式上传完毕之后，勾选当期的子任务以示完成。这样，团队负责人能在最短的时间内查看工作汇报，团队成员也能在需要的时候快速找到需要的文件。</p>
+<p><img src="/blog/image/1394187317330未标题-4.jpg" alt=""></p>
+<h2>配套的奖惩措施</h2>
+<p>唯有公开、公平、公正的奖惩制度才能让人信服，并受其驱使而更高效地进行工作。在“公司公开项目”的“绩效奖惩公布面板”中，记录了公司公开“批评”和“表扬”的记录，所有成员都可以查看到。</p>
+<p><img src="/blog/image/未标题-5.jpg" alt=""></p>
+<p>想起之前看到的一篇文章说，“如果执行力不能在每个人自己的心里内生，即便掌握各式各样的执行力提升技巧都是徒劳的。”希望通过teambition的推广实行，可以帮您的企业或团队培养高效执行的意识，改善现有不良的工作方式，并且爱上自己的工作。</p>
+</section></article><div id="disqus_thread"></div><script>var disqus_shortname = 'teambition';
+(function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();</script></div><div class="postnav clearfix"><div class="postnav-inner"><div class="prev"><a href="/blog/201403120554/"><span>上一篇</span><div>用微信向「今天」说早安</div></a></div><div class="home"><a href="/blog/"><i class="icon-home"></i></a></div><div class="next"><a href="/blog/201403031122/"><span>下一篇</span><div>团队采访：如何利用teambition管理人力资源工作</div></a></div></div></div></div><footer class="index-footer"><script>var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://"); document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F20a90cbf6b73fb35adf028fda309db3c' type='text/javascript'%3E%3C/script%3E"));</script><section><a href="http://www.teambition.com"><b class="teambition-font">teambition</b></a><span> &copy; 2013 make work enjoyable</span><div class="sns-info"><div class="sina-info"><div class="pop"><label>官方微博</label><p>@teambition</p><a href="http://weibo.com/teambition" target="_blank" class="btn btn-primary"><i class="icon-plus-white"></i>加关注</a></div></div><div class="qq-info"><div class="pop"><label>QQ群</label><p>329601963</p><a href="http://wp.qq.com/wpa/qunwpa?idkey=f12bcaf9c408d7adadf0f204217256e98250e99f41ed7a32fd0b6913aaf7f1d8" target="_blank" class="btn btn-primary"><i class="icon-plus-white"></i>加入</a></div></div><div class="weixin-info"><div class="pop"><label>微信客服</label><p>扫瞄二维码关注我们</p><div class="qr-wrapper"></div></div></div></div></section></footer></body></html>

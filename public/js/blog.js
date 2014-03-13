@@ -11,13 +11,4 @@ $(function(){
       right+=$arts[i].offsetHeight;
     }
   }
-
-  $title=$('.brand');
-  $(window).scroll(function(){
-    var h=50;
-    var top=$(window).scrollTop();
-    var $item=$('.square-brand');
-    if(top>h)$title.addClass('small');
-    else $title.removeClass('small');
-  });
 });

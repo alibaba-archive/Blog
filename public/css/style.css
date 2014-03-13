@@ -39,6 +39,7 @@ body {
   transition: all 0.25s cubic-bezier(0.7, 0, 0.175, 1) 0;
   -moz-transition: all 0.2s ease-out;
   background-color: #f5f6f7;
+  font-family: 'Helvetica Neue', 'Microsoft Yahei', 'Hiragino Sans GB', 'WenQuanYi Micro Hei', sans-serif;
 }
 a {
   text-decoration: none;
@@ -583,8 +584,6 @@ article footer .tag {
   line-height: 40px;
   background-color: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  opacity: 0;
-  filter: alpha(opacity=0);
   -webkit-transform: translate3d(0, 0, 0);
   -moz-transform: translate3d(0, 0, 0);
   -o-transform: translate3d(0, 0, 0);

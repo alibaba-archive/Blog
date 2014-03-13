@@ -10,11 +10,6 @@ block content
   .article-main
     -header=page.header||"default.jpg"
     script.
-      $squareBrand = $('.square-brand');
-      if(document.referrer=="#{config.url}/"){
-        $squareBrand.addClass('animated bounceInLeft');
-      }
-      else $squareBrand.css('opacity','1');
       $(function () {
         var $hero=$('.hero');
         var $indicator = $('.loading-indicator');
@@ -30,21 +25,11 @@ block content
             $hero.animate({opacity:1},700);
           });
         }
-        var $title=$('.square-brand');
         window.onscroll = function(){
           var offsetY=$(window).scrollTop();
           var opacityValue = 1.*(500-offsetY)/500;
           $hero.css('opacity', opacityValue);  
-          if(offsetY<=0){
-            $title.addClass('appear');
-            $title.removeClass('disappear');
-          }
-          if(offsetY>150){
-            $title.removeClass('appear');
-            $title.addClass('disappear');
-          }
         }
-
       })
     div.hero-bg
       div.loading-indicator

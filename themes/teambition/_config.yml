@@ -1,17 +1,2 @@
 menu:
   Home: /
-
-widgets:
-- search
-
-excerpt_link: Read More
-
-addthis:
-  enable: true
-  pubid:
-  pinterest: true
-
-fancybox: true
-
-google_analytics:
-rss:
