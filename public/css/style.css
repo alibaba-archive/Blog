@@ -617,6 +617,9 @@ article footer .tag {
 .main-content p {
   margin: 1.5em 0;
 }
+.main-content p > img {
+  max-width: 100%;
+}
 .main-content h2 {
   font-weight: bold;
   font-size: 1.5em;
