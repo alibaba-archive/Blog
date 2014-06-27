@@ -1,0 +1,42 @@
+<!DOCTYPE html><html><head><script src="/blog/js/jquery.js"></script><script src="/blog/js/blog.js"></script><!--[if lt IE 9]><script src=config.root+"js/html5shiv.js"></script><![endif]--><meta charset="utf-8"><title>三招让会议决议快速落地</title><meta name="viewport" content="width=device-width, initial-scale=1.0"><link href="https://dn-tbui.qbox.me/0.11.0/css/tb.ui.min.css" rel="stylesheet"><link href="/blog/css/style.css" rel="stylesheet"><link rel="shortcut icon" href="/blog/img/favicon.ico"><link href="/blog/atom.xml" type="application/atom+xml" rel="alternate" title="teambition blog"></head><body><a href="/blog/"><div class="square-brand teambition-font">t</div></a><div class="article-main"><script>$(function () {
+  var $hero=$('.hero');
+  var $indicator = $('.loading-indicator');
+  var $heroBg = $('.hero-bg');
+  $hero.css('opacity',0);
+  var img=new Image();
+  img.src="/blog/header/blogpic0426.png";
+  img.onload=function(){
+    var cover=document.getElementsByClassName('hero')[0];
+    cover.style.backgroundImage='url(/blog//header/blogpic0426.png)';
+    $indicator.animate({opacity: 0}, 500, function(){
+      $heroBg.animate({opacity:0},700);
+      $hero.animate({opacity:1},700);
+    });
+  }
+  window.onscroll = function(){
+    var offsetY=$(window).scrollTop();
+    var opacityValue = 1.*(500-offsetY)/500;
+    $hero.css('opacity', opacityValue);  
+  }
+})</script><div class="hero-bg"><div class="loading-indicator"><span class="loader-dot"></span><span class="loader-dot"></span><span class="loader-dot"></span></div></div><div class="hero"></div><div class="page-container"><article><header><h4><small><time datetime="Fri Apr 25 2014 17:18:40 GMT+0800">4/25/2014</time></small></h4><h1 class="title sigle-title">三招让会议决议快速落地</h1><a href="/blog/tags/使用技巧/" class="tag">#使用技巧</a></header><section class="main-content"><p>以往的工作经历中，我们时常用会议的形式来对某个项目进行沟通，而会议纪要作为事后具体执行的依据，对记录的完整性及准确度要求非常高。如果你的会议不是座谈会性质，而是追求各自的工作能够更好地被执行，那么，用teambition替代会议纪要来进行工作分配是再合适不过的了</p>
+<a id="more"></a>
+<h3>会前：共享会议资料</h3>
+<p>在会议正式开始之前，你可以先将会议所需要用到的PPT、会议大纲、会议目的等信息在teambition上分享给你的伙伴。 添加参与者后，对方会及时收到通知，确保第一时间查看资料。</p>
+<p><img src="/blog/image/13984175598131.png" alt=""></p>
+<h3>会中：直接分派任务</h3>
+<p>由于会前就已经接触过会议资料，会议相关人员能够快速进入会议状态，当会议进行论中涉及到具体的执行事务时，只需要打开teambition的任务板，就可以直接创建并分配每个人的任务，并设置执行的截止日期与任务优先级。省去了以往会议纪要”记录——整理——执行”多重环节的麻烦，所有相关者将会非常清楚地知道自己需要处理哪些事情。</p>
+<p><img src="/blog/image/13984175817742.png" alt=""></p>
+<h3>会后：执行进展一目了然</h3>
+<p>在teambition中可以用“任务阶段”来表示任务的进展。比如：</p>
+<blockquote>
+<p>准备—进行中—已完成</p>
+</blockquote>
+<p>当任务开始执行时，将其从“准备”阶段拖拽到“进行中”，代表任务已经开始执行。</p>
+<p>你不再需要通过口头的询问来了解事情的进展，通过任务板就可以看到项目全局的执行情况。当发现某个需要近期完成的任务没有更进一步的动向时，teambition会用醒目的红色加以提醒。你也可以督促相关人员该任务需要加紧完成。</p>
+<p><img src="/blog/image/13984176675443.png" alt=""></p>
+</section></article><div id="disqus_thread"></div><script>var disqus_shortname = 'teambition';
+(function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();</script></div><div class="postnav clearfix"><div class="postnav-inner"><div class="prev"><a href="/blog/201404281042/"><span>上一篇</span><div>致伴随teambition成长的媒体小伙伴们</div></a></div><div class="home"><a href="/blog/"><i class="icon-home"></i></a></div><div class="next"><a href="/blog/201404161033/"><span>下一篇</span><div>Teambition iOS 3.0：让协作更便捷</div></a></div></div></div></div><footer class="index-footer"><script>var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://"); document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F7e5cc343eb5b4db0b51911e3565fb0f9' type='text/javascript'%3E%3C/script%3E"));</script><section><a href="http://www.teambition.com"><b class="teambition-font">teambition</b></a><span> &copy; 2013 make work enjoyable</span><div class="sns-info"><div class="sina-info"><div class="pop"><label>官方微博</label><p>@teambition</p><a href="http://weibo.com/teambition" target="_blank" class="btn btn-primary"><i class="icon-plus-white"></i>加关注</a></div></div><div class="qq-info"><div class="pop"><label>QQ群</label><p>329601963</p><a href="http://wp.qq.com/wpa/qunwpa?idkey=f12bcaf9c408d7adadf0f204217256e98250e99f41ed7a32fd0b6913aaf7f1d8" target="_blank" class="btn btn-primary"><i class="icon-plus-white"></i>加入</a></div></div><div class="weixin-info"><div class="pop"><label>微信客服</label><p>扫瞄二维码关注我们</p><div class="qr-wrapper"></div></div></div></div></section></footer></body></html>

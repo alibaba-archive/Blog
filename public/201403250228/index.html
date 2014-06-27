@@ -1,0 +1,55 @@
+<!DOCTYPE html><html><head><script src="/blog/js/jquery.js"></script><script src="/blog/js/blog.js"></script><!--[if lt IE 9]><script src=config.root+"js/html5shiv.js"></script><![endif]--><meta charset="utf-8"><title>团队实践:用teambition进行以Sprint为分类的敏捷开发</title><meta name="viewport" content="width=device-width, initial-scale=1.0"><link href="https://dn-tbui.qbox.me/0.11.0/css/tb.ui.min.css" rel="stylesheet"><link href="/blog/css/style.css" rel="stylesheet"><link rel="shortcut icon" href="/blog/img/favicon.ico"><link href="/blog/atom.xml" type="application/atom+xml" rel="alternate" title="teambition blog"></head><body><a href="/blog/"><div class="square-brand teambition-font">t</div></a><div class="article-main"><script>$(function () {
+  var $hero=$('.hero');
+  var $indicator = $('.loading-indicator');
+  var $heroBg = $('.hero-bg');
+  $hero.css('opacity',0);
+  var img=new Image();
+  img.src="/blog/header/blogpic0326.jpg";
+  img.onload=function(){
+    var cover=document.getElementsByClassName('hero')[0];
+    cover.style.backgroundImage='url(/blog//header/blogpic0326.jpg)';
+    $indicator.animate({opacity: 0}, 500, function(){
+      $heroBg.animate({opacity:0},700);
+      $hero.animate({opacity:1},700);
+    });
+  }
+  window.onscroll = function(){
+    var offsetY=$(window).scrollTop();
+    var opacityValue = 1.*(500-offsetY)/500;
+    $hero.css('opacity', opacityValue);  
+  }
+})</script><div class="hero-bg"><div class="loading-indicator"><span class="loader-dot"></span><span class="loader-dot"></span><span class="loader-dot"></span></div></div><div class="hero"></div><div class="page-container"><article><header><h4><small><time datetime="Tue Mar 25 2014 14:28:42 GMT+0800">3/25/2014</time></small></h4><h1 class="title sigle-title">团队实践:用teambition进行以Sprint为分类的敏捷开发</h1></header><section class="main-content"><p>在敏捷开发这个词越来越火之后，公司的研发团队也逐渐向敏捷方向转型。前段时间团队用teambition来帮助进行敏捷开发，今天把我们团队如何以Sprint为分类进行敏捷开发的方法分享给大家。首先我们从产品的需求管理开始说起。</p>
+<a id="more"></a>
+<h3>产品的需求收集</h3>
+<p>以我们公司正在进行的iOS客户端开发为例，在名为“iOS app开发”的项目中，产品负责人（以下简称PO）会创建一个Product Backlog的任务分组，用来收集产品的需求和用户故事。PO会按优先级顺序排列来帮助自己管理需求。</p>
+<p><img src="/blog/image/13957289727601.png" alt=""></p>
+<h3>以Sprint来安排开发的排期</h3>
+<p>研发团队用Sprint Backlog 的任务分组，来进行工作量的预估和安排。</p>
+<p><img src="/blog/image/13957290050592.png" alt=""></p>
+<p>通过Sprint计划会议，PO从Product Backlog中选出需求点作为本次迭代的目标，将其移动到Sprint Backlog中。</p>
+<p><img src="/blog/image/13957290371123.png" alt=""></p>
+<p><img src="/blog/image/13957290476874.png" alt=""></p>
+<p>这个目标的时间周期一般为1-4个星期，研发团队将这个目标细化成一个个可执行的任务，以此来建立完整的Sprint Backlog。</p>
+<p><img src="/blog/image/13957290698075.png" alt=""></p>
+<p>任务的进度条可以展示整体的Sprint排期完成情况。</p>
+<p><img src="/blog/image/13957290934596.png" alt=""></p>
+<p><strong>任务板显示开发进程</strong></p>
+<p>每个Sprint 都会有一个新的Sprint Backlog任务板，任务板的阶段可以设置为“需求—计划中—进行中—测试中—已完成”，如下图所示：</p>
+<p><img src="/blog/image/13957291189307.png" alt=""></p>
+<p>当任务需要进行下一阶段时，可以通过拖拽任务卡片，将其移动到下一阶段。同时，你可以通过修改执行者，来告诉对方可以进行下一步的工作了。</p>
+<p><img src="/blog/image/8.png" alt=""></p>
+<p>当一个需求目标所涉及的所有任务都完成时，该目标会被移动到“已完成”，表示该目标已实现。</p>
+<p>这样操作的好处，我认为有以下几点：</p>
+<p>   • 对于不同类型的事情，只需要进行头像的拖拽，就可以快速分配出去；<br>   • 可以给每个需求设置截止时间，当任务完成的时间超过预期时，会用红色标注显示；</p>
+<p><img src="/blog/image/9.png" alt=""></p>
+<p>   • 所有的讨论和任务状态的变化，任务相关者都可以看到。将产品的功能参数填写在备注中并进行更新，备注中永远呈现最新的内容；</p>
+<p><img src="/blog/image/10.png" alt=""></p>
+<p>   • 上传的文档，会与任务附着在一起，找寻方便。</p>
+<p><img src="/blog/image/11.png" alt=""></p>
+<p>虽然teambition并不是专门为敏捷开发而设计的产品，但是对于需要经常、快速、高质量地发布软件的研发团队而言无疑是非常适用的，在高效的团队协作的基础之上，帮助打造高质量的敏捷团队。</p>
+</section></article><div id="disqus_thread"></div><script>var disqus_shortname = 'teambition';
+(function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();</script></div><div class="postnav clearfix"><div class="postnav-inner"><div class="prev"><a href="/blog/201404040214/"><span>上一篇</span><div>你需要知道的关于teambition的那些事</div></a></div><div class="home"><a href="/blog/"><i class="icon-home"></i></a></div><div class="next"><a href="/blog/201403120554/"><span>下一篇</span><div>用微信向「今天」说早安</div></a></div></div></div></div><footer class="index-footer"><script>var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://"); document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F7e5cc343eb5b4db0b51911e3565fb0f9' type='text/javascript'%3E%3C/script%3E"));</script><section><a href="http://www.teambition.com"><b class="teambition-font">teambition</b></a><span> &copy; 2013 make work enjoyable</span><div class="sns-info"><div class="sina-info"><div class="pop"><label>官方微博</label><p>@teambition</p><a href="http://weibo.com/teambition" target="_blank" class="btn btn-primary"><i class="icon-plus-white"></i>加关注</a></div></div><div class="qq-info"><div class="pop"><label>QQ群</label><p>329601963</p><a href="http://wp.qq.com/wpa/qunwpa?idkey=f12bcaf9c408d7adadf0f204217256e98250e99f41ed7a32fd0b6913aaf7f1d8" target="_blank" class="btn btn-primary"><i class="icon-plus-white"></i>加入</a></div></div><div class="weixin-info"><div class="pop"><label>微信客服</label><p>扫瞄二维码关注我们</p><div class="qr-wrapper"></div></div></div></div></section></footer></body></html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html><html><head><script src="/blog/js/jquery.js"></script><script src="/blog/js/blog.js"></script><!--[if lt IE 9]><script src=config.root+"js/html5shiv.js"></script><![endif]--><meta charset="utf-8"><title>致伴随teambition成长的媒体小伙伴们</title><meta name="viewport" content="width=device-width, initial-scale=1.0"><link href="https://dn-tbui.qbox.me/0.11.0/css/tb.ui.min.css" rel="stylesheet"><link href="/blog/css/style.css" rel="stylesheet"><link rel="shortcut icon" href="/blog/img/favicon.ico"><link href="/blog/atom.xml" type="application/atom+xml" rel="alternate" title="teambition blog"></head><body><a href="/blog/"><div class="square-brand teambition-font">t</div></a><div class="article-main"><script>$(function () {
+  var $hero=$('.hero');
+  var $indicator = $('.loading-indicator');
+  var $heroBg = $('.hero-bg');
+  $hero.css('opacity',0);
+  var img=new Image();
+  img.src="/blog/header/blogpic0425.png";
+  img.onload=function(){
+    var cover=document.getElementsByClassName('hero')[0];
+    cover.style.backgroundImage='url(/blog//header/blogpic0425.png)';
+    $indicator.animate({opacity: 0}, 500, function(){
+      $heroBg.animate({opacity:0},700);
+      $hero.animate({opacity:1},700);
+    });
+  }
+  window.onscroll = function(){
+    var offsetY=$(window).scrollTop();
+    var opacityValue = 1.*(500-offsetY)/500;
+    $hero.css('opacity', opacityValue);  
+  }
+})</script><div class="hero-bg"><div class="loading-indicator"><span class="loader-dot"></span><span class="loader-dot"></span><span class="loader-dot"></span></div></div><div class="hero"></div><div class="page-container"><article><header><h4><small><time datetime="Mon Apr 28 2014 10:42:59 GMT+0800">4/28/2014</time></small></h4><h1 class="title sigle-title">致伴随teambition成长的媒体小伙伴们</h1></header><section class="main-content"><p>Teambition创造之初，是为了满足自己团队内部的协作需求。但很快，有越来越多的人开始知道它、喜欢它、使用它，所以我们投入了非常多的心思和精力来让它变得更好用并同时更加强大，希望它能改善人们的工作方式。这是我们一直努力，并坚持着的事。</p>
+<a id="more"></a>
+<h3>【2013-06-06】Teambition开放注册</h3>
+<p>2013年，那一年初夏，Teambition正式对外开放注册，36Kr对我们进行了相关报道。许多用户看了报道后开始使用我们的产品，Teambition的第一批忠实用户由此产生。作为国内顶尖的科技类媒体，36Kr提供了一个窗口，让我们可以将最棒的创造展现在更多的人面前，为此我们一直心怀感恩。</p>
+<p><img src="/blog/image/36.png" alt=""></p>
+<h3>【2014-03-24】怀揣梦想，坚持不懈</h3>
+<p>今年3月，国内专注于科技创业创新领域的媒体tech2ipo发布了名为《创见聚光灯之团队协作工具》的系列专题，对国内外的团队协作工具做了详细的介绍，Teambition也在其列。文章发布之后，作者@张超创见 在其微博的一句点评让我们十分感动：“六七个团队协作工具在经过将近三周的测试后，Teambition 是目前我个人最满意的国内协作工具。”简简单单一句话，让一直脚踏实地努力并坚持着的Teambition团队深感欣慰。从产品正式发布到现在，我们坚持每2周一个版本迭代，增添了3款项目应用，完成了300多个功能升级，1000多项问题修复。目前，有逾十万的项目在Teambition上推进。我们相信，一步一个脚印，会让我们离梦想更近。</p>
+<p><img src="/blog/image/创建.png" alt=""></p>
+<h3>【2014-04-15】iPhone 3.0版最美应用的首发</h3>
+<p>4月中旬，Teambition的网页版与iPhone客户端进行了同步升级，其中iPhone端得到了最美应用的全力支持，并在最美应用平台首发。此次改版，我们花了非常多的心思去思考“如何让第一次使用Teambition的人能快速上手”，因此我们做了一系列相应的调整，让它更易于上手，同时扩展功能性，最终收到了许多用户反馈过来的好评。报道过后，我们也惊喜地发现，当日iPhone客户端的新增用户数量比平日上升了数倍，并且留存情况非常好。</p>
+<p><img src="/blog/image/zuimei.png" alt=""></p>
+<h3>把用户关心的事情放在首位</h3>
+<p>我们非常幸运，我们有一群真诚的用户，他们能够主动发现Teambition的不足并为我们提出宝贵的建议。每一天，Teambition的各个社区都很‘热闹’，给我们不断改进产品提供了源源不断的能量。</p>
+<p>Teambition的成长，离不开用户的支持，更离不开敬业陪伴着的媒体伙伴们，感谢你们一路以来的关注，相信在各位的支持下Teambition会越来越好。</p>
+<p><strong>特别鸣谢（排名不分先后）：</strong></p>
+<p>36氪、创业邦杂志、快鲤鱼、tech2ipo、最美应用、雷锋网、小众软件、虎嗅网、上海商报、爱范儿、PingWest中文网、SegmentFault、中国企业家杂志</p>
+</section></article><div id="disqus_thread"></div><script>var disqus_shortname = 'teambition';
+(function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();</script></div><div class="postnav clearfix"><div class="postnav-inner"><div class="prev"><a href="/blog/201405060209/"><span>上一篇</span><div>Teambition中的「组织」功能介绍</div></a></div><div class="home"><a href="/blog/"><i class="icon-home"></i></a></div><div class="next"><a href="/blog/201404250518/"><span>下一篇</span><div>三招让会议决议快速落地</div></a></div></div></div></div><footer class="index-footer"><script>var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://"); document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F7e5cc343eb5b4db0b51911e3565fb0f9' type='text/javascript'%3E%3C/script%3E"));</script><section><a href="http://www.teambition.com"><b class="teambition-font">teambition</b></a><span> &copy; 2013 make work enjoyable</span><div class="sns-info"><div class="sina-info"><div class="pop"><label>官方微博</label><p>@teambition</p><a href="http://weibo.com/teambition" target="_blank" class="btn btn-primary"><i class="icon-plus-white"></i>加关注</a></div></div><div class="qq-info"><div class="pop"><label>QQ群</label><p>329601963</p><a href="http://wp.qq.com/wpa/qunwpa?idkey=f12bcaf9c408d7adadf0f204217256e98250e99f41ed7a32fd0b6913aaf7f1d8" target="_blank" class="btn btn-primary"><i class="icon-plus-white"></i>加入</a></div></div><div class="weixin-info"><div class="pop"><label>微信客服</label><p>扫瞄二维码关注我们</p><div class="qr-wrapper"></div></div></div></div></section></footer></body></html>

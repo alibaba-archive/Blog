@@ -1,0 +1,53 @@
+<!DOCTYPE html><html><head><script src="/blog/js/jquery.js"></script><script src="/blog/js/blog.js"></script><!--[if lt IE 9]><script src=config.root+"js/html5shiv.js"></script><![endif]--><meta charset="utf-8"><title>Teambition iOS 3.0：让协作更便捷</title><meta name="viewport" content="width=device-width, initial-scale=1.0"><link href="https://dn-tbui.qbox.me/0.11.0/css/tb.ui.min.css" rel="stylesheet"><link href="/blog/css/style.css" rel="stylesheet"><link rel="shortcut icon" href="/blog/img/favicon.ico"><link href="/blog/atom.xml" type="application/atom+xml" rel="alternate" title="teambition blog"></head><body><a href="/blog/"><div class="square-brand teambition-font">t</div></a><div class="article-main"><script>$(function () {
+  var $hero=$('.hero');
+  var $indicator = $('.loading-indicator');
+  var $heroBg = $('.hero-bg');
+  $hero.css('opacity',0);
+  var img=new Image();
+  img.src="/blog/header/1397621094253blogpic.png";
+  img.onload=function(){
+    var cover=document.getElementsByClassName('hero')[0];
+    cover.style.backgroundImage='url(/blog//header/1397621094253blogpic.png)';
+    $indicator.animate({opacity: 0}, 500, function(){
+      $heroBg.animate({opacity:0},700);
+      $hero.animate({opacity:1},700);
+    });
+  }
+  window.onscroll = function(){
+    var offsetY=$(window).scrollTop();
+    var opacityValue = 1.*(500-offsetY)/500;
+    $hero.css('opacity', opacityValue);  
+  }
+})</script><div class="hero-bg"><div class="loading-indicator"><span class="loader-dot"></span><span class="loader-dot"></span><span class="loader-dot"></span></div></div><div class="hero"></div><div class="page-container"><article><header><h4><small><time datetime="Wed Apr 16 2014 10:33:31 GMT+0800">4/16/2014</time></small></h4><h1 class="title sigle-title">Teambition iOS 3.0：让协作更便捷</h1></header><section class="main-content"><p>Teambition一直以来都希望能够改善人们的工作方式，为此我们做了非常多的努力和尝试。除了网页版的体验优化外，我们对iPhone客户端的功能和使用体验进行了同步优化，希望它可以让你的工作跨越地域的局限，并且带来便捷优良的协作体验。</p>
+<a id="more"></a>
+<h3>及时了解你最关心的事</h3>
+<p>如同网页版一样，我们调整了界面的布局，针对那些每天处理的最多的三类事情：项目、我的（任务、日程）和收件箱，被独立拆分作为此次3.0更新的整体导航，显示在应用的最下方。</p>
+<p>之所以做这样的调整，是希望让应用整体的逻辑变得更为清晰，即使第一次使用的人也能清楚地知道在哪里找寻自己需要的东西。同时，也便于在项目与个人任务之间相互切换而互不影响。</p>
+<p><img src="/blog/image/未标题-1.png" alt=""></p>
+<h3>流畅的项目协作体验</h3>
+<p>   • <strong>主页导航一目了然</strong></p>
+<p>我们为每个项目增加了主页导航。在点击进入某个项目后，会出现该项目的导航页面，你可以选择进入“任务板”、“分享墙”、“文件库”、“日程表”、“项目成员”亦或是“项目设置”。</p>
+<p>   • <strong>任务详情页“即点即编”</strong></p>
+<p>任务详情页面的布局也得到了优化，除了让内容信息的排版变得更为清晰之外，我们升级了任务编辑的体验。详情页内的任何信息，当需要修改时，只需要点击该信息即可修改，而无需再进入“编辑”模式修改。比如需要修改任务的执行者，只需要点击“执行者”即可。如下图所示：</p>
+<p><img src="/blog/image/未标题-2.png" alt=""></p>
+<p>   • <strong>分享墙支持富文本显示</strong></p>
+<p>新版iPhone客户端与网页版保持一致，让分享墙支持了富文本显示。分享的内容、图片、格式、链接等信息都会完整显示。</p>
+<p>   • <strong>文件库支持文件预览</strong></p>
+<p>我们增加了文件库子文件集的创建，并且可以通过Dropbox上传文件。同时，文件预览的体验在新版本中也得到了全面的优化。</p>
+<h3>完善的个人事务管理</h3>
+<p>我们新增了个人中心，用于查看个人的任务及日程。点击界面下方“我”进入个人中心，可以查看“我的任务”与“我的日程”，也可以对个人信息进行修改。</p>
+<p>   • <strong>我的任务</strong></p>
+<p>在“我的任务”中，可以查看到自己所有需要执行完成的任务信息。这些信息会根据时间点“今天”与“未来”进行区分，并且按照项目分类。具有优先级别的任务会用颜色提示，并且显示任务完成的截止日期。</p>
+<p><img src="/blog/image/1397616145040未标题-3.png" alt=""></p>
+<p>   • <strong>我的日程</strong></p>
+<p>“我的日程”会按照时间顺序显示所有的日程安排，点击进入某项日程，可以看到日程的起始时间、日程笔记、参与的相关者等细则内容。</p>
+<h3>稳定及时的消息通知体验</h3>
+<p>我们将收件箱作为一个独立的应用拆分出来，同时优化了性能，让加载变得更为流畅和稳定。同时，你也可以选择“删除所有已读”或“标记所有已读”信息。</p>
+<p>此次iPhone客户端﻿﻿的升级我们花了非常多的心思，让其无论在界面UI亦或是用户体验上都变得更为出色，我们期待它能让你的工作变得更为高效。</p>
+<p>下载地址：<a href="https://www.teambition.com/apps/" target="_blank">https://www.teambition.com/apps/</a></p>
+</section></article><div id="disqus_thread"></div><script>var disqus_shortname = 'teambition';
+(function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();</script></div><div class="postnav clearfix"><div class="postnav-inner"><div class="prev"><a href="/blog/201404250518/"><span>上一篇</span><div>三招让会议决议快速落地</div></a></div><div class="home"><a href="/blog/"><i class="icon-home"></i></a></div><div class="next"><a href="/blog/201404161025/"><span>下一篇</span><div>Teambition体验升级：打造易于上手的工作区</div></a></div></div></div></div><footer class="index-footer"><script>var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://"); document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F7e5cc343eb5b4db0b51911e3565fb0f9' type='text/javascript'%3E%3C/script%3E"));</script><section><a href="http://www.teambition.com"><b class="teambition-font">teambition</b></a><span> &copy; 2013 make work enjoyable</span><div class="sns-info"><div class="sina-info"><div class="pop"><label>官方微博</label><p>@teambition</p><a href="http://weibo.com/teambition" target="_blank" class="btn btn-primary"><i class="icon-plus-white"></i>加关注</a></div></div><div class="qq-info"><div class="pop"><label>QQ群</label><p>329601963</p><a href="http://wp.qq.com/wpa/qunwpa?idkey=f12bcaf9c408d7adadf0f204217256e98250e99f41ed7a32fd0b6913aaf7f1d8" target="_blank" class="btn btn-primary"><i class="icon-plus-white"></i>加入</a></div></div><div class="weixin-info"><div class="pop"><label>微信客服</label><p>扫瞄二维码关注我们</p><div class="qr-wrapper"></div></div></div></div></section></footer></body></html>
